@@ -97,6 +97,8 @@ $removeparam=_kx
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
 $removeparam=s_cid
+$removeparam=adobe_mc_ref
+$removeparam=adobe_mc_sdid
 $removeparam=awc
 $removeparam=_hsmi
 $removeparam=__hsfp
@@ -1429,6 +1431,13 @@ $removeparam=dt_dapp,domain=douban.com|163.com
 ||play.google.com^$removeparam=pcampaignid
 ||cyber-ad01.cc^$removeparam=ip
 ||d-markets.net^$removeparam=ref
+||coupang.com/*/products/$removeparam=sourceType
+||coupang.com/*/products/$removeparam=vendorItemId
+||coupang.com/*/products/$removeparam=wTrackId
+||coupang.com/*/products/$removeparam=filterKey
+||coupang.com/*/products/$removeparam=TrackId
+||coupang.com/*/products/$removeparam=wEntrySource
+||coupang.com/*/products/$removeparam=uriScheme
 ||coupang.com/*/products/$removeparam=q
 ||coupang.com^$removeparam=searchId
 ||coupang.com^$removeparam=wRef
