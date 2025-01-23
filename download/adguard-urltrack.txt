@@ -1461,7 +1461,7 @@ $removeparam=dt_dapp,domain=douban.com|163.com
 ||coupang.com^$removeparam=wPcid
 ||weidian.com^$removeparam=/distributorid|wfr|ifr|share_relation/
 ||jasonsavard.com^$removeparam=/cUrl|ref/
-$removeparam=a_aid,domain=expressvpn.com|vpnarea.com
+$removeparam=a_aid,domain=expressvpn.com|vpnarea.com|wook.pt
 ||hog.*^$removeparam=ad
 ||lcs.naver.com/m?u=$removeparam=os
 ||lcs.naver.com/m?u=$removeparam=ln
@@ -1847,6 +1847,7 @@ $removeparam=s,domain=twitter.com|x.com
 ||gamesplanet.com^$removeparam=ref
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
+@@||reddit.app.link^$removeparam=utm_content,domain=reddit.app.link
 @@||video-shoper.ru^$removeparam=utm_source
 @@||glavnoe.life^$removeparam=utm_campaign
 @@||glavnoe.life^$removeparam=utm_content
