@@ -4463,7 +4463,7 @@
 ||browser.sentry-cdn.com^$third-party
 ||baidu.com/newspage/api/getmobads?
 ||ifeng.com/*&adids=
-.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
+.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net|xiakexsw.com
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .xyz/svelte?$third-party
 .xyz/alpine?$third-party
@@ -5015,6 +5015,7 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 m.kdslife.com###app.Card.DownloadGuide
 m.guancha.cn##.g_header.go-to-app
+douyin.com##[class*='h5-ad-']
 thepaper.cn##[class^='index_footer_banner']
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
