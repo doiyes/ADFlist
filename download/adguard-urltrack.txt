@@ -1906,6 +1906,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 @@||sendgb.com/*/?utm_source=$removeparam=utm_source
 @@||img*.nga$removeparam=cmpid
 @@||mywot.com/*/confirmNewEmail/$removeparam
+@@||app.plex.tv/auth-form/$removeparam=utm_source,domain=app.plex.tv
+@@||app.plex.tv/auth-form/$removeparam=utm_content,domain=app.plex.tv
+@@||app.plex.tv/auth-form/$removeparam=utm_medium,domain=app.plex.tv
 @@||plex.tv/api/v*/users/*?utm_source=$removeparam=utm_source,domain=watch.plex.tv
 @@/embed/comments^$removeparam,~third-party,domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||urldefense.com^$removeparam
