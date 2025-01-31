@@ -1,4 +1,5 @@
 ! AdGuard-url跟踪保护规则
+$removeparam=srsltid
 $removeparam=_sgm_campaign
 $removeparam=_sgm_term
 $removeparam=_sgm_pinned
@@ -242,6 +243,18 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||fiverr.com^$removeparam=context_referrer
+||fiverr.com^$removeparam=context_type
+||fiverr.com^$removeparam=filtered_price
+||fiverr.com^$removeparam=funnel
+||fiverr.com^$removeparam=imp_id
+||fiverr.com^$removeparam=pckg_id
+||fiverr.com^$removeparam=pos
+||fiverr.com^$removeparam=ref
+||fiverr.com^$removeparam=ref_ctx_id
+||fiverr.com^$removeparam=source
+||muskelmacher-shop.de$removeparam=sv_campaign_id
+||muskelmacher-shop.de$removeparam=sv1
 ||rd.bizrate.com$removeparam=af_creative_id
 ||rd.bizrate.com$removeparam=af_assettype_id
 ||rd.bizrate.com$removeparam=rf_code
@@ -260,7 +273,6 @@ $removeparam=fb_source
 ||luisaviaroma.com/*/p$removeparam=lvrid
 ||dailymail.co.uk^$removeparam=ns_mchannel
 ||dailymail.co.uk^$removeparam=ns_campaign
-||klerk.ru^$removeparam=srsltid
 ||vpnpay.io$removeparam=sr
 ||vpnpay.io$removeparam=pr
 ||vpnpay.io$removeparam=arf
@@ -1140,7 +1152,7 @@ $removeparam=promotionId,domain=shopee.ph|shopee.co.th|shopee.co.id
 $removeparam=stm_medium,domain=shopee.ph|shopee.co.th|shopee.co.id
 $removeparam=stm_source,domain=shopee.ph|shopee.co.th|shopee.co.id
 ||adguard.$removeparam=clid
-||adguard-vpn.$removeparam=clid
+$removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.info
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_postids
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=device_code
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=exc_ads
