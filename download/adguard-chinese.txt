@@ -390,6 +390,7 @@ pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
 /pcbeta\.com\/data\/cache\/(?:common)?_[a-z]{14}\.js\?/$script,~third-party,domain=pcbeta.com,match-case
 ruanyifeng.com##+js(no-setTimeout-if, checker)
 pansci.asia#@#.ad-container
+@@||linetv.tw^$generichide
 linetv.tw##+js(no-xhr-if, pagead2.googlesyndication.com)
 linetv.tw##+js(no-fetch-if, pagead2.googlesyndication.com)
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
@@ -4284,6 +4285,11 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||fuuksew.com^
+||xfxvpt.icu^
+||s31u.com^
+||ccinmaf.top^
+||inzoiwe.com^
 ||tmvirr.icu^
 ||udinmat.top^
 ||odinmak.top^
