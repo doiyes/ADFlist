@@ -1163,7 +1163,7 @@ $removeparam=promotionId,domain=shopee.ph|shopee.co.th|shopee.co.id
 $removeparam=stm_medium,domain=shopee.ph|shopee.co.th|shopee.co.id
 $removeparam=stm_source,domain=shopee.ph|shopee.co.th|shopee.co.id
 ||adguard.$removeparam=clid
-$removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.info
+$removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.info|adguardvpn-help.org
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_postids
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=device_code
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=exc_ads
