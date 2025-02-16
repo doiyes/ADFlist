@@ -7,7 +7,7 @@
 www.bilibili.com##.pop-live-small-mode
 ||api.bilibili.com/x/click-interface/click/$xhr
 ||hdslb.com/bfs/seed/log/report/log-reporter.js^$script
-||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js^$script
+||hdslb.com^$subdocument
 ||beacon.qq.com^$ping
 ||trace.qq.com^$image,ping
 ||v.qq.com/pwa-sw.js^$script
