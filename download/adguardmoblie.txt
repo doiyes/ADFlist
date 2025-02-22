@@ -1568,6 +1568,8 @@ celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.amppr
 chip.de,gamesworld.de,fnn.jp##.Ad
 genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+4p.de##div[class^="contentAd"]
+gulfnews.com##.footer-wrapper > div > div:has(> div#story-page-sticky-ad)
 komaki2.jp###article-contents > center > script + a
 komaki2.jp##+js(abort-current-script, jmp, Math)
 gulfnews.com##div[id^="top-component-section-page-row-ad"]
@@ -2351,7 +2353,6 @@ forum.finanzaonline.com###leoskin-content
 allboxing.ru##ins[data-revive-zoneid]
 tftactics.gg##div[class^="wrapper-mpu"]
 erry.one,sugirl.info,nukistream.com###sp_cont_head
-ameblo.jp##div:has(> a.pickCreative)
 olch.biz###wrapper > header + div.wrapInner
 ajournalofmusicalthings.com#$?#body span[data-ez-ph-id] { display: none !impotrant; }
 ajournalofmusicalthings.com#$?#body #page > span.humix-universal-js-insert { display: none !impotrant; }
@@ -4654,6 +4655,7 @@ m.focus.de##div[id^="M_CONTENTAD"]
 m.focus.de##.cls_hor
 werstreamt.es##.sdfrK
 ||chesterstream.akamaized.net/chester-adcross/$domain=ameblo.jp
+ameblo.jp###entryBody.PhotoSwipeBlock > div:not([class]):has(+ div:empty) > div.pickCreative_root
 ameblo.jp##.skinOpacity.skin-mod-bg-color > article > div[class^="_"] > header + div:not([class]) > div[style="height:180px"]
 ameblo.jp##.PhotoSwipeBlock > div:last-of-type > p:empty + div.pickCreative_root[style="font-size:0"]
 ameblo.jp##body .skinBody2 > div[style="overflow: hidden;"] > main + aside[class^="_"]
