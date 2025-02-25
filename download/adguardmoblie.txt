@@ -85,6 +85,8 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||pavoshare.com
+||global-staticplat.cdn.bcebos.com
 ||datk.bridgeoos.com^
 ||tapi.pureapk.com^
 ||ads.appbundledownload.com^
@@ -1568,6 +1570,11 @@ celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.amppr
 chip.de,gamesworld.de,fnn.jp##.Ad
 genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+tft.op.gg##main .wrapper ~ .mobile:has(> div[style^="display"] > div)
+tft.op.gg###video-deck-detail-ad
+gendai.media##div.flex:has(> div[class] > div[style^="width"] > div[data-testid^="FR_SP_"])
+gendai.media##div[data-testid^="second-rectangle-ad"]
+lolchess.gg##.css-g4sdjf
 4p.de##div[class^="contentAd"]
 gulfnews.com##.footer-wrapper > div > div:has(> div#story-page-sticky-ad)
 komaki2.jp###article-contents > center > script + a
@@ -4371,7 +4378,7 @@ skysports.com##div[data-format="floated-mpu"]
 supermarktcheck.de##.product-details > section:not([class]):not([id])
 renso-ruigo.com##.prem_invitation_fixed
 okinawatimes.co.jp##.ad_h250
-resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
+otona-hokenshitsu.jp,resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
 pikabu.ru##.ads-under-post
 ||dailyportalz.jp/api/dpz/adPosts|
 dailyportalz.jp##main > div > div.contents_title:first-child
@@ -6759,9 +6766,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ||mangomob.net^
 ||pn.ybp.yahoo.com^
 ||funpavo.com^
-||pavoboxapp.com^
 ||staticcc.com^
-||teraverseapp.com^
 ||interface3.music.163.com/eapi/ad/
 ||adcenter-api.cashwalk.co^
 ||dinustudio.com/apis/theme/images/ads/
