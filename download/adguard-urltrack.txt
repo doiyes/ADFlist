@@ -244,6 +244,10 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||comic.k-manga.jp^$removeparam=xuid
+||comic.k-manga.jp^$removeparam=ad
+||comic.k-manga.jp^$removeparam=adtype
+||comic.k-manga.jp^$removeparam=ad_flag
 ||sharepoint.com^$removeparam=referrerScenario
 ||sharepoint.com^$removeparam=referrer
 ||sharepoint.com^$removeparam=xsdata
@@ -1709,7 +1713,6 @@ $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||amazon.*/gp/buyagain$removeparam=ats
 ||amazon.*$removeparam=c
 ||amazon.*$removeparam=camp
-||amazon.*$removeparam=content-id
 ||amazon.*$removeparam=creative
 ||amazon.*$removeparam=creativeASIN
 ||amazon.*$removeparam=dchild
@@ -1870,7 +1873,6 @@ $removeparam=s,domain=twitter.com|x.com
 ||flipkart.com^$removeparam=store
 ||daraz.*$removeparam=/spm=|scm=|from=|keyori=|sugg=|search=|mp=|c=|^abtest|^abbucket|pos=|themeID=|algArgs=|clickTrackInfo=|acm=|item_id=|version=|up_id=|pvid=/
 ||bilibili.com^$removeparam=from_spmid
-||bilibili.com^$removeparam=from
 ||bilibili.com^$removeparam=msource
 ||bilibili.com^$removeparam=csource
 ||bilibili.com^$removeparam=source
