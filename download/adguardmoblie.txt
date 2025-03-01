@@ -1571,6 +1571,9 @@ celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.amppr
 chip.de,gamesworld.de,fnn.jp##.Ad
 genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+gamewith.jp##.ad-sp-header
+arty-matome.com##div[style="padding-top: 10px; padding-bottom: 10px; margin-bottom: 30px; margin-top: 30px;background: whitesmoke;"]
+seekingalpha.com##section[data-test-id="recommended-section"]
 solvetic.com##.mob-sticky-ad
 babycenter.com##.edentdj0
 kino.de##.alice-adslot
@@ -6677,7 +6680,7 @@ gismeteo.kz,gismeteo.pl,gismeteo.by,gismeteo.ru##.section-rss > div.feed
 gismeteo.ru#?#.tab-containers > div.tab-container:has(> div.rss-social)
 adme.media##div[data-test-id="articles-list"] > div:not([data-test-id^="article-list-element-"])
 adme.media#?#div[data-test-id="article-content"] > div[class*=" "]:not([tabindex]) > div > div:contains(/^Реклама$/):upward(2)
-adme.media#?#div[data-test-id="article-content"] > div > aside:has(> div:contains(Реклама))
+adme.media#?#div[data-test-id="article-content"] > div:has(> div > aside > div:contains(Реклама))
 adme.media#?#div[style="position:relative"] > div.article ~ div > div > div:has(div:empty + div:empty + div:empty)
 adme.media###infinite-scroll-article + div > div > div.article ~ div:not([id]):not([class])
 auth.wi-fi.ru##.c-branding-banner
