@@ -551,7 +551,7 @@ ref=producthunt^$removeparam=ref
 ||3movs.com^$removeparam=site_id
 ||jpsk.jp^$removeparam=click
 ||savefrom.net^$removeparam=from
-$removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com
+$removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com|dojin-navi.com
 ||temu.com^$removeparam=_bg_fs
 ||temu.com^$removeparam=_x_sessn_id
 ||temu.com^$removeparam=refer_page_name
@@ -1630,6 +1630,8 @@ $removeparam=from,domain=anime.nicovideo.jp|dic.nicovideo.jp
 ||cc.naver.com/cc?a$removeparam=py
 ||cc.naver.com/cc?a$removeparam=sx
 ||cc.naver.com/cc?a$removeparam=sy
+$removeparam=search_source,domain=ya.ru|yandex.*
+$removeparam=search_domain,domain=ya.ru|yandex.*
 ||yandex.*/search/$removeparam=banerid
 ||yandex.*/search/$removeparam=suggest_reqid
 ||yandex.*/search/$removeparam=did
