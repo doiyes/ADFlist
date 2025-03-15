@@ -256,6 +256,7 @@
 ||two.fsylr.com^
 ||ad.juksy.com^
 ||ads.tvb.com^
+@@.php?id=$script,domain=surirt.com
 @@||520click.com/ad.php?id=$script,domain=surirt.com
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 surirt.com##+js(set-constant, ad_id_for_555, '')
@@ -539,6 +540,7 @@ hboav.com##+js(set-constant, adbk, false)
 5278.cc,hboav.com##+js(no-setTimeout-if, /ad block stop|warm_msg/)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 popbee.com##.adblocker
+##body > div#inplayer[align="center"]
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
@@ -4334,6 +4336,11 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||mvxh.cn^
+||lftcph.icu^
+||ak03150hou.com^
+||guqransoq.com^
+||ghegaintp.com^
 ||lmeurbnjs.com^
 ||xielloltv.com^
 ||lqfctb.icu^
