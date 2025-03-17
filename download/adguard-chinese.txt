@@ -563,7 +563,6 @@ yfsp.tv,aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldLo
 9xav.cc##+js(remove-class, q-body--prevent-scroll, body)
 m.91zww.com##+js(abort-on-property-write, delCookie)
 pornbest.org##+js(abort-current-script, jQuery, injectPops)
-axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie/)
 hamivideo.hinet.net##+js(set-constant, myPlayer.adDisplay, undefined)
 jianshu.com##+js(set-constant, NEWS_FEED, noopFunc)
 nunuyy3.org##+js(abort-current-script, $, infoid)
@@ -1346,7 +1345,8 @@ wnflb2023.com##.GzList
 bdys03.com##.artplayer-plugin-ads
 ||u10*.com/*.gif$domain=bhuai.top
 ||ll.ibiqiuge.com/m.js
-axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie/)
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
 sstv.pw##.container > a > img[style="width: 100%;"]
 cupfox.app##.t-img-box > a[target="_blank"] > img
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
@@ -2622,6 +2622,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 .xyz:*?c=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
+.top/api.php?mod=ad&
 /webAdvert.php?ad_name=
 /js/adv-slide-toggle.
 -1316632262.cos.
@@ -4337,6 +4338,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||vnbbrx.top^
+||hylplj.icu^
+||naukreatn.com^
+||nmtkbv.icu^
+||tmdqlk.top^
+||bkox.cn^
+||amyapad.top^
+||political-effort.com^
+||tubingacater.com^
+||chorninsm.com^
+||phuustikd.com^
+||togmoxwnw.com^
 ||uoqc.cn^
 ||xaiqrania.com^
 ||jipxzz.icu^
@@ -4345,6 +4358,7 @@ newduba.cn###jq_youxi
 ||nrqrbwi.top^
 ||cfwlvmg.top^
 ||kodwaqepr.com^
+||ajua.cn^
 ||mvxh.cn^
 ||lftcph.icu^
 ||ak03150hou.com^
@@ -8207,7 +8221,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||51ztzj.com/res/web/img/pic/inshow.jpg
 ||520call.me/ad/ad_
 ||520cc.tw/AD/
-||520click.com/ad.$domain=~video.520cc.cc
+||520click.com/ad.$domain=~video.520cc.cc|~surirt.com
 ||520xingyun.com/images/188*.gif
 ||520xs.la/js/dianrui-
 ||520z-2.com/uploadfile/sucai/
@@ -12153,6 +12167,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||csgola.com/Public/img/lala/1.jpg
 ||adasset.flixfiend.top^
 ||2345.com/guess/v1/adList
+fhxy-a.top##.sd_recpic
 2345.com##.search-right-swiper-news
 2345.com##._isFirstAd
 2345.com##.part-banner > .part-ppt
