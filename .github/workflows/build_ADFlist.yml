@@ -65,11 +65,7 @@ jobs:
         id: download
         run: |
           curl -sSL -O https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist.txt
-          curl -sSL -O https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist-m.txt
-          curl -sSL -O https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist-all.txt
-          curl -sSL -O https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist-dns.txt
-          curl -sSL -O https://github.com/doiyes/ADFlist/releases/latest/download/AD2.txt
-          mkdir -p ./download/
+               mkdir -p ./download/
           cd ./download
           curl -sSL $CJXLIST_URL | grep -v "}" > ./cjxlist.txt
           curl -sSL $CJX_ANNOYANCE_URL | sed -e '/^! /d' -e "1c ! CJX's Annoyance List" -e '/^!$/d' -e '/The End/d'  -e '/^$/d' | sed '/热门话题/,+1d' > ./cjx-annoyance.txt
