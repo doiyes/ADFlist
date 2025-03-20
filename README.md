@@ -1,7 +1,5 @@
 ## ADFlist — ABP/ublock过滤规则
-[ADFlist.txt](https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist.txt)  ADFlist：合并自乘风过滤规则、CJX'sAnnoyance、ADgk、NoCoin adblock list等；  
-[ADFlist-m.txt](https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist-m.txt)  ADFlist-Mobile：合并自AdGuard移动规则、Hacamer、ADgk、酷安@大萌主等；  
-
+[ADFlist.txt](https://github.com/doiyes/ADFlist/releases/latest/download/ADFlist.txt)  ADFlist：合并自乘风过滤规则、CJX'sAnnoyance、AdGuard等；  
 
 自用，使用Github Actions定时从上游自动合并，使用Github Release分发。
 
