@@ -37,7 +37,7 @@ tiebac.baidu.com,tieba.baidu.com,jump.bdimg.com,jump2.bdimg.com###thread_list>li
 !----------------------通用、广告联盟站点-----------------------
 *$doc,removeparam=/^(sp|ut|fro?)m(_|\b)/
 ||ad.
-*/ad.
+*/ad.$image,script,subdocument,media
 @@||xxxy.jnu.edu.cn/_upload/tpl/08/ad/2221/template2221/$script
 */ad/$script,subdocument,media
 */ad_
@@ -98,6 +98,7 @@ wwads.cn
 *##div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#preAdContent
 ~google.com,~mediafire.com##.ads
 ~google.com##.adsbygoogle
+www.google.com.*,www.google.*##.VEELad
 ||com/ads
 *_350_330.$image
 */html/click/
@@ -340,6 +341,7 @@ qidian.com###tr-banner,div.banner-wrap,div.focus-img.cf,#j_bodyRecWrap,#j-topHea
 qidian.com##.crumbs-nav.top-op:style(margin: auto!important)
 ||qidian.com/upload/gamesy/20$image
 ||qidian.qpic.cn/qidian_common/$image
+||file.myqcloud.com/yuewen/game/images/$image,domain=qidian.com
 zongheng.com###zh_ab_rb,#sumcard_flag,#gameFTip
 ||static.zongheng.com/*/ad$script
 ||static.zongheng.com/upload/*ds/column/$script,image

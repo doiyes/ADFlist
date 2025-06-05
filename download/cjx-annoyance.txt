@@ -484,9 +484,15 @@
 ||3dmgame.com/static/image/common/pc_tg3dm.
 ||fc.3dmgame.com^
 ||caiyunapp.com/lingoCloud/banner/home-bottom-banner.
-||linovelib.com/modules/article/scripts/tip_
+||linovelib.com/modules/article/scripts/
 ||bilinovel.com/scripts/m7lk48m5hgztxn.
+||uiadmin.net/uview-plus/assets/js/3.1b3a95a0.
 !------------------------Specific element hiding rules------------------------!
+500.com##.floatLayer-container
+500.com##.pc_odds_fenxi_banner
+douyu.com,~wan.douyu.com##a[href*="g.wan.douyu.com"]
+jin10.com##.top-poster
+jin10.com##.activity-side
 flowus.cn##footer .swiper
 bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
 csdn.net###asideWriteGuide
@@ -1565,6 +1571,8 @@ m.babytree.com##script + a[class]
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
+||xuan5.com^$third-party
+||com.day^
 ||tongjiniao.com^$third-party
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
