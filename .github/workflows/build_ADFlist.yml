@@ -7,12 +7,6 @@ on:
       - "master"
 jobs:
   build:
-     name: Build
-  run: |
-    go build -o release_binary
-- name: Create Release
-  uses: actions/create-release@internal  # 使用GitHub内置功能
-
     name: Build
     runs-on: ubuntu-latest
     steps:
