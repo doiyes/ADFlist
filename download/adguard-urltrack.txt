@@ -1831,6 +1831,7 @@ $removeparam=search_domain,domain=ya.ru|yandex.*
 ||ebay.*/itm$removeparam=customid
 ||ebay.*/itm$removeparam=toolid
 ||ebay.*/itm$removeparam=var
+||ebay.*/itm$removeparam=_skw
 ||ebay.*/str$removeparam=_trksid
 $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
