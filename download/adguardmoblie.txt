@@ -1539,9 +1539,11 @@ aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-c
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+toy1972.hatenablog.com###entry-footer-primary-modules
+world.hatenastaff.com#$?#.ad-online-afc { remove: true; }
 newsweekjapan.jp###ad_nw_under_title_insert_mobile
 11880.com###responsive-bhvr--resultlist-supraregionalslider-container-xs
-wetter.com##div[class*="_adSlot__"]
+wetter.com##div[class^="styles_adSlot"]
 wetter.com###seo-link-list ~ div[class="[ app-layout ][ mt ]"]
 wetter.com#$#body:not(.mbanner-is-fixed) #mapToolWetterAppWrap[data-fullscreen="true"] { padding-bottom: 0px !important; }
 qoly.jp##.sp_undertitle_ads
@@ -3055,6 +3057,7 @@ tvi.iol.pt##.mrecWrapperMobile
 english.tupaki.com##body #inside_post_content_ad_1_before
 atelevisao.com##.custom-html.BelowTags
 crictracker.com##article > div[style="height:270px"]
+timesofindia.indiatimes.com##div[data-articlebody] > div[id^="custom_ad_wrapper_"] + div > div[data-type="in_view"]
 timesofindia.indiatimes.com##div[id^="custom_ad_wrapper_"]
 tokyo-np.co.jp###fluct-sp-sticky-ad
 english.tupaki.com##.inside-post-ad-before
@@ -3992,7 +3995,7 @@ bbs.animanch.com###catalog > div.inner
 animanch.com###recents > div.inner
 bbs.animanch.com###resList > li:not([id]):not([class]):not([name])
 bbs.animanch.com###resList > div.inner
-m.timesofindia.com##div[class^="ATF_wrapper"]
+timesofindia.indiatimes.com,m.timesofindia.com##div[class^="ATF_wrapper"]
 m.timesofindia.com##figure + div[style="height:undefined"]
 m.timesofindia.com##.nonAppView > div[class^="_"]:first-child:empty
 livelaw.in##.ad-popup-wrap
@@ -4605,7 +4608,7 @@ dcfever.com##.read_article > div[style^="margin-left:"][style*="position: relati
 dcfever.com##.container > .row > div[style^="margin-bottom:"][style*="text-align: center;"][style*="min-height:"]
 thetrendspotter.net##.mobile_advert
 thetrendspotter.net##.mysite-adsense-mobile-header
-miurayoshitaka.hatenablog.com##.ad-online-afc
+world.hatenastaff.com,miurayoshitaka.hatenablog.com##.ad-online-afc
 hatenadiary.org,hatena.ne.jp,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp##.variable-rectangle-ad
 morgenpost.de##amp-fx-flying-carpet[height="450px"]
 bgr.in##div[class="amp-flying-carpet-text-border"][style^="font-size:12px;background-color: #000; color: #fff;text-align: center;"]
