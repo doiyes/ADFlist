@@ -1,4 +1,6 @@
 ! AdGuard-url跟踪保护规则
+$removeparam=adc_publisher
+$removeparam=adc_token
 $removeparam=tw_medium
 $removeparam=tw_profile_id
 $removeparam=tw_source
