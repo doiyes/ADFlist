@@ -1,4 +1,15 @@
 ! AdGuard-url跟踪保护规则
+$removeparam=mt_click_id
+$removeparam=mt_network
+$removeparam=mt_campaign
+$removeparam=mt_adset
+$removeparam=mt_creative
+$removeparam=mt_medium
+$removeparam=mt_sub1
+$removeparam=mt_sub2
+$removeparam=mt_sub3
+$removeparam=mt_sub4
+$removeparam=mt_sub5
 $removeparam=adc_publisher
 $removeparam=adc_token
 $removeparam=tw_medium
@@ -878,9 +889,6 @@ $removeparam=trackcode,domain=vk.com|vk.ru
 $removeparam=recom,domain=vk.com|vk.ru
 ||vkplay.ru$removeparam=_1ld
 ||vkplay.ru$removeparam=_1lp
-||vkplay.ru^$removeparam=mt_adset
-||vkplay.ru^$removeparam=mt_sub1
-||vkplay.ru^$removeparam=mt_sub2
 ||incogni.com^$removeparam=transaction_id
 ||incogni.com^$removeparam=offer_id
 ||incogni.com^$removeparam=affiliate_id
