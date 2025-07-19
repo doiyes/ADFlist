@@ -352,6 +352,8 @@ wwww.idnes.cz#?#div.r-main:-abp-has(div.r-body)
 www.idnes.cz#$#hide-if-matches-xpath '//div[@*[starts-with(name(), "data-") and .="ad"]]/self::div[1]'
 wwww.idnes.cz#$#hide-if-matches-xpath './/img[@title="reklama"]/parent::div/ancestor::div[contains(@id,"hypertext")][@class]'
 ! MISC
+centrum.cz##div[class^="sasic-ad"]
+centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
 info.cz,lupa.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
@@ -935,7 +937,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; race stop;
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"iffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; race stop;
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-write window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
@@ -1930,8 +1932,6 @@ olx.*#?#div:-abp-has(> div:-abp-has(> div:-abp-has(> a div:-abp-has(> div:-abp-p
 olx.*#$#hide-if-matches-xpath '//div[text()="Wyróżnione" or text()="TOP" or text()="ТОП" or text()="PROMOVAT" or text()="Промотирана обява"]/ancestor::div[@data-testid="l-card"][1]'
 ! pp & ph
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
-olx.com.br#$#hide-if-matches-xpath './/h2[@data-ds-component="DS-Text"][contains(text(),"anúncio")]/ancestor-or-self::div[contains(@class,"title___")]/parent::div[contains(@class,"olx-fd-column")][1]'
-olx.*#$#hide-if-matches-xpath './/h3/ancestor-or-self::section[@data-testid="ad-recommendations"]/parent::div[1]'
 ! hp
 olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "VIP-объявления") or contains(., "VIP-оголошення")]/parent::div'
 olx.pt#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Destaques no OLX")]/parent::div'
@@ -1964,7 +1964,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png")]]'; race stop;
+fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png") or contains(@src, "UP4Ej9TdL292hSPa.png") or contains(@src, "TAPk94dcjBsPvK9M.png") or contains(@src, "eSMzWAklGy8xYXPq.png") or contains(@src, "N1Gclm5BgpEBeYOG.png") or contains(@src, "3uNJLRyzL3oTAJw7.png") or contains(@src, "zdDl6LsZaOqbCNFQ.png") or contains(@src, "P2vg0q2Qj5qz3fln.png") or contains(@src, "TyuiUv3NNGlsGr7W.png")]]'; race stop;
 fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 ! #RM-146
 ! ba
@@ -2057,6 +2057,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||alluviopurreic.com^
 ||allworkovergot.com^
 ||alounseedraih.net^
+||alvanhaybox.com^
 ||amtmenlana.com^
 ||amucresol.com^
 ||amyrinbitume.com^
@@ -2089,6 +2090,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||botakissed.com^
 ||bothoocoagho.net^
 ||boucleseidolic.com^
+||bouzechoby.net^
 ||bowersorgamy.com^
 ||bragiteendured.com^
 ||brazilprocyon.com^
@@ -2115,6 +2117,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||culpasrampage.com^
 ||dampshorral.com^
 ||deckerenacts.com^
+||deservestumble.com^
 ||dhunchifidia.com^
 ||didesthanger.com^
 ||didspack.com^
@@ -2207,6 +2210,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||methylstewed.com^
 ||milhafoetid.com^
 ||milseycurly.com^
+||moneraltilting.com^
 ||morsalurluch.com^
 ||mudejartitoism.com^
 ||murathernias.com^
@@ -2217,6 +2221,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nplaf.com^
 ||oamtoodsulruda.com^
 ||oaxaubauls.com^
+||obeliacallay.com^
 ||odzcakey.com^
 ||omlahpewing.com^
 ||ondatraflemish.com^
@@ -2293,6 +2298,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||towerloftier.com^
 ||tracliakopek.top^
 ||truttatrimmer.top^
+||trypsinneutral.com^
 ||tubingacater.com^
 ||tywnb.com^
 ||uncotorture.com^
@@ -2303,11 +2309,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||urgingslaurae.com^
 ||vacantazon.com^
 ||ventmondain.com^
+||verninchange.com^
 ||versinehopper.com^
 ||vinelethoner.com^
 ||virgosclavis.com^
 ||waivinggilim.com^
 ||washwayrefool.com^
+||weznkotoko.com^
 ||whizzerrapiner.com^
 ||whummleastrol.shop^
 ||widdermixtec.com^
