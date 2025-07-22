@@ -1543,6 +1543,7 @@ aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-c
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+mapion.co.jp##.area_aside[style="min-height: 180px;"]
 book.asahi.com##li[class^="module-list-articles-"][class*="item"]:has(> div > div[id^="div-gpt-ad-"])
 imaonline.jp##.add-mobkoi
 qz.com##body > div[class="md:hidden"]:has(> .ay-ad-slot)
@@ -1595,8 +1596,9 @@ transvids.tv##.tabs-menu + div.card
 jovencitas.gratis##.med
 videosdemadurasx.com,pornogratisdiario.com##.thumbs_spot_top
 nownews.com##.hr-separator:has(+ .ad)
-tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
-tw.news.yahoo.com##iframe[id^="mkt-iframe-"]
+tw.stock.yahoo.com,tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
+tw.stock.yahoo.com,tw.news.yahoo.com##div[id^="sda-"][id$="-iframe"]
+tw.stock.yahoo.com,tw.news.yahoo.com##iframe[id^="mkt-iframe-"]
 4gamers.com.tw##.aroma-container > .-mt-5
 puritanas.com##div[style="height: 102px;"]
 wankoz.com##.end_ad
