@@ -249,11 +249,13 @@ docsmall.com#@##google-ads
 xbgame.net#@#.google-ads
 xbgame.net#@##google-ads
 xbgame.net#$#.download .content-area > div[class] { background-image: none !important; }
-18comic.vip##+js(no-setTimeout-if, float_right > div)
-18comic.org,18comic.vip,18-comic.work#@?#:-abp-has(>ins+script)
-18comic.org,18comic.vip,18-comic.work#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
-18comic.org,18comic.vip,18-comic.work#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
-18comic.org,18comic.vip,18-comic.work##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
+jmcomic-zzz.org,18comic.org,18comic.vip##.div-bf-pv
+jmcomic-zzz.org,18comic.org,18comic.vip##div[style="position: absolute;bottom: 0px;z-index: 10;"]
+jmcomic-zzz.org,18comic.org,18comic.vip##+js(no-setTimeout-if, float_right > div)
+jmcomic-zzz.org,18comic.org,18comic.vip#@?#:-abp-has(>ins+script)
+jmcomic-zzz.org,18comic.org,18comic.vip#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
+jmcomic-zzz.org,18comic.org,18comic.vip#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
+jmcomic-zzz.org,18comic.org,18comic.vip##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
 ||18comic.*/exads-adblock-*/backend_loader.php
 vxetable.cn##+js(abort-current-script, decodeURIComponent, pagead)
 taiwanlibrarysearch.herokuapp.com##+js(no-fetch-if, www3.doubleclick.net)
@@ -665,7 +667,7 @@ cesu.ai##div[class^="money_"]
 codernav.com##.io-widget-ad-lunbotu
 news.qq.com###content-right div[class][style*='background-image: url("https://inews.gtimg.com/newsapp_bt/']:has(img[alt^="QQ"])
 tw.news.yahoo.com##div[data-google-query-id]
-news.yahoo.com##div[id^="sda-"]
+tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##.YDC-Lead
 news.qq.com#?##content-right div[class]:has(> h1:contains(热门应用))
 ||isyd.net/images/ad1.jpg
@@ -828,7 +830,6 @@ m.mobile01.com##.u-gapNextV--lg.u-height280
 damon624.pixnet.net##.article-content-inner > p:has(> span > a[href] > ins.adsbygoogle)
 ||static.huaren.live/ads/
 huaren.live##.action-ad
-huaren.live##+js(set-constant, ConFig.config.ads, {})
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com##div[id^="p-ad-"]
 wiki.mbalib.com##.tool-bar > a[target="_blank"]
@@ -2357,6 +2358,8 @@ netfly.*,netfly.tv##.player-box > div.player-tt-rmm
 netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
+huaren.live##+js(set-constant, ConFig.config.ads, {})
+!+ NOT_PLATFORM(windows, mac, android)
 bilibili.com#$?#.feed-card:has(> div.bili-feed-card > div.shortcut-bg:empty ~ div.bili-video-card[style*="display: none !important;"]) { remove: true; }
 bilibili.com##.bili-feed-card:has(> div.bili-video-card[style*="display: none !important;"])
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
@@ -2408,6 +2411,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ||coolpc.com.tw/home/img/right2.html
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
+#@#.uk-container.uk-container-expand
 ||cdn77.org^*.mp4|$badfilter
 video4k.cc#@#a[href*="/?aff="][target="_blank"]
 linovelib.com#@#.ads_box
@@ -4219,6 +4223,7 @@ newduba.cn###jq_youxi
 ###fucku.col-md-8
 ###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
+##.banner-adv-new
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
@@ -4248,6 +4253,14 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||4xicd08qs.com^
+||oaatyq.icu^
+||sneakersq5.com^
+||xpya.cn^
+||gio07290rp.com^
+||3rre9r4t2.com^
+||aai07291mu.com^
+||wkzvf2658.com^
 ||nhy9i8t56f.com^
 ||zrzgsdocqm.com^
 ||aai07280mu.com^
@@ -4257,6 +4270,13 @@ newduba.cn###jq_youxi
 ||qxeymg.icu^
 ||sunglasse2.top^
 ||pimormebwf.com^
+||y1ma8c054n.com^
+||gio07281rp.com^
+||qlghunil.com^
+||aai07281mu.com^
+||wozlx.cn^
+||r6q4mtfno.com^
+||aai07290mu.com^
 ||jxdyk65ay.com^
 ||pjcg3864p.com^
 ||gio07270rp.com^
