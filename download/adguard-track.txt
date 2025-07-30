@@ -199,7 +199,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
-||usefathom.com^
 ||analytics.yyggames.com^
 ||attribution.airbridge.io^
 ||event.airbridge.io^
@@ -1099,7 +1098,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||track.storm.mg^
 ||track.unidata.ai^
 ||cdp.cloud.unity3d.com^
-||bentonow.com^$third-party
+||track.bentonow.com^
 ||sdk.51.la^$third-party
 ||adtriba.com^$third-party
 ||acuityplatform.com^$third-party
@@ -27671,6 +27670,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||yak.flutterblog.net^
 ||39grbc.jackbarber.co.uk^
 ||7wrxo2xh.iriscreative.co^
+||8inhjmd.usefathom.com^
 ||9kz9cttz76.antonsten.com^
 ||aardvark.revolana.rs^
 ||aardvark.steadybit.com^
@@ -28168,6 +28168,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||sparrow.uitvaartzorg-vanraemdonck.be^
 ||spider.hoomie.online^
 ||spoonbill.mumblebox.com^
+||starman.usefathom.com^
 ||stingray.codecoolture.com^
 ||stingray.communityally.org^
 ||stingray.danielzoller.com^
@@ -61143,6 +61144,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||starman.usefathom.com^
+||eu.usefathom.com^
+||analytics.webanalytics.op.europa.eu^
+||aem-kakao-collector.onkakao.net^
 ||slc.commerce.naver.com^
 ||a.klaviyo.com^
 ||nlog.shinhan.com^
@@ -61712,7 +61717,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||track.amebame.com^
 ||pks-analytics.raenonx.cc^
 ||pyxis.atp.fox^
-||collector.appconsent.io^
 ||r.sib2.gardrops.com^
 ||nst.trex.media^
 ||pixel.kodixauto.ru^
@@ -62708,6 +62712,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||cdn.contalyze.com^
 ||cdn.odoscope.cloud^
 ||cdn.usefathom.com^
+||cdn-eu.usefathom.com^
 ||cdnstats-a.akamaihd.net^
 ||ce-global-track-*.amazonaws.com^
 ||cfg.imtt.qq.com^
@@ -105382,6 +105387,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+hpplus.jp##+js(set-local-storage-item, fw_se, $remove$)
+hpplus.jp##+js(set-local-storage-item, fw_uid, $remove$)
+||keirin.netkeiba.com/ndtracker/
+revistaoeste.com##.content-aside__taboola
+||collector.appconsent.io/t2.gif?a=
 dogdrip.net##+js(href-sanitizer, a[href^="/link.php?url="], ?url)
 ||konturnovosti.com/packs/js/opm.js
 ||dzen.ru/api/v4/launcher/stats/
@@ -105885,7 +105895,9 @@ express.co.uk##.most-read-stories
 ||apay-us.amazon.com/cs/uedata
 ||emails.macys.com/pub/cct?
 ||fmkorea.com/_call/background_nickname.php
-coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
+coomer.*,kemono.*##+js(set-local-storage-item, plausible_ignore, true)
+||coomer.*/api/v1/creators|
+||kemono.*/api/v1/creators|
 ||hawky.pcgamer.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||cvs.com/shop-assets/proxy/criteo^
 ||cdn-production.polaranalytics.com/pap.txt$xmlhttprequest,redirect=noop.txt
@@ -107148,8 +107160,6 @@ dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 ||readthedocs.*/javascript/readthedocs-analytics.js
 ||ikarishintou.com/js/outLoging*.js
 ||qingflow.com/tracking/
-||kemono.party/api/event
-||kemono.party/onomek.js
 ||nocowanie.pl/plugin/tracking/
 ||wayfair.de/a/
 ||cpu-api.infor.pl/event
@@ -110462,6 +110472,12 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||gamedot.afafb.com^
+||tadata.afafb.com^
+||ecpm.afafb.com^
+||mediation-receiver.afafb.com^
+||df.afafb.com^
+||middle-defend.afafb.com^
 ||pangolin-sdk-toutiao.com^
 ||stat.tpns.sgp.tencent.com^
 ||guid.tpns.sgp.tencent.com^
