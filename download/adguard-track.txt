@@ -199,6 +199,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||1p-data.com^$third-party
+||customerlabs.co^$third-party
 ||analytics.yyggames.com^
 ||attribution.airbridge.io^
 ||event.airbridge.io^
@@ -61144,6 +61146,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||gw.stape.fr^
+||analytics-ipv6.tiktokw.us^
+||aws-analytics.nmg.com.hk^
 ||starman.usefathom.com^
 ||eu.usefathom.com^
 ||analytics.webanalytics.op.europa.eu^
@@ -105387,6 +105392,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||alia-cloudflare.com/*/events
+||fotokino.sk/catalog/view/javascript/devmanextensions_gmt/gmt-library.js
 hpplus.jp##+js(set-local-storage-item, fw_se, $remove$)
 hpplus.jp##+js(set-local-storage-item, fw_uid, $remove$)
 ||keirin.netkeiba.com/ndtracker/
@@ -108172,7 +108179,7 @@ sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 ||bilanx.dtto.com/*/configs
 ||bilanx.dtto.com/*/events
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
-mag.osdn.jp##div[id^="logly-lift-"]
+itmedia.co.jp,mag.osdn.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1.gif

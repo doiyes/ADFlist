@@ -267,6 +267,9 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+*$removeparam=channable,domain=easynotebooks.de|notebook.de
+*$removeparam=sPartner,domain=easynotebooks.de|notebook.de
+||tingfm.com^$removeparam=from
 ||hola.org^$removeparam=ref
 ||midasbuy.com^$removeparam=adtag
 ||midasbuy.com^$removeparam=from
