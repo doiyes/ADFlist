@@ -61146,6 +61146,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||iws2.io.naver.com^
+||clog.tanshudata.com^
 ||gw.stape.fr^
 ||analytics-ipv6.tiktokw.us^
 ||aws-analytics.nmg.com.hk^
@@ -105392,6 +105394,14 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||secure.ace.itv.com/*/event|
+||secure.pes.itv.com/*/event|
+||http-inputs-itv.splunkcloud.com/services/collector
+||peacocktv.com/*/tracking/
+||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
+s.response.jp##.aside-box-relation-arti
+||shueisha.online/op/analytics.js
+||tof.perfectworld.com/public/js/stat-tof-perfectworld-
 ||alia-cloudflare.com/*/events
 ||fotokino.sk/catalog/view/javascript/devmanextensions_gmt/gmt-library.js
 hpplus.jp##+js(set-local-storage-item, fw_se, $remove$)
@@ -109997,6 +110007,8 @@ link.gmapp*.net$image
 .net%2Fe%2Fo%2F$image
 /CI0/0$image
 %2FCI0%2F0$image
+c.groovehq.com/*.gif$image
+c.groovehq.com%2F*.gif$image
 feedback.send.yandex.ru/px/$image
 feedback.send.yandex.ru%2Fpx%2F$image
 cl.mos.jp/q/$image
@@ -111503,8 +111515,8 @@ mail.yandex.*#@#+js(set-constant, navigator.getBattery, noopPromiseResolve)
 @@||f-tra.com^$script,domain=pokemoncenter-online.com
 @@||snowplow.swm.digital/com.snowplowanalytics.snowplow/$domain=7plus.com.au
 ||85po.com/player/stats.php?event=$image,redirect=1x1.gif,domain=85po.com
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk
+@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
+@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||googletagmanager.com/gtm.js$domain=canadiantire.ca
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=usatoday.com
 @@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
@@ -111551,8 +111563,6 @@ larocheposay.co.kr##+js(set-constant, wptg_tagscript.exec, noopFunc)
 @@||googletagmanager.com/gtm.js$domain=hobbystock.jp
 @@||birdflock.unipus.cn/ufe/third/sensorsdata/*/sensorsdata.min.js$domain=ucloud.unipus.cn
 @@||ks-bueromoebel.shop/*/google-analytics.*.js
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=dailystar.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=dailystar.co.uk
 @@||googletagmanager.com/gtm.js$domain=cityheaven.net
 ||mtcs.nhk-ondemand.jp/b/ss/nhkodmain/$image,redirect=1x1.gif,domain=nhk-ondemand.jp
 @@||googletagmanager.com/gtm.js$domain=ladepeche.fr
