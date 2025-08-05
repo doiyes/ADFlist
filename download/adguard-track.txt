@@ -199,6 +199,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||alexametrics.com^
 ||1p-data.com^$third-party
 ||customerlabs.co^$third-party
 ||analytics.yyggames.com^
@@ -63593,6 +63594,15 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||telemetry.proton.me^
+||analytics.tempmail100.com^
+||telemetry.sgp.pvp.net^
+||copilot-telemetry.githubusercontent.com^
+||metrics.kapa.ai^
+||analytics.org.coveo.com^
+||analytics.zdassets.com^
+||analyzer*.fc2.com^
+||analytics.flexclip.com^
 ||iws2.io.naver.com^
 ||clog.tanshudata.com^
 ||gw.stape.fr^
@@ -100902,6 +100912,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||flexclip.com/templates/fujie/js/analytics.js
+kari.com##+js(set-local-storage-item, device_id, $remove$)
+kari.com##+js(set-local-storage-item, rees46_device_id, $remove$)
+disqus.com##+js(href-sanitizer, a[href*="://disq.us/url?url="], text)
 7-24blog.com##body > div[style="height:480px;"]
 ||aplus.aliexpress.*/ae.pc_click.statweb_ae_click
 ||aplus.aliexpress.*/aes.1.1
@@ -100910,7 +100924,6 @@ _tracking.php?b=
 ||aplus.aliexpress.*/g.gif?logtype=
 ||digital.pumb.ua/environment|
 ||digital.pumb.ua/s1fy3/Nk/zTd/
-||assets.msn.com/bundles/*/libs_ads-utils_dist_logging_*.js
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 techradar.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/?id="], ?url)
 ||secure.ace.itv.com/*/event|
@@ -106017,6 +106030,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||analytics.nianticspatial.com^
 ||statistical-report.djiservice.org^
 ||qcloud-sg-datareceiver.kurogame.xyz^
 ||statistic-overseas.yunxinfw.com^
