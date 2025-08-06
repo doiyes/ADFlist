@@ -247,7 +247,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||stapecdn.com^
 ||jollyoutdoorjogger.com^
 ||ob.esnlocco.com^
-||ecommerce-events.adscale.com^
+||ecommerce-events*.adscale.com^
 ||adbeacon.com^$third-party
 ||transaction-watcher-2.littledata.io^
 ||mirabelanalytics.com^
@@ -63594,6 +63594,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||wphlvzycf5.execute-api.eu-west-2.amazonaws.com^
+||mp.cwtv.com^
+||logapi.sooplive.com^
+||log-api.sooplive.com^
 ||telemetry.proton.me^
 ||analytics.tempmail100.com^
 ||telemetry.sgp.pvp.net^
@@ -100269,6 +100273,7 @@ zmail.happycustomer.io$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/~partytown/proxytown
 /fingerprint/iife.min.js
 /dtr/count.php
 /js/generateStats-min.js
@@ -100912,6 +100917,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||urldefense.com/*/webmon.js
+||interactions.one.store/v1/analytics/
+||nmc.cn/npt/track/stat.js
+||nmc.cn/static/nmclog/nmclog.js
 ||flexclip.com/templates/fujie/js/analytics.js
 kari.com##+js(set-local-storage-item, device_id, $remove$)
 kari.com##+js(set-local-storage-item, rees46_device_id, $remove$)
@@ -105553,6 +105562,8 @@ link.gmapp*.net$image
 .net%2Fe%2Fo%2F$image
 /CI0/0$image
 %2FCI0%2F0$image
+.salesforce.com/servlet/servlet.ImageServer$image
+.salesforce.com%2Fservlet%2Fservlet.ImageServer$image
 flask.us.nextdoor.com$image
 c.groovehq.com/*.gif$image
 c.groovehq.com%2F*.gif$image
@@ -106981,6 +106992,8 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||cdn.segment.com/*/settings|$xmlhttprequest,domain=outdoorsy.com
+@@||cdn.ing.de/ing-cms-ui/*/js/webtrekk-snwMKyfV.js
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||googletagmanager.com/gtm.js$domain=jornaldocomercio.com
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$domain=curos.ca
