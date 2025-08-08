@@ -267,6 +267,13 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||fnnews.com^$removeparam=jd
+||fnnews.com^$removeparam=dc_data
+||fnnews.com^$removeparam=did
+||fnnews.com^$removeparam=origin_referral_type
+||fnnews.com^$removeparam=ui
+||fnnews.com^$removeparam=response.session
+||fnnews.com^$removeparam=response.id
 ||firefox.com^$removeparam=redirect_source
 ||lyf.eu^$removeparam=adid
 ||lenovo.com^$removeparam=obem
@@ -602,6 +609,9 @@ $removeparam=cid,domain=nhk.jp|nhk.or.jp
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep_link
 ||reddit.com^$removeparam=post_index
+||click.redditmail.com^$removeparam=ref
+||click.redditmail.com^$removeparam=ref_campaign
+||click.redditmail.com^$removeparam=ref_source
 ||reddit.com^$removeparam=post_fullname
 ||reddit.com^$removeparam=share_id
 ||reddit.com^$removeparam=correlation_id
@@ -2060,6 +2070,7 @@ $removeparam=s,domain=twitter.com|x.com
 ||flipkart.com^$removeparam=ssid
 ||flipkart.com^$removeparam=store
 ||daraz.*$removeparam=/spm=|scm=|from=|keyori=|sugg=|search=|mp=|c=|^abtest|^abbucket|pos=|themeID=|algArgs=|clickTrackInfo=|acm=|item_id=|version=|up_id=|pvid=/
+://www.bilibili.com/video/$removeparam=mid
 ||bilibili.com^$removeparam=from_spmid
 ||bilibili.com^$removeparam=msource
 ||bilibili.com^$removeparam=csource
