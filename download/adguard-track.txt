@@ -61893,6 +61893,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||dsp.newsbreak.com^
 ||a.wb.ru^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||stats.vidalytics.com^
@@ -102266,6 +102267,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||walmart.com/sp/b/s/im|
 ||services.msgsndr.com/attribution_service/
 ||moderate.cleantalk.org/*/frontend_data
 ||herokuapp.com/save_utm_params
@@ -102528,7 +102530,6 @@ raycast.com##+js(set-session-storage-item, /ph_phc_/, $remove$)
 ||paramountplus.com/_next/static/chunks/page_view_event-*.js
 ||paramountplus.com/*/build/*event*-aggregate*.js
 ||ig-store.ru/site/record-modal-event
-||marketingplatform.google.com/about/enterprise/$third-party,xmlhttprequest
 ||cdn.jsdelivr.net/npm/@snowplow/
 ||anizmplayer.com/gMetrics/
 /metrics^|$script,domain=anizle.com|anizm.net|puffytr.com
@@ -103187,7 +103188,7 @@ joinrs.com##+js(set-local-storage-item, TRACKING_EVENTS, $remove$)
 ||mgntrn.nl/api/event
 ||mythical.com/*/app/web-pixel-*/pixel.modern.js
 ||api.config-security.com/event
-||static.klaviyo.com/onsite/js/telemetry.
+||static.klaviyo.com/onsite/
 ||weights.gg/api/data/analytics.trackUserSession
 ||s.ensonhaber.com/assets/js/lib/esh-tag-v5.js
 ||cdn.production.townsquareblogs.com/wp-content/uploads/static/prebid/carbon/pb.js
@@ -107406,6 +107407,11 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||adash-emas.cn-hangzhou.aliyuncs.com^
+||dfe.mic.mob.com^
+||dutils.com^
+||openlog.tapapis.cn^
+||log.aliyuncs.com^
 ||analytics.nianticspatial.com^
 ||statistical-report.djiservice.org^
 ||qcloud-sg-datareceiver.kurogame.xyz^
