@@ -639,6 +639,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv
+*$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
+efuxs.com##+js(abort-current-script, document.write, position:)
+efuxs.com#$?#body > div[style^="position:fixed;"] { remove: true; }
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
 /^https:\/\/m\.2shuqu\.net\/static\/[a-z0-9]+\/[a-z0-9]+\.js/$script,domain=m.2shuqu.net
 ||gl.ali213.net/images/jsq_gl.jpg
@@ -3982,6 +3985,7 @@ newduba.cn###jq_youxi
 ##.promlnk[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
+##.push-top[clickmode="cpt"]
 ##.push-bottom-container[clickmode="cpt"]
 ##.push-slider[clickmode="cpt"]
 ##.qpdb + a[href]
@@ -4278,6 +4282,15 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||3vnofjidlv.com^
+||p7jroq6xco.com^
+||aiamok.icu^
+||fzruzulad.com^
+||6888.site^
+||4ufutzmihl.com^
+||f8c2gftcsj.com^
+||goi08141kh.com^
+||wqhuludpb.com^
 ||naarnurm.com^
 ||fe4c0422j.com^
 ||r0hpdbkqs.com^
@@ -12830,8 +12843,7 @@ meijutt.*/js/pcjs/
 ||gtimg.cn/music/photo_new/T053XD001001BZyX50UcRRk.
 ||k8dm.com/960x70.
 ||ibmwclub.com/tophub/assets/js/sponsor.
-||5dm.link/ancblmszmd/
-||5dm.link/ablgld/
+||5dm.link/a$image
 ||hdmoli.pro/a_d/
 ||komiic.com/ads/
 ||v2ex.com/pro/emitter
@@ -12841,7 +12853,7 @@ vmlib.com##.wp-caption
 vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
-5dm.link###player_pausex
+5dm.link##div[id^="player_p"]
 1lou.info,1lou.icu,1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 manhuapica.com##a[href^="/ad/"]
 nodeseek.com##.promotation-item
@@ -16120,7 +16132,7 @@ douguo.com##.mbs
 pcworks.cn##.md-show
 hk01.com##.md\:min-h-\[90px\]
 redian.news##.md\:w-\[728px\].mx-auto
-1909.me,8se.me,crxs.me,xchina.biz,xchina.co##.media
+1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##.media
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
 cnool.net##.meilai_box
 qq.com##.member_ads
@@ -16427,7 +16439,6 @@ anquan.org##.pub_side_ad
 doudoudm.site,ezdmw.com##.public_ad
 abmedia.io##.pum
 8se.me##.push-bottom
-1909.me,8se.me,crxs.me,xchina.biz,xchina.co##.push-top
 cnplugins.com##.pushbox1
 zol.com.cn##.pv-mol_ask
 sogou.com##.pz-widget-flash-container
