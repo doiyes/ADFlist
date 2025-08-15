@@ -199,6 +199,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||slgnt.eu^
+||slgnt.us^
 ||consolidata.ai^
 ||analytics.google.com^$third-party
 ||log.trend.rankify.best^
@@ -63496,6 +63498,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||analytics.cosmopolitanmag.com.tr^
 ||clck.edadeal.ru^
 ||analytics-cdn.levante-emv.com^
 ||analytics-cdn.prensaiberica.es^
@@ -64567,7 +64570,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||dsas.danawa.com^
 ||t.apkpure.net^
 ||weblog.woowa.in^
-||site-azp.slgnt.eu^
 ||pra.praxis.nl^
 ||tracker.samplicio.us^
 ||visit.xchina.pics^
@@ -65652,7 +65654,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||mms.splinternews.com^
 ||mms.syracuse.com^
 ||mms.theroot.com^
-||mobile.slgnt.eu^
 ||mobileanalytics.*.amazonaws.com^
 ||momowa.momoshop.com.tw^
 ||monitor-targeting-failures.sqrt-5041.de^
@@ -102561,6 +102562,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||data.qiota.com/api/event
+||20minutes.fr/js/piano-*.js
+||lemonde.fr/bucket/resources/front/*.pa.js
+/\/([\w\d]+\/){4,}([\w\d]){5,}$/$script,~third-party,domain=hepsiburada.com
 ||walmart.com/sp/b/s/im|
 ||services.msgsndr.com/attribution_service/
 ||moderate.cleantalk.org/*/frontend_data
@@ -103111,8 +103116,6 @@ express.co.uk##.most-read-stories
 ||emails.macys.com/pub/cct?
 ||fmkorea.com/_call/background_nickname.php
 coomer.*,kemono.*##+js(set-local-storage-item, plausible_ignore, true)
-||coomer.*/api/v1/creators|
-||kemono.*/api/v1/creators|
 ||hawky.pcgamer.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||cvs.com/shop-assets/proxy/criteo^
 ||cdn-production.polaranalytics.com/pap.txt$xmlhttprequest,redirect=noop.txt
@@ -108659,6 +108662,7 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||s.yimg.com/ss/analytics3.js$domain=sports.yahoo.com
 @@||abt.nike.com^$domain=nike.com
 @@||googletagmanager.com/gtm.js?id=GTM-56WSR2$domain=victorinox.com
 @@||cdn.segment.com/*/settings|$xmlhttprequest,domain=outdoorsy.com
@@ -111663,6 +111667,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||humdrumtouch.com^
 ||humourspot.com^
 ||hurtgrape.com^
+||hustlercoach.com^
 ||hydraconcept.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -111743,6 +111748,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lackadaisicalkite.com^
 ||lameletters.com^
 ||lamplow.com^
+||landkarts.com^
 ||landlordspy.com^
 ||landwestern.com^
 ||largebrass.com^

@@ -1422,6 +1422,7 @@ $removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.*
 ||fmworld.net^$removeparam=from
 ||kaspersky.$removeparam=icid
 ||facebook.com/marketplace/$removeparam=tracking
+||facebook.com^$removeparam=rdid
 ||facebook.com^$removeparam=extid
 ||facebook.com^$removeparam=mibextid
 ||zenaps.com^$removeparam=cookie
