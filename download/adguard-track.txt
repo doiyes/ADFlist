@@ -199,6 +199,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||analytics-api.gemcommerce.com^
 ||slgnt.eu^
 ||slgnt.us^
 ||consolidata.ai^
@@ -101918,6 +101919,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+://rum.collector.*/beacon.gif
 /~partytown/proxytown
 /fingerprint/iife.min.js
 /dtr/count.php
@@ -102562,6 +102564,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||solarwinds.com/ra-$script
 ||data.qiota.com/api/event
 ||20minutes.fr/js/piano-*.js
 ||lemonde.fr/bucket/resources/front/*.pa.js
@@ -109692,7 +109695,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 @@||d2.alternativeto.net/dist/*/piwik_*.png
 @@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
-@@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru
+@@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru|ferra.ru
 @@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
 @@||google-analytics.com/analytics.js$domain=glamour.de
 @@||google-analytics.com/gtm/js$domain=glamour.de
