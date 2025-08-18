@@ -2128,6 +2128,7 @@ $removeparam=s,domain=twitter.com|x.com
 ||gamesplanet.com^$removeparam=ref
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
+@@||yandex.go.link^$removeparam=adj_t
 @@||em.dynamicyield.com^$removeparam=cuid
 @@||a8cv.amiami.jp/click/$removeparam=a8
 !+ PLATFORM(ext_ublock)
