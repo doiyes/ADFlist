@@ -199,6 +199,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||big7.com^$third-party
+||collect.adplogger.no^
+||lwadm.com^
+||smct.co^
 ||ub-analytics.com^
 ||t.usermaven.com^
 ||onetag.co.kr^
@@ -2603,7 +2607,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||dsply.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtscout.com^$third-party
-||dwin1.com^$third-party
+||dwin1.com^
 ||dwin2.com^$third-party
 ||dyntrk.com^$third-party
 ||e-kaiseki.com^$third-party
@@ -66556,6 +66560,17 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cpx.golem.de^
+||carmen.golem.de^
+||cfa-js.cafe24.com^
+||s.gofile.io^
+||stats.traffective.cloud^
+||collect.rebelmouse.io^
+||ev.mmin.io^
+||valnet.sentinelpro.com^
+||tr-experiments.parsely.com^
+||ihi.flowplayer.com^
+||pixel.spotify.com^
 ||gtmserverside.eluniversal.com.mx^
 ||ym-tack.b-cdn.net^
 ||icu.newsroom.bi^
@@ -66834,7 +66849,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||clientlogger.marketplace.aws.a2z.com^
 ||mercury.books.com.tw^
 ||ganon.yahoo.com^
-||udc.yahoo.com^
 ||tr.api.fanbyte.com^
 ||mcs-va.capcutapi.com^
 ||mon-va.capcutapi.com^
@@ -103095,6 +103109,26 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||netflix.com/log/
+||handler.amarujala.com/user/event
+||uiwibff.production.ippen.space/api/metrics
+||queer.de/a?$image
+||bullwhip.cloud/event/
+||bullwhip.cloud/log/
+||featureflags.grubhub.com/v1/events
+||pps.rokt.com/v1/timings/events
+||sse.devcycle.com/event-stream
+||services.api.no/api/bazaar/logerror
+||channel-receive.meetbot.biz/sp/callback/user/behavior/data
+||esrtech.com/web-pixels
+||esrtech.com/api/collect
+||chata.quickcep.com/im/behavior/visitor/update
+||vkvideo.ru/al_video.php?act=track_player_events
+||spclient.wg.spotify.com/gabo-receiver-service*/v3/events/
+||spclient.wg.spotify.com/ads/
+||spclient.wg.spotify.com/ad-logic/
+-spclient.spotify.com/gabo-receiver-service*/v3/events
+||api.fubo.tv/papi/v1/tracking
 livemint.com##+js(set-constant, dapTracker, {})
 livemint.com##+js(set-constant, dapTracker.track, noopFunc)
 ||istockphoto.com/pulse|
