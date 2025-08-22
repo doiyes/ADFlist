@@ -199,6 +199,11 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||openstats.co^
+||http-inputs-notion.splunkcloud.com^
+||sentinelpro.com^$third-party
+||openinstall.io^
+||s.ssl.qhres2.com^
 ||big7.com^$third-party
 ||collect.adplogger.no^
 ||lwadm.com^
@@ -66560,6 +66565,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||c.bazu.cc^
+||sherlock-events-sampler.ebay.com^
+||ads.mozilla.org^
 ||cpx.golem.de^
 ||carmen.golem.de^
 ||cfa-js.cafe24.com^
@@ -103087,8 +103095,8 @@ _social_tracking.js^
 _tracking.php?b=
 /aegis-sdk/*$script
 /tnc.js?h=
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com
-||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca
+||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=~olx.*|~banki.ru|~bigc.co.th|~sonos.com|~hepsiburada.com
 ||google-analytics.com/ga.js$script,redirect=google-analytics_ga.js,domain=~daj.jp
 ||googletagmanager.com/gtm.js$third-party,script,redirect=google-analytics_analytics.js,domain=~corsair.com|~olx.*|~simon.com|~bethesda.net|~paddle.com
@@ -103109,6 +103117,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||bazu.cc/api/baidu_tui.php
+||assets.engoo-static.com/tracking.js
+||espncdn.com/js/omniture/tracking.js
+||espncdn.com/*/js/espn-analytics.js
+||lumo.proton.me/api/data/v1/telemetry
 ||netflix.com/log/
 ||handler.amarujala.com/user/event
 ||uiwibff.production.ippen.space/api/metrics
@@ -108294,6 +108307,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||event.flareflow.tv^
+||api.deeplink.dev^
+||attr-logs.*.amazonaws.com^
+||event.*.karrotmarket.com^
 ||beacons.ads.fubo.tv^
 ||s3-ca-liveops.easybrain.com^
 ||trackers.fubo.tv^
@@ -109255,6 +109272,7 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||api.cxense.com/public/widget/data$domain=krone.at
 @@||googletagmanager.com/gtm.js$domain=hepsiburada.com
 @@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
 @@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
@@ -113099,6 +113117,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||swankysquare.com^
 ||sweetslope.com^
 ||swellstocking.com^
+||swiftintro.com^
 ||swimfreely.com^
 ||swingslip.com^
 ||swipechief.com^
