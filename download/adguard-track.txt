@@ -199,6 +199,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||analytiwave.com^
+||wc.paybooc.co.kr^
 ||monitor-api.blackcrow.ai^
 ||sdk.optimove.net^
 ||assets.publicgood.com^
@@ -68584,6 +68586,12 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||d2fuc4clr7gvcn.cloudfront.net^
+||analytics.edaily.co.kr^
+||adgbb.io.naver.com^
+||sp.justwatch.com^
+||umami.spencerdevs.xyz^
+||data.client.openweb.bid^
 ||launch-analytics-plugin.launchpotato.com^
 ||d2zd0wa1vpt7j9.cloudfront.net^
 ||wan.kbdmp.com^
@@ -110027,6 +110035,22 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||kebhana.com/cont/common/js/tag_hana.js
+||sstatic-rmcnmv.pstatic.net/resources/log/media-capable-log.js
+||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js
+||ntm.pstatic.net/scripts/ntm_*.js
+||chatgpt.com/ces/*/b|$xmlhttprequest
+/facebook-pixel.js$domain=lit.link
+||justwatch.com/appassets/js/sp-*.lite.min.js
+||card.nonghyup.com:*/static/88888/
+||card.nonghyup.com:*/nlog/log/event
+||shinhan.com/comjs/GoogleAnalyticsBuilder.js
+||assets.prod.abebookscdn.com/*/scripts/utilities/PixelRenderer-
+||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
+||exp.notion.so^$domain=notion.so,redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
+||http-inputs-notion.splunkcloud.com^$domain=notion.so,redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
+||17track.net/externalcall.js
+||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.kbdmp.com/ma/kb_
 ||shinhancard.com/logic/js/lib/googleAnalytics
 ||shinhancard.com/logic/js/lib/wp_astg_
@@ -116203,6 +116227,7 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||api-iam.intercom.io/messenger/web/ping$domain=shopfans.ru
 xinshuru.com##+js(set-constant, RADAR_MONITOR, {})
 xinshuru.com##+js(set-constant, RADAR_MONITOR.setProject, {})
 xinshuru.com##+js(set-constant, Object.prototype.getTrack, noopFunc)
