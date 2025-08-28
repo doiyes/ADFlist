@@ -270,6 +270,9 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||trendyol.com^$removeparam=adjust_t
+||trendyol.com^$removeparam=link_userID
+||trendyol.com^$removeparam=link_contentid
 ||qms.ru^$removeparam=src
 ||tech.onliner.by^$removeparam=int_source
 ||e-himart.co.kr^$removeparam=gtmPos
@@ -317,6 +320,7 @@ $removeparam=fb_source
 ||operanewsapp.com^$removeparam=request_id
 ||operanewsapp.com^$removeparam=share_from
 ||sprinklr.com/api/livechat/event/$removeparam=cursor
+||hepsiburada.com^$removeparam=wt_ds
 ||hepsiburada.com^$removeparam=wt_pc
 ||akakce.com/r/?c=$removeparam=u
 ||domclick.ru^$removeparam=from
@@ -925,7 +929,7 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com|dojin-na
 ||slickdeals.net/*&sdfid=$removeparam=sdfid
 ||slickdeals.net/*&sdtrk=$removeparam=sdtrk
 ||beacon-recommend.tower.jp^$removeparam=tracking_id
-||hd.kinopoisk.ru^$removeparam=from_block
+||kinopoisk.ru^$removeparam=from_block
 ||bizhint.jp^$removeparam=trcd
 ||teknosa.com^$removeparam=adj_adgroup
 ||teknosa.com^$removeparam=adp_cid
@@ -1653,6 +1657,9 @@ $removeparam=scid,domain=rakuten.co.jp|rakuten-wallet.co.jp
 ||dmm.co.jp^$removeparam=i3_ref
 ||imdb.com^$removeparam=ref_
 ||livedoor.biz^$removeparam=ref
+||adj.st^$removeparam=identifier
+||adj.st^$removeparam=web_src
+||adj.st^$removeparam=adj_deep_link
 ||adj.st^$removeparam=CollectionId
 ||adj.st^$removeparam=adjust_deeplink
 ||adj.st^$removeparam=pt
