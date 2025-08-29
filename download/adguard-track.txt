@@ -199,6 +199,13 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||sync.clearnview.com^
+||ck-ie.com^
+||rtb.voltaxam.com^
+||4dex.tech^
+||dsp-service.admatic.de^
+||ssp.api.tappx.com^
+||prod.us-east-1.cxm-bcn.publisher-services.amazon.dev^
 ||sdk.mrf.io^
 ||protected-by.clarium.io^
 ||analytiwave.com^
@@ -68588,6 +68595,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||analytics.shutterstock.com^
+||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
 ||collector-pxdojv695v.protechts.net^
 ||collector-pxdojv695v.px-cloud.net^
 ||st.sooplive.co.kr^
@@ -110043,6 +110052,18 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||shutterstock.com/ja/blog/wp-content/mu-plugins/wp-parsely-
+||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/analytics.min.js
+||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
+||myshopify.com/api/collect
+||bilet.com/gtmcf/
+||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
+||coupang.com/next-api/products/reco-widget?productId=*&vendorItemId=*&itemId=
+||coupangcdn.com/customjs/criteo/
+||coupangcdn.com/customjs/seo-js-sdk/
+||instagram.com/ajax/qm/?__
+||temu.com/api/adx/cm/pixel-xandr
+||capi.connatix.com/us/pixel?puid=
 ||linkedin.com/autofill/track/
 ||learning.linkedin.com/fizzy/admin
 ||linkedin.com/public-profile/api/ingraphs/
@@ -110060,7 +110081,6 @@ donanimhaber.com##+js(href-sanitizer, a[href^="/ExternalLinkRedirect?"], ?url)
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/aside.statistics.js
 ||api.livere.org/api/v1/clients/*/visitor
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//common/js/nilForNtm-
-||ssl.pstatic.net/t.static.blog/mylog/versioning/NtmBaLog-
 adultportal.jp###custom_html-12
 ||kebhana.com/cont/common/js/tag_hana.js
 ||sstatic-rmcnmv.pstatic.net/resources/log/media-capable-log.js
@@ -116253,6 +116273,8 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
 xinshuru.com##+js(set-constant, RADAR_MONITOR, {})
 xinshuru.com##+js(set-constant, RADAR_MONITOR.setProject, {})
 xinshuru.com##+js(set-constant, Object.prototype.getTrack, noopFunc)
