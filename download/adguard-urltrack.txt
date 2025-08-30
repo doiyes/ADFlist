@@ -1420,8 +1420,6 @@ $removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.*
 ||store.udiscovermusic.com^$removeparam=/utm_/
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui\/shared\/common\/js\/analytics\/with-intersection-track.js/
 ||go.xlivrdr.com^$removeparam
-||stripchat.com^$removeparam=affiliateId
-||stripchat.com^$removeparam=referrer
 ||1password.university^$removeparam=utm_ref
 ||blog.twitch.tv^$removeparam=web_only
 ||michaelkors.global^$removeparam=ecid
@@ -1431,6 +1429,16 @@ $removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.*
 ||doctolib.de^$removeparam=utm_button
 ||nationalgeographic.com^$removeparam=utm_rd
 ||ficbook.net^$removeparam=/premiumVisit|utm_compaign/
+||go.tscprts.com^$removeparam
+||stripchat.com^$removeparam=abTest
+||stripchat.com^$removeparam=abTestVariant
+||stripchat.com^$removeparam=action
+||stripchat.com^$removeparam=trafficType
+||stripchat.com^$removeparam=userId
+||stripchat.com^$removeparam=landing
+||stripchat.com^$removeparam=modelId
+||stripchat.com^$removeparam=affiliateId
+||stripchat.com^$removeparam=referrer
 ||stripchat.com^$removeparam=campaignId
 ||stripchat.com^$removeparam=sourceId
 ||stripchat.com^$removeparam=realDomain
@@ -1970,6 +1978,7 @@ $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||amazon.*$removeparam=vtr
 ||amazon.*/aa$removeparam=bitCampaignCode
 ||amazon.*/artists/$removeparam=tag
+||amazon.*/dp/$removeparam=pbs
 ||amazon.*/dp/$removeparam=tag
 ||amazon.*/gp/$removeparam=tag
 ||amazon.*/hz/contact-us/csp$removeparam=/entries/
