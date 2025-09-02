@@ -199,6 +199,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||app.optibase.io^$third-party
 ||abtshield.com^$third-party
 ||track.fusionmedia.io^
 ||sync.clearnview.com^
@@ -65548,12 +65549,12 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cvt1.sibnet.ru^
 ||analytics.egdata.app^
 ||analytics.shutterstock.com^
 ||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
 ||collector-pxdojv695v.protechts.net^
 ||collector-pxdojv695v.px-cloud.net^
-||st.sooplive.co.kr^
 ||collector1.sooplive.co.kr^
 ||exlogcollector.sooplive.co.kr^
 ||snowflake.qq.com^
@@ -65592,7 +65593,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||icu.newsroom.bi^
 ||data.ds.dumont.de^
 ||sta-events.swishapps.ai^
-||pro-1w-dataaggregator.onelouder.com^
 ||mllog.jd.com^
 ||count.shein.com^
 ||analytics.cosmopolitanmag.com.tr^
@@ -102042,6 +102042,12 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||ytn.co.kr/_comm/yct.js
+||rtp.pt/common/js/convivaAppTracker.js
+||bookwalker.jp/ex/browser-viewer/unitag_bv.js
+||c.bookwalker.jp/v/louis/*/tracks.js
+||hopper.com/api/v0/tracking/event
+hopper.com##+js(set-local-storage-item, ld:$anonUserId, $remove$)
 ||yupp.ai/monitoring/?o=*&p=*&r=
 ||yupp.ai/api/log-event
 ||shutterstock.com/ja/blog/wp-content/mu-plugins/wp-parsely-
