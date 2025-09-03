@@ -199,6 +199,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||highway.cablecar.sph.com.sg^
+||i.posthog.com^
 ||app.optibase.io^$third-party
 ||abtshield.com^$third-party
 ||track.fusionmedia.io^
@@ -241,7 +243,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||rtg.rubiconredirect.com^
 ||beacon.gtv-pub.com^
 ||analytics-api.gemcommerce.com^
-||slgnt.eu^
 ||slgnt.us^
 ||consolidata.ai^
 ||analytics.google.com^$third-party
@@ -65549,6 +65550,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||site-see.slgnt.eu^
+||site-azp.slgnt.eu^
+||mobile.slgnt.eu^
 ||cvt1.sibnet.ru^
 ||analytics.egdata.app^
 ||analytics.shutterstock.com^
@@ -102042,6 +102046,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||slgnt.eu/frontend/api/track
+||teamtailor.com/pageview
+||cdn.sphlabs.com/suid/
 ||ytn.co.kr/_comm/yct.js
 ||rtp.pt/common/js/convivaAppTracker.js
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
@@ -102092,7 +102099,6 @@ adultportal.jp###custom_html-12
 ||assets.prod.abebookscdn.com/*/scripts/utilities/PixelRenderer-
 ||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
 ||exp.notion.so^$domain=notion.so,redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
-||http-inputs-notion.splunkcloud.com^$domain=notion.so,redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||17track.net/externalcall.js
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.kbdmp.com/ma/kb_
@@ -102259,6 +102265,7 @@ nhk-ondemand.jp##+js(abort-on-property-write, wd.s_c_il)
 4pda.to##+js(remove-attr, data-dotrack, a[data-dotrack])
 diamond.jp###contents > div.sub-column > div.title:has(+ #cx-recommed)
 diamond.jp###cx-recommed
+||usa.asset.d5techs.com/script/utm.min.js
 ||usa.asset.d5techs.com/script/track.min.js
 ||sprinklr.com/api/livechat/prompt/browse/event
 ||api.videowise.com/tracking/
@@ -108272,6 +108279,7 @@ d4?appid*type*
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
+@@||s.ssl.qhres2.com/baomitu/jquery/*/jquery.min.js$domain=yasuo.360.cn
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
 xinshuru.com##+js(set-constant, RADAR_MONITOR, {})
