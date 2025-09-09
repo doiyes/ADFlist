@@ -201,6 +201,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||cdn.debugbear.com^
+||featuregates.org^
 ||fptls.com^
 ||fptls3.com^
 ||mc.yango.com^
@@ -67528,6 +67530,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||leo.hepsiburada.com^
+||usage.trackjs.com^
+||dlt-beacon.dynatrace-managed.com^
+||rainbow-prod-jdlog.ldoverseas.com^
 ||posthog.lingvanex.com^
 ||analytics.vgtimes.com^
 ||bee.tc.easebar.com^
@@ -108776,6 +108782,13 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||google.com/ccm/collect?
+||hawk.techradar.com/js/*/analytics-library-entry-getCustomTrackingId.js
+||static.cloud.sbs.co.kr/common/js/*/sbs_log_module.min.js
+||static.sbsdlab.co.kr/common/gtag/
+||news.sbs.co.kr/news/ajax/insertPcNewsLog.do
+||perplexity.ai/rest/event/analytics
+||p11.techlab-cdn.com/collect
 ||www-backend.strinova.com/api/common/uid|
 ||udc.yahoo.com/v*/public/*&yhlClient=rapid*&yhlClientVer=$domain=yahoo.com
 ||goodcar.com/js/parts/fp.js
@@ -110263,7 +110276,7 @@ unn.com.ua##.b-footer-counters
 ||eye.targetads.io/web/pixel
 ||4sysops.com/js/uni.js
 ||4sysops.com/global/appear.js
-$domain=browserleaks.com|nzherald.co.nz,permissions=geolocation=()
+$domain=nzherald.co.nz,permissions=geolocation=()
 ||pro.ranklet4.com/impression?
 sinoptik.ua##img[src^="//counter.ukr.net/"]
 ||thethings.com/strpixel.png
@@ -113538,6 +113551,8 @@ link.gmapp*.net$image
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
+/tf/o/$image
+%2Ftf%2Fo%2F$image
 /via/o?h=
 %2Fvia%2Fo%3Fh%3D
 /eos/v1/*$image
@@ -113552,8 +113567,6 @@ link.gmapp*.net$image
 %2Fs%2Feo%2F$image
 /senp.png?$image
 %2Fsenp.png%3F$image
-/via/o?h=$image
-%2Fvia%2Fo%3Fh%3D$image
 /o.gif?mi_u=$image
 %2Fo.gif%3Fmi_u%3D$image
 /pixel?c=$image
