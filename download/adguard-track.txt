@@ -201,6 +201,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||bridged.media^$third-party
+||cdn.dfsdk.com^
+||cdn.deviceinf.com^
+||cdn.seonintelligence.com^
 ||cdn.debugbear.com^
 ||featuregates.org^
 ||fptls.com^
@@ -67530,6 +67534,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||logstash-*.radio-canada.ca^
 ||leo.hepsiburada.com^
 ||usage.trackjs.com^
 ||dlt-beacon.dynatrace-managed.com^
@@ -108782,6 +108787,14 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||webmasters.ksalsocial.online/pixel-track/
+||cdn.jsdelivr.net/npm/statsig-js
+||static.plo.vn/v*/web/js/log.min.js
+||static.znews.vn/releases/wap/*/js/analytic.min.js
+||services.radio-canada.ca/metrik/
+||ici.radio-canada.ca/v*/tele/trace/
+ici.radio-canada.ca##+js(set-local-storage-item, RC_PLAYER_USER_ID, $remove$)
+||client.px-cloud.net/*/main.min.js?ver=
 ||google.com/ccm/collect?
 ||hawk.techradar.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||static.cloud.sbs.co.kr/common/js/*/sbs_log_module.min.js
@@ -118179,6 +118192,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||llamavoice.com^
 ||loadedhearts.com^
 ||loadsurprise.com^
+||locateskill.com^
 ||lockuplookup.com^
 ||logoshutter.com^
 ||lonelyflavor.com^
