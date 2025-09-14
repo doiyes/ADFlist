@@ -237,7 +237,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||assets.publicgood.com^
 ||tagm.uneedcomms.com^
 ||openstats.co^
-||http-inputs-notion.splunkcloud.com^
 ||sentinelpro.com^$third-party
 ||openinstall.io^
 ||s.ssl.qhres2.com^
@@ -67536,6 +67535,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||ad-bls-tracking.lemino.docomo.ne.jp^
 ||bdvmetricas.banvenez.com.ve^
 ||ek-tracker.ekitan.com^
 ||logstash-*.radio-canada.ca^
@@ -108791,6 +108791,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+notion.so##+js(no-fetch-if, http-inputs-notion.splunkcloud.com)
+||cdn.super.com/remote-event-registry.json
+||reservationday.com/metrics/
+||static.tacdn.com/js3/taevents-c.js
 ||ravde.re-in.de/z?
 ||tmssl.akamaized.net/js/news-viewport-tracking.js
 ||optimizer.poxo.com/jet/jet.js
@@ -113603,6 +113607,10 @@ link.gmapp*.net$image
 .net%2Fe%2Fo%2F$image
 /CI0/0$image
 %2FCI0%2F0$image
+sg1.wizrocketmail.net/r?e=$image
+sg1.wizrocketmail.net%2Fr%3Fe%3D$image
+mailmag.hhcross.hankyu-hanshin.jp/c/*.gif$image
+mailmag.hhcross.hankyu-hanshin.jp%2Fc%2F*.gif$image
 production.k-trk.com$image
 dominos.*/o/o.gif$image
 dominos.*%2Fo%2Fo.gif$image
