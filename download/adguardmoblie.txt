@@ -1036,6 +1036,7 @@ turbopages.org##.page__result > div[class*="type_native"]
 ###ad-300x250_mobile
 !+ NOT_OPTIMIZED
 ##body > style + div[id="ics"]
+dailymotion.com##+js(set-constant, DMP_IS_AUTOPLAY_ENABLED, false)
 wuxianxiaoshuowang.com##+js(abort-on-property-read, createApp)
 m.7days.ru##+js(remove-class, banners-brand, #page_content)
 momon-ga.com##+js(addEventListener-defuser, load, document.cookie)
@@ -1563,6 +1564,10 @@ opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.n
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+tabootube.*##.mobile-links
+hyperts.net###amarnk
+avito.ru##div[data-key^="advBannerWidget"]
+ixbt.games##.mobile-c
 phinphanatic.com###body-0 > figure:has(> #mm-player-placeholder-smallAndMedium-screens)
 trendyol.com##.search-banner
 thevoyeurmania.com##.happy-footer-mobile

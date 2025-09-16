@@ -201,6 +201,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||trck.digiteka.com^
 ||partnerlinks.io^
 ||hlstatus.com^
 ||pixel-img.com^
@@ -67780,6 +67781,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||pbc.nypost.com^
 ||stats.pronouns.page^
 ||ad-bls-tracking.lemino.docomo.ne.jp^
 ||bdvmetricas.banvenez.com.ve^
@@ -111897,6 +111899,15 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||static.gala.games/gal/fp/loader_v*.js
+gala.com##+js(set-local-storage-item, _gal1, $remove$)
+||luckyduckgames.com/global/index.php?controller=statistics
+||arte.tv/log-player/
+||static-cdn.arte.tv/static/analytics/
+||event.arte.tv/api/server-side-tracking/
+nypost.com##+js(set-local-storage-item, ow/social-browser-storage, $remove$)
+nypost.com##+js(set-local-storage-item, SPOTIM_DEVICE_UUID_V2, $remove$)
+||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
 ||yqzhishen.me/Statistics/statistics.
 ||dashichang.work/Statistics/statistics.
 ||parchment.com/wp-content/themes/wp-parchment/assets/utm-tags.min.js
@@ -114273,7 +114284,8 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 ||google.com/gsi/log?
 ||drop.com/statBeacon
 ||outlook-1.cdn.office.net/owamini/*/resources/analytics-ping.js
-||rocket.ivi.ru/event/
+||rocket.ivi.ru/playback/event
+||rocket.ivi.ru/event
 ||g.ivi.ru/track
 ||duckduckgo.com/*/reportAnalytics
 ||duckduckgo.com/*/reportAnalytics$xmlhttprequest,redirect-rule=noop.json
@@ -114763,7 +114775,7 @@ fategrandorder.info##.sidebar_acr.side_inline
 ||cio.economictimes.indiatimes.com/ajax_files/etb2b_ajax_trackers.php
 ||idm.economictimes.indiatimes.com/personalisation/logdata/
 ||dash.getsitecontrol.com/api/*/events?
-||dynatrace.com^$domain=~dynatracelabs.com|~dynatrace.com
+||dynatrace.com^$domain=~dynatracelabs.com|~dynatrace.com|~dcbstatic.com
 ||postback.affiliateport.eu/track.js
 ||mlstatic.com/analytics/
 suara.com##.dailymotion-widget
@@ -116642,6 +116654,8 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ztat.net/*/webtrekk.min.js^
 ||google.com/log?$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||yandex.ru/clck/click|
+!+ NOT_PLATFORM(ext_chromium_mv3)
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$method=post
 !+ NOT_PLATFORM(ios, ext_safari)
 /clck/*$domain=yandex.*|playhop.com
 !+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
@@ -116700,6 +116714,8 @@ gmarket.co.kr##+js(fingerprint2)
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
+/p/rp/*?mi_u=$image
+%2Fp%2Frp%2F*%3Fmi_u%3D$image
 /tf/o/$image
 %2Ftf%2Fo%2F$image
 /via/o?h=
@@ -116853,8 +116869,10 @@ esputnik.com$image
 /r/?id=$image
 %2Fr%2F%3Fid%3D$image
 sbs-mkt-stage1-res.adobe-campaign.com$image
-demdex.net%2Fevent%3Fd_event%3D$image
+demdex.net/event?d_src=$image
+demdex.net%2Fevent%3Fd_src%3D$image
 demdex.net/event?d_event=$image
+demdex.net%2Fevent%3Fd_event%3D$image
 ://t1.*.sbs.com.au/r/$image
 %2Ft1.*.sbs.com.au%2Fr%2F%3Fid%3D$image
 elink.clickdimensions.com$image
