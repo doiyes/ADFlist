@@ -1567,6 +1567,8 @@ opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.n
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+otakuma.net##.article-link[target="_blank"]
+otakuma.net##.featured-article:has(> a[target="_blank"] > div.featured-title > span)
 otakuma.net##.single-banner-top
 24pornvideos.tv##.mobile-random
 24pornvideos.tv##.b-mobile-random-links
@@ -4660,8 +4662,6 @@ stuttgarter-zeitung.de##div[data-b-title*="Ad"]
 gelbeseiten.de,news.de##div[data-ref="sticky-ad"]
 bz-berlin.de##div[id^="mrec_"]
 eroterest.net##.adNativeMgs
-oshiete.goo.ne.jp##.ListPosts-item--PR-crown
-oshiete.goo.ne.jp##div[id^="adcontainer"]
 epravda.com.ua##amp-iframe[src^="https://orbit"][src*=".lun.ua/"]
 m.convert-me.com##.mobfw.h250
 m.convert-me.com##.mobfw.h100
