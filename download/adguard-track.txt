@@ -70094,6 +70094,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||js-collector.icewood.net^
 ||analytics.luogu.me^
 ||jzq915.playmobil.com^ы
 ||analytics.kode.co.kr^
@@ -119556,6 +119557,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||gcpsmapi.vodafone.com/submit-events
 news.naver.com##+js(set-constant, nclk, noopFunc)
 zdnet.com##+js(href-sanitizer, .c-articleContent p a[href^="https://cc.zdnet.com/"], ?url)
 ||qobuz.com/api.json/*/user/tracking?
@@ -125888,6 +125890,8 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||was.vodafone.de/ee/*/privacy/set-consent
+@@||at.vodafone.de/rest/$domain=vodafone.de
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 musinsa.com##+js(set-cookie, _dd_s, 0, /, musinsa.com)
 @@||googletagmanager.com/gtm.js$script,domain=musinsa.com
@@ -129802,6 +129806,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||testedtouch.com^
 ||texturetrick.com^
 ||thebigvan.com^
+||thebrainybulb.com^
 ||thecrazychili.com^
 ||thefishstops.com^
 ||thejavalane.com^
