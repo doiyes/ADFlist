@@ -72901,6 +72901,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||analytics.azrhymes.com^
 ||stats.jiosaavn.com^
 ||js-collector.icewood.net^
 ||analytics.luogu.me^
@@ -114834,6 +114835,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||create.viverse.com/play/assets/gtm-*.js
+||err.lenta.ru/atlas/metrics/
+youskbe.com##+js(set-local-storage-item, __adm_uid, $remove$)
+azrhymes.com##+js(set-local-storage-item, visitor_hash, $remove$)
+||dp.ru/api/v*/ClientLogs
 ||asia-northeast1-co-comix.cloudfunctions.net/trackView
 ||y2down.cc/cdn-cgi/trace
 ||globalbunjang.com/scripts/google_tag_manager.js
