@@ -216,6 +216,7 @@ $removeparam=dpg_campaign
 $removeparam=dpg_medium
 $removeparam=dpg_content
 $removeparam=admitad_uid
+$removeparam=adj_label
 $removeparam=adj_campaign
 $removeparam=adj_t
 $removeparam=adj_creative
@@ -2165,6 +2166,7 @@ $removeparam=s,domain=twitter.com|x.com
 ||gamesplanet.com^$removeparam=ref
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
+@@||adj.st^$removeparam=adj_t
 @@||passport.jlcpcb.com^$removeparam=from
 @@||yandex.go.link^$removeparam=adj_t
 @@||em.dynamicyield.com^$removeparam=cuid
