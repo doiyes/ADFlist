@@ -72903,6 +72903,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cloudmetrics.xenforo.com^
+||api-analytics.pelikan.sk^
+||analytics.streamingworld.xyz^
+||stats.bouyguestelecom.fr^
 ||analytics-cdn.sport.es^
 ||analytics.prensaiberica.es^
 ||analytics.azrhymes.com^
@@ -114181,6 +114185,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/v1/rgstr?k=client-
 /ezais/analytics
 /detroitchicago/reno.js
 /detroitchicago/overlandpark.js
@@ -114839,6 +114844,14 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||pusti.svc.litv.tv/puid
+||player.svc.litv.tv/pixel/
+||fino.svc.litv.tv/acs/dms.js
+||litv.tv/api/generate-device-id
+pelikan.*##+js(set-local-storage-item, PAPVisitorId, $remove$)
+iflscience.com##+js(set-local-storage-item, SPOTIM_DEVICE_UUID_V2, $remove$)
+bloomberg.com##+js(set-local-storage-item, /statsig|youboraDeviceUUID/, $remove$)
+||teltarif.de/cgi-bin/jswarn
 ||sgimage.netmarble.com/js/gtm/
 ||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||bobbibrown.com.tr/sites/all/libraries/analytics/
@@ -116215,6 +116228,7 @@ wanchan.jp##.recommend_header + div[style^="aspect-ratio:"]
 ||b-cdn.do.brainsland.com/banalytics.js
 ||survey.hyzen-cloud.com/pixel/
 ||ukw.jp/taglog/
+||tunein.com/api/*/log/$xmlhttprequest,redirect=noop.json
 ||tunein.com/api/*/log/
 ||burton.com/on/demandware.store/*/Analytics-Track
 ||rpl-static.b-cdn.net/rpl-cdn/scripts/gtm/gtmGA.js
@@ -123747,6 +123761,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||clarifyverse.com^
 ||classicnotebook.com^
 ||cleanhaircut.com^
+||climbingright.com^
 ||cloisteredcurve.com^
 ||cloudguppy.com^
 ||cloudhustles.com^
