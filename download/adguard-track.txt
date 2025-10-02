@@ -69128,6 +69128,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||log-gateway.zoom.us^
+||orderana*.spankbang.com^
 ||upsell.alphwidget.com^
 ||4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com^
 ||static.alphwidget.com^
@@ -105143,6 +105145,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/piano/engagement
 /v1/rgstr?k=client-
 /ezais/analytics
 /detroitchicago/reno.js
@@ -105802,6 +105805,16 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||c.seznam.cz/js/rc.js
+||karte.io^$domain=delishkitchen.tv
+||delishkitchen.tv/api/access_trackers
+||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
+||dcinside.com/_js/click_log.js
+inet.se##+js(set-local-storage-item, visitorInfo, $remove$)
+inet.se##+js(set-local-storage-item, visitorId, $remove$)
+||dubcdn.com/analytics/
+||spankbang.com/api/*/track-impression
+||spankbang.com/api/*/events
 ||whitepages.com/api/log-
 ||whitepages.com/static/dist/setupGaConfig.js
 ||whitepages.com/static/dist/amplitudeSetup.js
@@ -110611,8 +110624,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ztat.net/*/webtrekk.min.js^
 ||google.com/log?$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||yandex.ru/clck/click|
-!+ NOT_PLATFORM(ext_chromium_mv3)
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$method=post
 !+ NOT_PLATFORM(ios, ext_safari)
 /clck/*$domain=yandex.*|playhop.com
 !+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
@@ -112184,6 +112195,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 telex.hu##+js(set-constant, pp_gemius_hit, noopFunc)
 @@||track.sendlane.com/track/form/$domain=momentprocamera.com
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com

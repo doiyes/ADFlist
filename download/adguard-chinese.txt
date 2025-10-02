@@ -391,8 +391,9 @@ slashlook.com###AdvertisementBottom
 slashlook.com#$##mdAdsAnnouncement { display: none!important; }
 slashlook.com#$#body.modal-open .modal-backdrop { display: none!important; }
 slashlook.com#$#body.modal-open { padding-right: 0!important; overflow: visible!important; }
+4gtv.tv##+js(no-fetch-if, pagead2.googlesyndication.com)
 @@||service.4gtv.tv/4gtv/Data/GetAD.ashx
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=4gtv.tv
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=setn.com
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=setn.com
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
@@ -4360,6 +4361,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||sz2xlvu6jq.com^
+||saptuqse29.com^
+||hlj10020ip.com^
+||mnkusi.icu^
+||iauw.cn^
+||discards55.com^
+||rnxhdv.icu^
+||trundrak.com^
+||p7d3miyh2q.com^
+||hlj10021ip.com^
+||qj9m4nou8t.com^
+||deemainunh.com^
 ||a2424xe80.com^
 ||ddrqd9eox.com^
 ||hlj10010ip.com^
@@ -12761,6 +12774,7 @@ meijutt.*/js/pcjs/
 ||lancdn.com/public/images/view/Tencent-
 ||5dm.link/htm1/$image
 ||cdxyspa.com/js/e
+||layuion.com/get/showcase/
 zhihu.com##.Pc-word-new
 ydwgame.net###float_mask
 ydwgame.net###diy3
@@ -18037,6 +18051,7 @@ wantgoo.com##div[type="adv"]
 zuoye.baidu.com##dl[class="card related"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
+douyin.com#?#.discover-video-card-item:-abp-has(>div>div>span:-abp-contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
