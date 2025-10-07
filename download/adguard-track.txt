@@ -201,6 +201,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||lltrck.com^
+||contanuity.com^$third-party
+||demandscience.com^$third-party
 ||digiadglobal.com^$third-party
 ||overtracking.com^$third-party
 ||funsdata.com^
@@ -71174,6 +71177,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cookiemon-analytics.azurewebsites.net^
 ||k203.adn.com^
 ||mon*.tiktokv.us^
 ||telemetry.adobe.io^
@@ -107291,6 +107295,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||ias.r10s.jp/grp15/lib/ichiba_frame.js
+||r.r10s.jp/com/ap/plugin/mediatrack/mediatracker_ichiba_item.js
+||sklavenitis.gr/Scripts/Analytics/
+||navismithapis-cdn.com/js/tracking.js
+||player-api.instaread.co/api/metrics/
 ||townwork.net/api/lettice/collect/
 ||teenage.engineering/_api/mw/track/
 ||apps.consentik.com/consentik/api/impression
@@ -108911,7 +108920,6 @@ sinoptik.ua##img[src^="//counter.ukr.net/"]
 ||lasso.link/events/tracking
 ||clipkit.co/clipkit_assets/beacon-
 ||shufoo.net/plus/media/beacon
-||gacraft.jp/socket/
 ||data.taschen.com/gtm.js
 ||jsak.mmtcdn.com/*/pwa_commons/pwatracker.js
 ||t21.press/counter.php
