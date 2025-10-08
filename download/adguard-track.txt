@@ -201,6 +201,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||rum.hlx.page^
 ||lltrck.com^
 ||contanuity.com^$third-party
 ||demandscience.com^$third-party
@@ -71177,6 +71178,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||p.eneba.com^
 ||cookiemon-analytics.azurewebsites.net^
 ||k203.adn.com^
 ||mon*.tiktokv.us^
@@ -71331,7 +71333,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||en-collect.trendyol.com^
 ||demeter-tr-core-collect.trendyol.com^
 ||lc-event.pixiv.net^
-||count.ing.de^
 ||d30qdagvt44524.cloudfront.net^
 ||tracker-beam.aktuality.sk^
 ||collector.fullxh.com^
@@ -107295,6 +107296,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||icon.zol-img.com.cn/public/bdshare/static/api/js/trans/logger.js
+||ws.cs.1worldsync.com/log?
+||fashionnova.com/api/search/events
+||eneba.com/metrics/
+||sdk.nsureapi.com/sdk.js
 ||ias.r10s.jp/grp15/lib/ichiba_frame.js
 ||r.r10s.jp/com/ap/plugin/mediatrack/mediatracker_ichiba_item.js
 ||sklavenitis.gr/Scripts/Analytics/
@@ -110399,6 +110405,7 @@ techmaniachd.pl###sidebar-right-1 > #HTML6
 ||msgsndr.com/funnel/event
 ||con.arbeitsagentur.de/prod/matomo/
 ||appmifile.com^*/stat/
+||facebook.com/ajax/bz?*__req=$ping
 ||facebook.com/ajax/bz?*__comet_req=
 ||inthenews.co.kr/weblog/gtracker.
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
@@ -112714,6 +112721,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||stats.sg-light-edge.com^
+||apptics.zoho.in^
 ||analytics.oliveapp.net^
 ||rplogs.itpub.cc^
 ||collector-sbanking.shb-pelib.com^
