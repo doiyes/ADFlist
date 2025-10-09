@@ -254,7 +254,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||openstats.co^
 ||sentinelpro.com^$third-party
 ||openinstall.io^
-||s.ssl.qhres2.com^
 ||big7.com^$third-party
 ||collect.adplogger.no^
 ||lwadm.com^
@@ -71178,6 +71177,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cdn.getkoala.com^
 ||p.eneba.com^
 ||cookiemon-analytics.azurewebsites.net^
 ||k203.adn.com^
@@ -106637,6 +106637,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 /piano/engagement
+/statsig/rgstr?k=client-
 /v1/rgstr?k=client-
 /ezais/analytics
 /detroitchicago/reno.js
@@ -107296,6 +107297,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||events-proxy.mintlify.com/decide/
+||events-proxy.mintlify.com/e/?ip=*&ver=$xmlhttprequest,redirect=noop.json
 ||icon.zol-img.com.cn/public/bdshare/static/api/js/trans/logger.js
 ||ws.cs.1worldsync.com/log?
 ||fashionnova.com/api/search/events
@@ -107332,7 +107335,7 @@ inet.se##+js(set-local-storage-item, visitorId, $remove$)
 ||forms.zoho.com/js/zf_gclid.js
 ||api.sdk.letscooee.com/v*/event/
 ||rtings.com/js/script.manual.js
-slideshare.net##+js(set-local-storage-item, /^statsig/, $remove$)
+nytimes.com,slideshare.net##+js(set-local-storage-item, /^statsig/, $remove$)
 ||kt.com/js/json/*_logUse_html.js
 ||m.kt.com/js/ADOBE/
 ||m.kt.com/js/integrate/mkLogcode.js
@@ -107347,7 +107350,6 @@ slideshare.net##+js(set-local-storage-item, /^statsig/, $remove$)
 ||fino.svc.litv.tv/acs/dms.js
 ||litv.tv/api/generate-device-id
 pelikan.*##+js(set-local-storage-item, PAPVisitorId, $remove$)
-iflscience.com##+js(set-local-storage-item, SPOTIM_DEVICE_UUID_V2, $remove$)
 bloomberg.com##+js(set-local-storage-item, /statsig|youboraDeviceUUID/, $remove$)
 ||teltarif.de/cgi-bin/jswarn
 ||sgimage.netmarble.com/js/gtm/
@@ -107385,7 +107387,7 @@ gala.com##+js(set-local-storage-item, _gal1, $remove$)
 ||static-cdn.arte.tv/static/analytics/
 ||event.arte.tv/api/server-side-tracking/
 nypost.com##+js(set-local-storage-item, ow/social-browser-storage, $remove$)
-nypost.com##+js(set-local-storage-item, SPOTIM_DEVICE_UUID_V2, $remove$)
+express.co.uk,iflscience.com,nypost.com##+js(set-local-storage-item, SPOTIM_DEVICE_UUID_V2, $remove$)
 ||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
 ||yqzhishen.me/Statistics/statistics.
 ||dashichang.work/Statistics/statistics.
@@ -112721,6 +112723,9 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||track.taimi.com^
+||gem-log.sloegem.com^
+||log.oceanzz.xyz^
 ||stats.sg-light-edge.com^
 ||apptics.zoho.in^
 ||analytics.oliveapp.net^
@@ -113710,6 +113715,9 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
+@@||cdn.cxense.com/cx*.js$domain=farodevigo.es
+@@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||teenage.engineering/store/assets/tracking-pixel.*.js$domain=teenage.engineering
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 telex.hu##+js(set-constant, pp_gemius_hit, noopFunc)
@@ -113738,7 +113746,7 @@ xinshuru.com##+js(set-constant, Object.prototype.getTrack, noopFunc)
 @@||abt.nike.com^$domain=nike.com
 @@||googletagmanager.com/gtm.js?id=GTM-56WSR2$domain=victorinox.com
 @@||cdn.segment.com/*/settings|$xmlhttprequest,domain=outdoorsy.com
-@@||cdn.ing.de/ing-cms-ui/*/js/webtrekk-snwMKyfV.js
+@@||banking.ing.de/app/obligo/w/r/*/resources/webtrekk-init-ver-*.js
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||googletagmanager.com/gtm.js$domain=jornaldocomercio.com
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$domain=curos.ca
