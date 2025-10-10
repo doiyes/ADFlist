@@ -201,6 +201,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||marathondataco.com^$third-party
+||telecid.ru^
 ||rum.hlx.page^
 ||lltrck.com^
 ||contanuity.com^$third-party
@@ -71177,6 +71179,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||fuse.ubs.com^
+||cdn.kmalgo.com^
+||client.smartpushedm.com^
 ||cdn.getkoala.com^
 ||p.eneba.com^
 ||cookiemon-analytics.azurewebsites.net^
@@ -107291,12 +107296,21 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=noop.txt,important,domain=9now.com.au,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||googleadservices.com/pagead/conversion_async.js$redirect=noop.js,domain=ffm.to,important,script
 /analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.day|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|jrkyushu.co.jp|amiunique.org|edit.ing|konami.com
-||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com
+||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com
 /prod/dfm/fp.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 /prod/dfm/g2i.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||dbrand.com/cvg/log?
+||dbrand.com/cvg/track?
+||dbrand.com/cvg/static/pixels/
+||ctr.incrowdsports.com/v1/*/events
+||potensic.com/npublic/libs/widget/sensors/
+||russia-tv.online/api/*/event
+||russia-tv.online/api/*/fingerprint
+||l.search.naver.com/n/scrolllog/*?u=*&slogs=
+||api.consumer.pt.mcclatchy.com/mia-mh/meter
 ||events-proxy.mintlify.com/decide/
 ||events-proxy.mintlify.com/e/?ip=*&ver=$xmlhttprequest,redirect=noop.json
 ||icon.zol-img.com.cn/public/bdshare/static/api/js/trans/logger.js
@@ -107430,7 +107444,7 @@ ici.radio-canada.ca##+js(set-local-storage-item, RC_PLAYER_USER_ID, $remove$)
 ||www-backend.strinova.com/api/common/uid|
 ||udc.yahoo.com/v*/public/*&yhlClient=rapid*&yhlClientVer=$domain=yahoo.com
 ||goodcar.com/js/parts/fp.js
-goodcar.com##+js(set-local-storage-item, uw-uid, $remove$)
+2ndswing.com,goodcar.com##+js(set-local-storage-item, uw-uid, $remove$)
 ||11st.co.kr/js/rake/RakeData.js
 epicurious.com##+js(set-cookie, FP_visitorID, 1, /, epicurious.com)
 ||teraboxcdn.com/general-conf/fk/dfxaf3-*.js
@@ -107611,7 +107625,6 @@ revistaoeste.com##.content-aside__taboola
 dogdrip.net##+js(href-sanitizer, a[href^="/link.php?url="], ?url)
 ||konturnovosti.com/packs/js/opm.js
 ||dzen.ru/api/v4/launcher/stats/
-||client.smartpushedm.com/eclytics/n.gif
 ||rs.mail.ru/pixel/
 ||rs.mail.ru/ns.gif?n=
 ||rs.mail.ru/bulkstat/
@@ -107691,8 +107704,8 @@ allrecipes.com##+js(set-local-storage-item, /_fpi|_duid/, $remove$)
 ||banking.dkb.de/api/metrics/$xmlhttprequest
 ||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
-||static.wertpapiere.ing.de/*/webtrekk
-||cdn.ing.de/ing-cms-ui/*/js/webtrekk
+||ing.de/*/*ebtrekk*
+||ingwb.com/*/ingwb-webtrekk
 ||derstandard.*/qpkdl/
 ||duckduckgo.com/t.js?q=
 ||data.product.lastpass.com/data/ptm.gif/
@@ -112133,6 +112146,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ztat.net/*/webtrekk.min.js^
 ||google.com/log?$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||yandex.ru/clck/click|
+/^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
 ||cfm.kt.com/js/adobe/staticsLogcodeLaunch.js
 kt.com##+js(set-constant, KT_trackClicks, noopFunc)
 !+ NOT_PLATFORM(ios, ext_safari)
@@ -112193,8 +112207,6 @@ gmarket.co.kr##+js(fingerprint2)
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
-/p/rp/*?mi_u=$image
-%2Fp%2Frp%2F*%3Fmi_u%3D$image
 /tf/o/$image
 %2Ftf%2Fo%2F$image
 /via/o?h=
@@ -112723,6 +112735,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||prebid-server-canary.ifunny.co^
 ||track.taimi.com^
 ||gem-log.sloegem.com^
 ||log.oceanzz.xyz^
@@ -117032,6 +117045,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||notifyglass.com^
 ||noundictionary.com^
 ||novaseekers.com^
+||nowaymail.com^
 ||nudgeduck.com^
 ||nullnorth.com^
 ||numerousnest.com^
