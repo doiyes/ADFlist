@@ -81,6 +81,7 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||reward-api.csjplatform.com^
 ||tbiwtech.com^
 ||impbid.com^
 ||bidsms.com^
@@ -1342,6 +1343,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
 @@||api.bufferapp.com/*/user
+@@||cmp.inmobi.com^$domain=the-express.com
 @@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 my-angers.info#@#amp-auto-ads
 @@||cmp.inmobi.com/geoip$domain=express.co.uk
@@ -1546,6 +1548,12 @@ opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.n
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+habr.com##.header-banner-wrapper
+habr.com##.element-wrapper:has(> div.placeholder-wrapper)
+house.ettoday.net##.iframe-ad
+house.ettoday.net##div[id^="adsense_"]
+house.ettoday.net#$?#amp-ad { remove: true; }
+livesoccertv.com##header > div[style^="font-size:12px;text-align:center;padding:1px;"]
 glavred.net##div[style^="height: 360px"]:has(> .bnr-block__ad)
 glavred.net##div[data-main-page]:has(> .bnr__ad)
 traderie.com##div[height="50px"]
