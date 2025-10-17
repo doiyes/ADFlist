@@ -70908,6 +70908,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||c.quackr.io^
 ||xstat.gazeta.bo^
 ||stats.avito.ru^
 ||nr-beacon.movingimage.com^
@@ -109271,6 +109272,12 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||hobbygames.ru/?route=product/product/visit
+||heumm.com/backpg/add_visit_log.cm
+||heumm.com/js/fb_pixel.js
+||heumm.com/js/advanced_trace.js
+||heumm.com/js/site_log.js
+||api.biz.sbs.co.kr/statistics/
 ||bunshun.jp/*/analytics.js
 bunshun.jp##.recommend-articles
 ||play.*.com/vendor/$domain=play.aetv.com|play.mylifetime.com
@@ -118793,6 +118800,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||humourspot.com^
 ||hurtgrape.com^
 ||hustlercoach.com^
+||hybridburst.com^
 ||hydraconcept.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -118867,6 +118875,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||kidpowers.com^
 ||kindasingle.com^
 ||kindhush.com^
+||kindlereunion.com^
 ||kitetuning.com^
 ||kittycatking.com^
 ||knewpenny.com^
