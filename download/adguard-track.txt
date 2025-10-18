@@ -203,6 +203,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||analysis.chatglm.cn^
+||*-default-cn.rum.aliyuncs.com^
+||ping.pdst.fm^
+||api.sae.systems^
 ||analytics.metriko.app^
 ||stats.fluorescent.co^
 ||wurflcloud.com^
@@ -70908,6 +70912,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||haystack.wavve.com^
+||user-event-log.aminer.cn^
+||pixel.dashfi.dev^
 ||c.quackr.io^
 ||xstat.gazeta.bo^
 ||stats.avito.ru^
@@ -109272,6 +109279,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||shop-apotheke.com/conversational-api/analytics
+||static.shop-apotheke.com/media/js/shopmonitor3.js
 ||hobbygames.ru/?route=product/product/visit
 ||heumm.com/backpg/add_visit_log.cm
 ||heumm.com/js/fb_pixel.js
@@ -109669,7 +109678,6 @@ gq.com##+js(set-local-storage-item, /^avoinspector/, $remove$)
 ||check24.*/misc/tracking_gif.php
 ||check24.*/gif/*/info.gif
 ||check24.*/files/give_png.php
-nhk-ondemand.jp##+js(abort-on-property-write, wd.s_c_il)
 ||kma.go.kr/kma/resources/js/UserScriptConf.js
 ||kabu-sokuhou.com/js/cpv/
 4pda.to##+js(remove-attr, data-dotrack, a[data-dotrack])
