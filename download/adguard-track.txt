@@ -203,6 +203,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||inetstats.org^$third-party
 ||analysis.chatglm.cn^
 ||*-default-cn.rum.aliyuncs.com^
 ||ping.pdst.fm^
@@ -224,7 +225,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||overtracking.com^$third-party
 ||funsdata.com^
 ||ahatm12od.top^
-||an.gr-wcon.com^
 ||sdkapi-prod.dfinery.ai^
 ||behavior-tracking-event-gateway.imweb.me^
 ||smind.hr^$third-party
@@ -109280,6 +109280,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||an.gr-wcon.com^$script
+||storm.mg/api/logs/
+||storm.mg/avivid.js
 ||api.thefantazy.com/web-vitals
 ||shop-apotheke.com/conversational-api/analytics
 ||static.shop-apotheke.com/media/js/shopmonitor3.js
@@ -110949,7 +110952,6 @@ sinoptik.ua##img[src^="//counter.ukr.net/"]
 ||gobankingrates.com/analytics/latest/ct.bundle.js
 ||scv-cafe.io.naver.com/jackpotlog/*/logs$xmlhttprequest,redirect=noop.json
 ||digiturk.com.tr/_Scripts/AnalyticsEvents.js
-||apps.nhk.or.jp/assets/dtm/launch-
 ||img.syosetu.org/js/c_
 ||lasso.link/events/tracking
 ||clipkit.co/clipkit_assets/beacon-
@@ -115755,6 +115757,8 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||googletagmanager.com/gtm.js$domain=sferis.pl
+@@||googletagmanager.com/gtm.js$domain=tauron.pl
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 @@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
@@ -118997,6 +119001,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||memorizematch.com^
 ||memorizeneck.com^
 ||mentorsticks.com^
+||mercuryace.com^
 ||meremark.com^
 ||merequartz.com^
 ||merryopal.com^
