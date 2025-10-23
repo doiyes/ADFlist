@@ -1,4 +1,6 @@
 ! AdGuard-url跟踪保护规则
+$removeparam=adsterra_clid
+$removeparam=adsterra_placement_id
 $removeparam=loclid
 $removeparam=line_uid
 $removeparam=mt_click_id
@@ -258,6 +260,11 @@ $removeparam=ebisAdID
 $removeparam=wickedid
 $removeparam=irgwc
 $removeparam=fbclid
+$removeparam=fbadid
+$removeparam=nb_placement
+$removeparam=nb_expid_meta
+?nbt=nb%3A$removeparam=nbt
+&nbt=nb%3A$removeparam=nbt
 $removeparam=adfrom
 $removeparam=nx_source
 $removeparam=_zucks_suid

@@ -203,6 +203,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||d2g2u2795e3fzw.cloudfront.net^
+||mobiexchange.com^$third-party
+||matomo-demo-*.amazonaws.com^
 ||tryzens-analytics.com^
 ||turbotargeting.io^
 ||inetstats.org^$third-party
@@ -69409,6 +69412,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||ins.oberpfalzmedien.de^
 ||hbrcv.adobe.com^
 ||hbrt.adobe.com^
 ||leo.tridge.com^
@@ -69441,7 +69445,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||orderana*.spankbang.com^
 ||upsell.alphwidget.com^
 ||4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com^
-||static.alphwidget.com^
 ||error-analytics-sessions-production.shopifysvc.com^
 ||analytics.pesktop.com^
 ||cloudmetrics.xenforo.com^
@@ -109495,6 +109498,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /zhugeio.js
 &l=dataLayer&cx=c
 /cdn-cgi/rum?
+/tr/lp/intg.js
 /op/analytics.js?domain=
 /send_ga4_params?
 &sst.sw_exp=
@@ -109996,6 +110000,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||interest.co.nz/core/modules/statistics/statistics.php
 ||media.flaticon.com/dist/js/ads.*.js
 ||kio.ac/analytics/
 indianexpress.com##+js(set-local-storage-item, ev_did, $remove$)
@@ -111399,6 +111404,7 @@ tv2.no##.article-recommended
 ||mylocal.co.uk/api/trpc/analytics.
 ||svc.eu01.miro.com/api/stream/
 ||svc.us01.miro.com/api/stream/
+||prod-app.because-intelligence.com/observability/
 ||prod-app.because-intelligence.com/track/
 ||similarweb.com/scripts/lite-app/client/dist/tracking.min.js
 erostopics.net###custom_html-81
@@ -116481,6 +116487,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||dev.visualwebsiteoptimizer.com^$script,domain=dominos.jp
 @@||googletagmanager.com/gtm.js$domain=sferis.pl
 @@||googletagmanager.com/gtm.js$domain=tauron.pl
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com

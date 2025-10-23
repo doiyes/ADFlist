@@ -1070,6 +1070,7 @@ m.tnaflix.com##+js(set-constant, exoUrl, undefined)
 m.tnaflix.com##+js(set-constant, organicPop, undefined)
 m.drtuber.com##+js(abort-on-property-read, mobileAdvPop)
 pornhd.com##+js(abort-on-property-read, popUnderUrl)
+mein-mmo.de#$#.player-wrapper > .dailymotion-player-root + .thumbnail { display: none !important; }
 financial-field.com#$#body.jackbanner { margin-top: 0 !important; padding-bottom: 0 !important; }
 redgol.cl#$#header { top: 0 !important; }
 lapaginamillonaria.com#$#header { top: 0 !important; }
