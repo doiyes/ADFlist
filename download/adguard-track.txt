@@ -203,6 +203,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||events.api.gamma.app^
+||pirsch.io^$third-party
 ||d2g2u2795e3fzw.cloudfront.net^
 ||mobiexchange.com^$third-party
 ||matomo-demo-*.amazonaws.com^
@@ -2277,7 +2279,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||adku.co^$third-party
 ||adku.com^$third-party
 ||admantx.com^$third-party
-||admitad.com^$third-party
+||ad.admitad.com^$third-party
 ||adobetag.com^$third-party
 ||adoftheyear.com^$third-party
 ||adrta.com^$third-party
@@ -69412,6 +69414,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||z.cdn.protect-ad.com^
+||sb1.mangataro.org^
+||sgtm.yubico.com^
 ||ins.oberpfalzmedien.de^
 ||hbrcv.adobe.com^
 ||hbrt.adobe.com^
@@ -110000,6 +110005,12 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||api.vortexscans.org/api/track-visit
+||api.vortexscans.org/api/analytics/updateViews
+||drive2.ru/_api/special/*/view|
+||teknolojituru.com/api/tracking
+||cloudfront.net/ecmtr-*.js
+||lib.onet.pl/static/pixel/
 ||interest.co.nz/core/modules/statistics/statistics.php
 ||media.flaticon.com/dist/js/ads.*.js
 ||kio.ac/analytics/
@@ -111942,8 +111953,10 @@ nukigazo.com###text-2
 brasil247.com###taboola-mid-article-leia-mais
 ||libcdnjs.com/api/event
 ||api.snapchat.com/web/metrics
+||api-kit.snapchat.com/com.snap.camerakit.v3.Metrics^
 ||snapchat.com/web-analytics
 ||snapchat.com/report-metrics/
+||web.snapchat.com/web-blizzard/web/send^
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
 ||snap-api.arkoselabs.com/metrics/
 ||zona.plus/ajax/visit-stats
