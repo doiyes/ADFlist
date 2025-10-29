@@ -203,6 +203,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||trackingmyadsas.com^
+||sa.openmedia.co^
 ||c1.prmonline.ru^
 ||heidy.makeup^$third-party
 ||events.api.gamma.app^
@@ -72427,6 +72429,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||touch.yesim.
+||uac.heraldcorp.com^
+||applytics.my1337jog.run^
+||data-track*.yingxiong.com^
 ||applytics.os4work.com^
 ||applytics.napps-1.com^
 ||z.cdn.protect-ad.com^
@@ -123310,6 +123316,14 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||goya.rutube.ru^$~image
+coloradoan.com##+js(set-local-storage-item, user_insights, $remove$)
+||shallspark.com/athena/tracking/
+||aoneroom.com/sdk/athena-unify.js
+||api.hisavana.com/hisavana/eventtracking/
+||cm-oss.hisavana.com/moviebox/mb_hssdk.js
+||telegraph.prd.api.hbomax.com/events
+||wondershare.com/ga360/
 ||weatherzone.*/*/scripts/hotjar.js
 ||weatherzone.*/*/scripts/gtmHead.js
 ||coolbe.*/api/*/events
@@ -126152,7 +126166,6 @@ bcnretail.com###_popIn_recommend
 ||hotels.com/taps/v*/PageView?
 ||kitbag.com/api/track|
 ||static.actu.fr/assets/js/smarttag*.js
-||sa.openmedia.co/collect?*tid=
 chaos2ch.com###sub div.plugin-memo:last-child
 ||kraken.com/analytics
 ||plusstyle.jp/js/common/analytics.js
@@ -128738,6 +128751,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||t.usermaven.com/lib.js$script,redirect=noop.js,domain=revisemsra.com
 ||log.hiapkdownload.com^
 ||experiment.pixverse.ai^
 ||capture.pixverse.ai^
@@ -129118,6 +129132,7 @@ d4?appid*type*
 ||conff.dc.oppomobile.com^
 ||dragate.dc.oppomobile.com^
 ||esa-reg-eup.myoppo.com^
+||obus-in.dc.heytapmobile.com^
 ||adx-in.ads.heytapmobile.com^
 ||dragate-in-dc.heytapmobile.com^
 ||omes-sec.heytapmobile.com^
@@ -132635,6 +132650,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||framebanana.com^
 ||franksfloral.com^
 ||franticroof.com^
+||freedomgrail.com^
 ||freezeassets.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -132908,6 +132924,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||likethedog.com^
 ||limepeal.com^
 ||linkedleg.com^
+||linksoutside.com^
 ||livelumber.com^
 ||livelylaugh.com^
 ||livingsleet.com^
@@ -133177,6 +133194,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||polishedfolly.com^
 ||politeplanes.com^
 ||politicalporter.com^
+||popmixradio.com^
 ||popplantation.com^
 ||possibleboats.com^
 ||possiblepencil.com^
