@@ -1549,6 +1549,7 @@ forums.rusmedserv.com#$#abort-on-property-read atob
 lenta.ru#$#prevent-listener scroll window.history.pushState
 ukr.net#$#replace-xhr-response 'banners'
 dtf.ru#$#override-property-read Object.prototype.detectAdblock undefined
+rg.ru#$#prevent-listener error '(e){t(e)}'
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1768,6 +1769,7 @@ haysexdam.info#$#abort-current-inline-script document.addEventListener adx
 clipphot.org#$#abort-current-inline-script document.addEventListener POP
 audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
 audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
+pheclip.vet#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
 ! *** abp-filters-anti-cv:RM.txt ***
@@ -2418,6 +2420,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||parazoamirks.com^
 ||pelitecontg.top^
 ||perksburian.com^
+||persinners.com^
 ||piasabagiveth.com^
 ||pilleustrig.com^
 ||plaitluctual.com^
