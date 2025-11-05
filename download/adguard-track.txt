@@ -204,6 +204,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||tracking-api.g2.com^
+||litix.io^
+||audiencelab.io^$third-party
 ||openpanel.dev^
 ||alphaupsell.s3.ap-northeast-2.amazonaws.com^
 ||trackingmyadsas.com^
@@ -1814,6 +1817,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||growthrx.in^$third-party
 ||clickcease.com^$third-party
 ||logs.juspay.in
+||http-intake.logs.datadoghq.com^
 ||logs.browser-intake-datadoghq.eu^
 ||logs.datadoghq.eu^
 ||logs.datadoghq.com^$third-party
@@ -74348,6 +74352,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||collector.moderntv.eu^
 ||ipm.adblockplus.dev^
 ||log1.wanmei.com^
 ||log2.wanmei.com^
@@ -75985,6 +75990,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||applog.zaycev.net^
 ||appsanalytics.appideas.it^
 ||apptracker.gamedock.io^
+||service.minute.ly^
 ||apv-launcher.minute.ly^
 ||ariane.abtasty.com^
 ||astat.nikkei.co.jp^
@@ -123970,6 +123976,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/app/Eclog/js/cid.generate.js
 /home/new/v*/api/get-ip.php
 /home/new/v*/api/applogger.php
 /rum/events
@@ -124635,6 +124642,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||motogonki.ru/js/google_service.js
+||pinterest.com/_/_/storage_report/
 ||a.anoncity.cc/api/track
 ||assets.coupangcdn.com/customjs/cou-log/
 ||asset*.coupangcdn.com/customjs/mycoupang/fingerprint2/
@@ -124651,7 +124660,6 @@ business.nikkei.com###pianoRecommendBottom
 ||holistic.news/3unw/
 ||sp-cdn.linux-magazin.de/wrapper/metrics/
 ||static.alphwidget.com/script/Common-Script/PRODUCTION/alphacore_alpha_data.js
-||joymadam.com/app/Eclog/
 ||static.alphwidget.com/script/Push-Script/PRODUCTION/alphapush_GA.js
 ||wivismall.com/ux/js/comGroobee.js
 ||ipleaks.io/public/google/gtag.js
@@ -125443,7 +125451,6 @@ hindustantimes.com##+js(set-local-storage-item, ht_cdp, $remove$)
 ||content.kaspersky-labs.com/public/analytics-scripts/analytical_functions.js
 ||pcgames.de/webservices/edash/
 ||ca.cafe24data.com/analytics.js
-||comics-art.co.kr/app/Eclog/
 ||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noop.js
 ||laftel.net/twitter-pixel.js
 ||capi.connatix.com/tr/$important
@@ -127942,7 +127949,6 @@ the-ans.jp##.side-reccomend
 ||at.cbsi.com/*/event?
 ||sprocket.bz/trackers/
 ||maillist-manage.com/wa/ActionLogger?
-/app/Eclog/js/cid.generate.js$domain=softland.co.kr|animegoods.co.kr|rabbits.kr|cafe24.com
 ||push.soft-com.biz/api/ui/metrics
 ||image.cauly.co.kr/script/caulytracker_async.js
 ||gate.upclick.com/btn/visitor.min.js
@@ -127954,7 +127960,6 @@ the-ans.jp##.side-reccomend
 ||img.sportsworldi.com/static/w_sportsworld/common/js/analytics.js
 ||crunchyroll.com/tracker
 ||sa.crunchyroll.com/analytics.js
-||laurenhi.com/app/Eclog/
 /lcslog*.js$domain=playentry.org
 ||ssl.pstatic.net/static.gn/js/clickcrD.js$domain=~search.naver.com
 ||paypal.com/xoplatform/logger/$domain=tapas.io
@@ -130098,6 +130103,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||mon.capcutapi.us^
+||mssdk.capcutapi.us
+||mon16-normal-us-ttp.capcutapi.us^
+||log16-normal-us-ttp.capcutapi.us^
 ||jdlog.uu.cc^
 ||gid.tapapis.cn^
 ||dlog-config.uu.cc^
@@ -131068,6 +131077,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||static.vocstatic.com/voonto2/latest/voonto.js$domain=diariosur.es
 @@||cdn.cxense.com/cx*.js$domain=onetz.de
 @@||cdn.cxense.com/sp*.html$domain=onetz.de
 @@||api.cxense.com/public/widget/data?json=$domain=onetz.de
@@ -134210,6 +134220,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||justicejudo.com^
 ||justpickaname.com^
 ||justwebcards.com^
+||justwowjars.com^
 ||keenquill.com^
 ||kidpowers.com^
 ||kindasingle.com^
@@ -134805,6 +134816,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||siliconslow.com^
 ||sillyscrew.com^
 ||simplenaming.com^
+||simplesafari.com^
 ||simplesidewalk.com^
 ||simulateswing.com^
 ||sincerebuffalo.com^
@@ -135200,6 +135212,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||watersensible.com^
 ||waterywave.com^
 ||waveinverter.com^
+||wavesimple.com^
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
