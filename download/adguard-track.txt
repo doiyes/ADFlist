@@ -204,6 +204,15 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||delog.nestads.com^
+||deapi.nestads.com^
+||event.marketap.io^
+||crm.marketap.io^
+||conviva.com^$third-party
+||gau.groobee.io^
+||gre.groobee.io^
+||monitoring.hackle.io^
+||event-api.hackle.io^
 ||tracking-api.g2.com^
 ||litix.io^
 ||audiencelab.io^$third-party
@@ -74352,6 +74361,12 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||bizlog-gateway.myrealtrip.com^
+||api-ktm.kkday.com^
+||riskpoc.trip.com^
+||chloro.trip.com^
+||ubt-sgp.trip.com^
+||events.asurion.com^
 ||collector.moderntv.eu^
 ||ipm.adblockplus.dev^
 ||log1.wanmei.com^
@@ -123976,6 +123991,8 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/mai-publisher-analytics.js
+/genesis/lib/js/skip-links.min.js
 /app/Eclog/js/cid.generate.js
 /home/new/v*/api/get-ip.php
 /home/new/v*/api/applogger.php
@@ -124642,6 +124659,22 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||sketchfab.com/a/ramen
+||revopoint3d.com/api/collect
+||ak-s-cw.tripcdn.com/modules/ibu/gtm-loader/
+||image.hanatour.com/ice/fx/lib/nestads.js
+||image.hanatour.com/ice/fx/lib/appsflyer.js
+||image.hanatour.com/ice/fx/lib/amplitude.js
+||kkday.com/api/_nuxt/recommend/user-action-record
+||trip.com/restapi/soa2/*/tripAds.json
+||static.tripcdn.com/packages/ubt/websdk/*/ubt.minh.js
+||trip.com/restapi/soa2/*/clog
+||store.maaltalk.com/admin/gd_share/script/visit/gd_visit.js
+||usimsa.com/_nuxt/naverAdsScript.
+||usimsa.com/_nuxt/kakaoPixel.
+||static.tp-link.com/assets/js/ga.js
+||phoneclaim.com/api/*/logger/
+||adyen.com/*/analytics/
 ||motogonki.ru/js/google_service.js
 ||pinterest.com/_/_/storage_report/
 ||a.anoncity.cc/api/track
@@ -125738,7 +125771,7 @@ geinoukame.com##.ninja-recommend-block + hr
 ||wealthfront.com/track_next?p=
 ||gg.asuracomic.net/api/views/collect
 ||probance.jp/webtrax/public/probance_tracker.js
-/firebase-analytics.js$domain=furunavi.jp|mt.co.kr
+/firebase-analytics.js$domain=furunavi.jp|mt.co.kr|hanatour.com
 ||static.site24x7rum.jp/beacon/
 ||api.actagtracker.jp/tag|
 ||shop.post.japanpost.jp/js/analytics_cookie.js
@@ -129583,7 +129616,9 @@ gmarket.co.kr##+js(fingerprint2)
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
-/tf/o/$image
+mail.ferret-one.com/beacon$image
+mail.ferret-one.com%2Fbeacon$image
+/tf/o/*$image
 %2Ftf%2Fo%2F$image
 /via/o?h=
 %2Fvia%2Fo%3Fh%3D
@@ -134053,6 +134088,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||golfersrow.com^
 ||gondolagnome.com^
 ||gorgeousedge.com^
+||gorillapage.com^
 ||gossamerwing.com^
 ||gracefulmilk.com^
 ||grainmass.com^
@@ -134607,6 +134643,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||rabbitbreath.com^
 ||rabbitrifle.com^
 ||rackforstorage.com^
+||radexports.com^
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^

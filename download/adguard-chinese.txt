@@ -347,7 +347,7 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
 linovelib.com##+js(addEventListener-defuser, DOMContentLoaded, adBlock)
 linovelib.com##+js(set-constant, adblock, 0)
-@@/wp-content/themes/radio-hub/static/js/*.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/*.js$domain=tingfm.com
 tingfm.com##+js(set-constant, canRunAds, true)
 tingfm.com##+js(set-constant, can_run_ads, true)
 tingfm.com##+js(no-setTimeout-if, adblock)
@@ -4401,6 +4401,19 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||workshop39.top^
+||svhk4bt874.com^
+||xuwmylm697.com^
+||zdh11060lo.com^
+||vurr.cn^
+||lls11060ko.com^
+||vrovadwd.com^
+||90qxskdmn9.com^
+||9h3s1ew2qn.com^
+||zdh11061lo.com^
+||zulaedha.com^
+||lls11061ko.com^
+||pppteennal.com^
 ||voqf299p8.com^
 ||0s1wclct6.com^
 ||lls11050ko.com^
@@ -12755,6 +12768,9 @@ meijutt.*/js/pcjs/
 ||shipin188.com/66
 /\/[a-z]+$/$script,third-party,domain=gimy.com.tw
 zhihu.com##.Pc-word-new
+baozimh.org#?#.relative:-abp-has(>.bg-red-500)
+baozimh.org##a[href*="g-mh.com"]
+qq.com##.maillist_ad_bar
 udn.com##.ec-section
 qqdsw8.cn##.joe_index__ad
 qqdsw8.cn##.ad
