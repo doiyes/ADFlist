@@ -562,13 +562,13 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-bab.la,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Date.now noopFunc
+collinsdictionary.com,bab.la,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Date.now noopFunc
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
 ||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
 ||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
-bab.la,tz.de,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
-||*/loader.min.js|$script,domain=bab.la
+collinsdictionary.com,bab.la,tz.de,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
+||*/loader.min.js|$script,domain=bab.la|collinsdictionary.com|nouvelobs.com
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
@@ -2178,6 +2178,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||anelewakas.com^
 ||anihazels.com^
 ||annussleys.com^
+||arcoseijo.com^
 ||argonjugate.com^
 ||argyllshumuses.com^
 ||ariososlepage.com^
@@ -2273,6 +2274,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||duppedbawsunt.life^
 ||dyedmurders.com^
 ||eidersrettory.com^
+||elatersand.rest^
 ||endleafroaches.com^
 ||engridfanlike.com^
 ||enstatehelibus.com^
@@ -2302,6 +2304,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ganglyjoannes.shop^
 ||garotemuruxi.com^
 ||garrafaspotted.com^
+||gasparmocha.com^
 ||gearmanswings.com^
 ||geishastending.com^
 ||gemaricspieled.com^
@@ -2317,6 +2320,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gooddemands.com^
 ||goodieracer.com^
 ||goschenelect.com^
+||gpdfkjvys.com^
 ||gtdslaters.com^
 ||guddledberith.com^
 ||gulsachbevil.com^
@@ -2417,9 +2421,11 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||odzcakey.com^
 ||offalsswelled.com^
 ||omlahpewing.com^
+||omnibuswaist.com^
 ||ondatraflemish.com^
 ||onlinehentai.tv^
 ||oomiakyetapa.com^
+||ooxicadroltoo.net^
 ||opalmetely.com^
 ||orisonsunplied.top^
 ||orlcloop.com^
@@ -2434,6 +2440,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||papaneecorche.com^
 ||parazoamirks.com^
 ||peeredupseize.com^
+||peezoapsiglouk.net^
 ||pelitecontg.top^
 ||perksburian.com^
 ||persinners.com^
@@ -2497,10 +2504,12 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||suffarilbf.com^
 ||suffersguntub.com^
 ||surbatebeclose.com^
+||sykerlycataian.com^
 ||synochaauca.com^
 ||tackerhelosis.com^
 ||tacksnocks.top^
 ||taffykhirka.com^
+||tagalodrome.com^
 ||taihoaakeake.qpon^
 ||taituranite.click^
 ||taiverturena.com^
@@ -2531,6 +2540,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||totoabalyric.com^
 ||towerloftier.com^
 ||toxemiaseabags.com^
+||toxoafteeshato.com^
 ||tracliakopek.top^
 ||trippetforhow.com^
 ||tripsisvellums.com^
