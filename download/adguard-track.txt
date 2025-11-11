@@ -204,6 +204,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||cdnm.techpump.com^
 ||analytics.bomiv.com^
 ||track.bomiv.com^
 ||delog.nestads.com^
@@ -75552,6 +75553,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||tdum.alibaba.com^
+||webpushstat-sgp.engagelab.com^
 ||analytics.simpler.so^
 ||bizlog-gateway.myrealtrip.com^
 ||api-ktm.kkday.com^
@@ -118075,6 +118078,17 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||micro.rubiconproject.com/prebid/dynamic/*.js$script,redirect=noop.js,domain=ole.com.ar
+prm.com##+js(set-local-storage-item, /deviceId/, $remove$)
+||caesarsgames.com/dynamic/resources/common/js/functions/iframeTracker.js
+||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
+||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
+||static.danawa.com/globaljs/com/danawa/common/uxlog/
+dominos.jp###_vis_opt_path_hides
+||oracle.com/*assets/metrics/
+||embed.acast.com/api/stats
+||embed.acast.com/api/proxy?type=impression
+||ma-sdk-api-sg.engagelab.com/ma-report/sdk/h5/app/v3/event
 ||7phsx1bxhf.execute-api.*.amazonaws.com/collect|
 ||cdn.shopify.com/extensions/*/assets/ba_ty_tracking.js
 ||skyscanner.co.kr/slipstream/grp/*/custom/public/acorn/mbd-web/user_behaviour_data_domain.ElementImpression
@@ -118916,8 +118930,15 @@ hindustantimes.com##+js(set-local-storage-item, ht_cdp, $remove$)
 ||laftel.net/twitter-pixel.js
 ||capi.connatix.com/tr/$important
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
+||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/local-data.js
+||assets.aliexpress-media.com/g/AWSC/fireyejs/*/fireyejs.js
+||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/referral-insights.js
+||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/gep-sdk.js
+||assets.aliexpress-media.com/g/AWSC/WebUMID/*/um.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/nano-ppc-media-tracking-YnuuQ.js
 ||assets.aliexpress-media.com/g/??alilog/aplus_plugin_aefront/index.js,alilog/mlog/aplus_int.js
+||assets.alicdn.com/g/lzd_sec/epssw/*/epssw.js
+||assets.alicdn.com/g/alilog/
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||admin.microsoft.com/api/instrument/logclient
 ||xgp.pl/wp-content/themes/asona-child-theme/scripts/ga-script.js
@@ -123074,6 +123095,10 @@ mail.ferret-one.com%2Fbeacon$image
 .net%2Fe%2Fo%2F$image
 /CI0/0$image
 %2FCI0%2F0$image
+/ss/o/*/ho.gif$image
+%2Fss%2Fo%2F*%2Fho.gif$image
+b.k3r.jp/?a=$image
+b.k3r.jp%2F%3Fa=$image
 github.com%2Fnotifications%2Fbeacon%3D*.gif$image
 github.com/notifications/beacon=*.gif$image
 dm-sg.aliyuncs.com/trace/*/report$image
@@ -123105,8 +123130,6 @@ cl.mos.jp/q/$image
 cl.mos.jp%2Fq%2F$image
 makeup.com.ua/amazon/opened/$image
 makeup.com.ua%2Famazon%2Fopened%2F$image
-lurl.soundcloud.com/ss/o/$image
-lurl.soundcloud.com%2Fss%2Fo%2F$image
 tracking.srv2.de$image
 i.hh.ru/mailing/$image
 i.hh.ru%2Fmailing%2F$image
@@ -123566,6 +123589,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||appcpi.net^
 ||event.aimailhome.io^
 ||mon.capcutapi.us^
 ||mssdk.capcutapi.us
@@ -124543,6 +124567,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||caesarsgames.com/bundle/google-analytics.util.$domain=caesarsgames.com
 @@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
 @@||static.vocstatic.com/voonto2/latest/voonto.js$domain=diariosur.es
@@ -127260,6 +127285,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||deluxecrate.com^
 ||dependenttrip.com^
 ||deployinput.com^
+||desertgates.com^
 ||designsgrid.com^
 ||desirebucket.com^
 ||desiredirt.com^
@@ -127463,6 +127489,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||freezeassets.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
+||freshlyhuman.com^
 ||friedone.com^
 ||friendlycrayon.com^
 ||friendlyfold.com^
@@ -127648,6 +127675,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||inputicicle.com^
 ||inquisitiveice.com^
 ||inquisitiveinvention.com^
+||inspirebees.com^
 ||insulatech.com^
 ||intelligentscissors.com^
 ||intentlens.com^
@@ -127918,6 +127946,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
+||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
 ||oldandindie.com^
