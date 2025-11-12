@@ -204,6 +204,11 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||api.statsigcdn.com^
+||logz.io^$third-party
+||beacon.coofis.com^
+||aditude.prebid-server.com^
+||cache.prebid-server.com^
 ||cdnm.techpump.com^
 ||analytics.bomiv.com^
 ||track.bomiv.com^
@@ -75553,6 +75558,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||coll.lovense.com^
+||bilog.lovense-api.com^
+||log.lovense-api.com^
+||tms.hft.everyplate.com^
 ||tdum.alibaba.com^
 ||webpushstat-sgp.engagelab.com^
 ||analytics.simpler.so^
@@ -117579,6 +117588,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /zhugeio.js
 &l=dataLayer&cx=c
 /cdn-cgi/rum?
+/api/datafast/*
 /tr/lp/intg.js
 /op/analytics.js?domain=
 /send_ga4_params?
@@ -118078,12 +118088,18 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||cdn.lovense.com/front/web-analytics-sdk/bundle.js
+||service.account.adobe.com/log|
+||sstats.adobe.com/ee/irl1/v1/interact?requestId=
+||sstats.adobe.com/ee/v2/interact?datastreamId=
+||everyplate.com/gw/otlp/traces
+||static.danawa.com/globaljs/static/Insight_WebAnalytics_
+/js/script.js$domain=codefa.st|datafa.st|fitymi.app|logofa.st|shipfa.st
 ||micro.rubiconproject.com/prebid/dynamic/*.js$script,redirect=noop.js,domain=ole.com.ar
 prm.com##+js(set-local-storage-item, /deviceId/, $remove$)
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframeTracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
 ||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
-||static.danawa.com/globaljs/com/danawa/common/uxlog/
 dominos.jp###_vis_opt_path_hides
 ||oracle.com/*assets/metrics/
 ||embed.acast.com/api/stats
@@ -118261,7 +118277,7 @@ inet.se##+js(set-local-storage-item, visitorId, $remove$)
 ||forms.zoho.com/js/zf_gclid.js
 ||api.sdk.letscooee.com/v*/event/
 ||rtings.com/js/script.manual.js
-nytimes.com,slideshare.net##+js(set-local-storage-item, /^statsig/, $remove$)
+everyplate.com,nytimes.com,slideshare.net##+js(set-local-storage-item, /^statsig/, $remove$)
 ||kt.com/js/json/*_logUse_html.js
 ||m.kt.com/js/ADOBE/
 ||m.kt.com/js/integrate/mkLogcode.js
@@ -118304,7 +118320,6 @@ zdnet.com##+js(href-sanitizer, .c-articleContent p a[href^="https://cc.zdnet.com
 ||thermaltake.com/bannerslider/index/impress/
 ||spotifycdn.com/cdn/js/gtm.
 ||tworld.co.kr/web/service/xtractor.service.js
-||cfm.kt.com/js/integrate/kLogcode.js
 ||cfm.kt.com/js/common/global/oms.js
 ||static.gala.games/gal/fp/loader_v*.js
 gala.com##+js(set-local-storage-item, _gal1, $remove$)
@@ -123097,6 +123112,8 @@ mail.ferret-one.com%2Fbeacon$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+mailgun-tracking.ridi.com$image
+client-data.knak.io$image
 b.k3r.jp/?a=$image
 b.k3r.jp%2F%3Fa=$image
 github.com%2Fnotifications%2Fbeacon%3D*.gif$image
@@ -123589,6 +123606,9 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||api.monedata.io^
+||tnc16-normal-us-ttp.capcutapi.us^
+||mcs16-normal-us-ttp.capcutapi.us^
 ||appcpi.net^
 ||event.aimailhome.io^
 ||mon.capcutapi.us^
@@ -124567,6 +124587,8 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+||ct.pinterest.com^$subdocument,redirect=noop.html
+@@||tools.finra.org/monitoring/adrum_init.js$domain=tools.finra.org
 @@||caesarsgames.com/bundle/google-analytics.util.$domain=caesarsgames.com
 @@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
@@ -127218,6 +127240,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||crafthenry.com^
 ||crashchance.com^
 ||cratecamera.com^
+||createdip.com^
 ||creatorcherry.com^
 ||creatorpassenger.com^
 ||creatorsnote.com^
@@ -127283,6 +127306,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||deliciousducks.com^
 ||deltafault.com^
 ||deluxecrate.com^
+||demorewards.com^
 ||dependenttrip.com^
 ||deployinput.com^
 ||desertgates.com^
@@ -127892,6 +127916,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||muteknife.com^
 ||mutemailbox.com^
 ||mutualhappy.com^
+||mysketchpad.com^
 ||mysticalagoon.com^
 ||naivestatement.com^
 ||nappyattack.com^
@@ -128498,6 +128523,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||stupidscene.com^
 ||stupidsnake.com^
 ||sturdysnail.com^
+||stylelockers.com^
 ||stylishbuds.com^
 ||subjectivepoint.com^
 ||sublimequartz.com^
