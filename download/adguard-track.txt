@@ -204,6 +204,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||nlog.instajob.ai^
 ||data.pendo.io^
 ||api.statsigcdn.com^
 ||beacon.coofis.com^
@@ -75557,6 +75558,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||sp.aviasales.ru^
 ||darnuid.netflix.com^
 ||analytics.thekrazycouponlady.com^
 ||usage.trackjs.com^
@@ -118090,6 +118092,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||neuron.cbssports.cloud/client.js?platform=tracking-manager
+||famil.ru/bitrix/templates/aspro_max/js/yandex_metrika_
+||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getCustomTrackingId.js
 ||grok.com/_data/v1/events
 ||frysfood.com/assets/*/collect?
 ||fredmeyer.com/static/*/collect?
@@ -120757,7 +120762,6 @@ weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 ||s-cdn.phonearena.com/js/ops/taina.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||widgets.entireweb.com/pixel-track/
-/access.html$domain=2jigiri.net
 ||apis.naver.com/livecloud/livecloud/quantum/p2p/*/client/stat
 ||redditmedia.com/gtm?id=
 ||search-api.joongna.com/v*/ga/log|
@@ -121305,7 +121309,7 @@ sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 ||bilanx.dtto.com/*/configs
 ||bilanx.dtto.com/*/events
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
-itmedia.co.jp,mag.osdn.jp##div[id^="logly-lift-"]
+itmedia.co.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1.gif
@@ -122463,6 +122467,7 @@ westnews.com.ua##a[href="http://www.bigmir.net/"]
 ||fiylo.de/typo3conf/ext/of_design/Resources/Public/JavaScript/Libs/smarttag_LIVE.js
 ||steampowered.com/default/usabilitytracking
 ||report.23video.com/api/analytics/
+||report.23video.com/report-batch
 ||mb.mtvnservices.com/data/collect/
 ||imgsmail.ru/gstat?
 ||slideplayer.biz.tr/slide/getviewscount/
@@ -123621,6 +123626,9 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||federatedcompute-pa.googleapis.com^
+||fcm-collect-api.alyac.com^
+||service-api.flarelane.com^
 ||mossturbo.com^
 ||collect.wehearfm.com^
 ||itracking.ikameglobal.com^
@@ -127364,9 +127372,11 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||dogcollarfavourbluff.com^
 ||doggieshome.com^
 ||dollardelta.com^
+||dollarthrill.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
+||dragonbats.com^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
