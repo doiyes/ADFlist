@@ -1976,7 +1976,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||irxcm.com^$third-party
 ||unid.go.com^$third-party
 ||dataxpand.com^$third-party
-||connectif.cloud^$third-party
+||cdn.connectif.cloud^$third-party
 ||bandborder.com^$third-party
 ||lumitos.com^$third-party
 ||seedtag.com^$third-party
@@ -118092,6 +118092,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||connectif.cloud/integration-type/
+||img1.wsimg.com/traffic-assets/js/tccl.min.js
 ||neuron.cbssports.cloud/client.js?platform=tracking-manager
 ||famil.ru/bitrix/templates/aspro_max/js/yandex_metrika_
 ||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getCustomTrackingId.js
@@ -123387,8 +123389,10 @@ news.samsung.com%2Fus%2F%3Fnoti%3D$image
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 esputnik.com/repository/applications/commons/hidden.png
 email.mail2.smartrmail.co$image
-ctrk.klclick2.com/o/$image
-ctrk.klclick2.com%2Fo%2F$image
+trk.*.com/o/$image
+trk.*.com%2Fo%2F$image
+ctrk.klclick*.com/o/$image
+ctrk.klclick*.com%2Fo%2F$image
 ct.klclick.com$image
 socauth.privatbank.ua*pixel.php$image
 mailing.pbank.com.ua$image
@@ -123626,6 +123630,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||lw-c-log.lastwarapp.com^
+||bi-tracker-global.rivergame.net^
 ||federatedcompute-pa.googleapis.com^
 ||fcm-collect-api.alyac.com^
 ||service-api.flarelane.com^
@@ -123714,12 +123720,6 @@ dlsdk.appsflyer.com^
 ||qcloud-sg-datareceiver.kurogame.xyz^
 ||statistic-overseas.yunxinfw.com^
 ||perfsight.wetest.net^
-||gamedot.afafb.com^
-||tadata.afafb.com^
-||ecpm.afafb.com^
-||mediation-receiver.afafb.com^
-||df.afafb.com^
-||middle-defend.afafb.com^
 ||pangolin-sdk-toutiao.com^
 ||stat.tpns.sgp.tencent.com^
 ||guid.tpns.sgp.tencent.com^
@@ -124622,6 +124622,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||siteintercept.qualtrics.com^$domain=idealo.*
 ||ct.pinterest.com^$subdocument,redirect=noop.html
 @@||tools.finra.org/monitoring/adrum_init.js$domain=tools.finra.org
 @@||caesarsgames.com/bundle/google-analytics.util.$domain=caesarsgames.com
@@ -127123,6 +127124,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||buttonladybug.com^
 ||buzzaoutlet.com^
 ||cafefrench.com^
+||cafescampfires.com^
 ||cakeagenda.com^
 ||cakesdrum.com^
 ||calculatingcircle.com^
@@ -127373,6 +127375,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
