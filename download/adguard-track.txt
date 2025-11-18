@@ -204,6 +204,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||toup.net^$third-party
+||tags.tiqcdn.com^
+||prebid.loopmertb.com^
 ||nlog.instajob.ai^
 ||data.pendo.io^
 ||api.statsigcdn.com^
@@ -49795,6 +49798,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||jitsu.ixbt.site^
+||sgtm.ixbt.site^
 ||sp.aviasales.ru^
 ||darnuid.netflix.com^
 ||analytics.thekrazycouponlady.com^
@@ -73702,6 +73707,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/posthog/ingest/*
 /mai-publisher-analytics.js
 /genesis/lib/js/skip-links.min.js
 /app/Eclog/js/cid.generate.js
@@ -74371,6 +74377,11 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||api.builtin.com/track/client-events
+||p.kulp.in/api/event
+||kyivstar.ua/api/public/prometheus/collect-cookies-popup-metric
+||commerce.adobe.com/*/log|
+||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js
 ||autonotizen.de/user/*/js/galocal.js
 ||connectif.cloud/integration-type/
 ||img1.wsimg.com/traffic-assets/js/tccl.min.js
@@ -80819,6 +80830,8 @@ d4?appid*type*
 ||ws.ksmobile.net^
 ||www-google-analytics.l.google.com^
 ||ymtracking.com^
+/^https:\/\/anon1.gt\d{6}.com/
+/^anon1.gt\d{6}.com$/
 -logsdk.kwai-pro.com^
 -ulog-*.kwai-pro.com^
 -ulog-*.kwaipros.com^
@@ -80904,6 +80917,9 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=expressvpn.com
 !#################
+@@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca
+@@||googletagmanager.com/gtag/js$domain=mond.how
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=mond.how
 @@||siteintercept.qualtrics.com^$domain=idealo.*
 ||ct.pinterest.com^$subdocument,redirect=noop.html
 @@||tools.finra.org/monitoring/adrum_init.js$domain=tools.finra.org
@@ -83364,6 +83380,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||boostbehavior.com^
 ||boredcrown.com^
 ||boringberry.com^
+||boringpirate.com^
 ||bouncyproperty.com^
 ||boundarybusiness.com^
 ||boundlessbrake.com^
@@ -83980,6 +83997,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||hollowafterthought.com^
 ||homebizplaza.com^
 ||homelycrown.com^
+||homelyheater.com^
 ||homeslick.com^
 ||honestharbor.com^
 ||honeybulb.com^
