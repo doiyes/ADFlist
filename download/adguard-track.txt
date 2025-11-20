@@ -12,6 +12,7 @@ traicy.com,hoyme.jp,collinsdictionary.com,pashplus.jp,freemcserver.net,oxfordlea
 traicy.com,hoyme.jp,collinsdictionary.com,pashplus.jp,freemcserver.net,oxfordlearnersdictionaries.com,nosv.org,niketalk.com,motor-talk.de,aucfree.com,muragon.com,373news.com,fxstreet.*,fxstreet-id.com,fxstreet.es,easyhindityping.com,relevantmagazine.com,dictionnaire.lerobert.com,footballtransfer.ru,thatgossip.com,donbalon.com,dropgame.jp,ufret.jp,gardeningsoul.com,si.com,niice-woker.com,blogmura.com,minkou.jp,lifehacker.jp,kinmaweb.jp,reptilesmagazine.com,buzzfeednews.com,lakeshowlife.com,thefreebieguy.com,autofrage.net,computerfrage.net,cocokara-next.com,cinetrafic.fr,malaymail.com,kyoteibiyori.com,chanto.jp.net,nana-press.com,kurashiru.com,samsungmagazine.eu,jablickar.cz,dailydot.com,watchdocumentaries.com,mariowiki.com,kompasiana.com,watchdocumentaries.com,j-cast.com,bg-mania.jp,j-town.net,ap7am.com,giornalone.it,convertcase.net,gloria.hr,slobodnadalmacija.hr,loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,lamire.jp,bamgosu.site,etnewskorea.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,carscoops.com,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 spletnik.ru##+js(set-local-storage-item, /^_ym/, $remove$)
 spletnik.ru##+js(set-local-storage-item, adrcid, $remove$)
+southpark.*,southparkstudios.*##+js(set-constant, vtg, {})
 coupang.com##+js(json-prune-xhr-response, tracking, feeds, n-api/recommend/feeds)
 delta.com##+js(set-constant, TrackJS, {})
 delta.com##+js(set-constant, TrackJS.install, noopFunc)
@@ -49800,6 +49801,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||conversionsapigateway.com^
 ||ebm.lfmall.co.kr^
 ||analytics.adjust.io^
 ||jitsu.ixbt.site^
@@ -74381,6 +74383,13 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||p.hentaiforce.net/api/event
+itmedia.co.jp###endlinkConnection
+||aosom.*/track/do
+||cdn.aosomcdn.com/upload/js/dataflux-rum.js
+||inven.co.kr/api/banner_tracking/banner_view.php
+||checkmal.com/_res/js/Beusable.js
+||checkmal.com/_res/js/Naver.PremiumLog.js
 ||portalrwd.bm5.pl/Ajax/GetIloscWyswietlen.aspx
 ||portalrwd.bm5.pl/Stat/statystyki.aspx
 ||byn.kr/main/exec.php?*exec_file=
@@ -79932,6 +79941,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||config.toto.zipoapps.com^
+||tracking.ksztone.com^
 ||log.stickflow.xyz^
 ||stats.us-light-edge.com^
 ||log2.ihubgo.info^
@@ -83380,6 +83391,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||billowybelief.com^
 ||billtable.com^
 ||binarycrest.com^
+||binarykite.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
 ||blackbrake.com^
@@ -83737,6 +83749,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||effervescentvista.com^
 ||effulgentnook.com^
 ||effulgenttempest.com^
+||eightgreens.com^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
