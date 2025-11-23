@@ -49805,6 +49805,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||web.analytics.metrobyt-mobile.com^
 ||conversionsapigateway.com^
 ||ebm.lfmall.co.kr^
 ||analytics.adjust.io^
@@ -74387,6 +74388,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||metrobyt-mobile.com/self-service-metro/v1/logging
 ||ats.vert.sh/js/script.js
 ||chickencoopcompany.com/api/collect
 ||p.hentaiforce.net/api/event
@@ -79946,6 +79948,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||stats.cn.ronghub.com^
 ||statistic.live.126.net^
 ||report.1-1.io^
 ||sensor.emolm.com^
@@ -84747,6 +84750,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||shockinggrass.com^
 ||shockingship.com^
 ||showsteel.com^
+||shredform.com^
 ||shredquiz.com^
 ||shrewsburyshow.com^
 ||shrillspoon.com^
