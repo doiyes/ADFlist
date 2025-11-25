@@ -205,6 +205,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||hackle.io^$third-party
 ||track.aimroas.com^
 ||upsellit.com^$third-party
 ||assetsconfigcdn.org^
@@ -70386,6 +70387,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$third-party,object,redirect=noop.js,script
+||pravilamag.ru/_stat/
+||signals.turkcell.com.tr/r|
+||musically.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics
+||webapi.depop.com/api/v1/performance/collect/
 ||troypoint.com/wp-admin/admin-ajax.php?action=geoip_detect
 ||gazetkapromocyjna.com.pl/api/track
 shueisha.online##.g-a-recommend
@@ -76981,9 +76986,12 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
+@@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
+@@||widget.fitanalytics.com/widget/api/$domain=modivo.*
 @@||st-eu.dynamicyield.com/st?sec=$domain=loropiana.com
 @@||googletagmanager.com/gtm.js$domain=gillette.de
-@@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca
+@@||canadiantire.tt.omtrdc.net/rest/$domain=marks.com|partycity.ca|sportchek.ca|lequipeur.com|canadiantire.ca
 @@||googletagmanager.com/gtag/js$domain=mond.how
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=mond.how
 @@||siteintercept.qualtrics.com^$domain=idealo.*
@@ -79319,6 +79327,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||alloutdubstep.com^
 ||alltypo.com^
 ||alluringbucket.com^
+||almondbuns.com^
 ||almostsugar.com^
 ||alohamiles.com^
 ||aloofmetal.com^
@@ -80405,6 +80414,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||opulentsylvan.com^
 ||orangebirdie.com^
 ||orientedargument.com^
+||originblocks.com^
 ||orionember.com^
 ||ourblogthing.com^
 ||outdoorsoil.com^
