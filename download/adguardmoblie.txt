@@ -50,6 +50,8 @@
 ||appbaqend.com^
 /^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
 /^(a|c)\.[0-9a-f]{56}\.com$/
+||static.terratraf.com^
+||cdn-rtb.sape.ru^
 ||aatkit.com^
 ||gallerieshub.com^
 ||pic-stash.com^
@@ -1555,6 +1557,13 @@ opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.n
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+yts.lt##div.title ~ p.blue
+yts.lt##div.title ~ a[rel="noindex, nofollow"]
+vocus.cc##article > div[style^="min-height:"]:has(> div[class] + ins)
+orangepage.net##main div[class*=":hidden"]:has(> div[data-cptid])
+yomuno.jp##.article_content_above
+m.sohu.com###bottomBanner
+m.sohu.com##.middle-mon-content
 tsurisoku.com##.sp_ad_square
 gori.me##article.single-normal > div[style]:not([class]):has(> a[href^="https://ad2.trafficgate.net/"])
 footballchannel.jp###article_btm_ad
