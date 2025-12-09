@@ -49910,6 +49910,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||analytics.blender.org^
+||d.nordprotect.com^
 ||async-px-eu.dynamicyield.com^
 ||pm.redbull.com^
 ||tracking-live.kr3m.com^
@@ -69977,6 +69979,13 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||usconcealedcarry.com/scripts/bundles/deltaAnalytics/
+||usconcealedcarry.com/api/events?
+usatoday.com##.gnt_tb
+||youtrack.jetbrains.com/api/analytics
+||mypikpak.com/scripts/clarity.js
+||mypikpak.com/scripts/adjust.min.js
+||mypikpak.com/scripts/track.js
 ||redbull.com/btnt.js
 ||smart-components-api.redbull.com/report-usage
 entapark.jp##div[id$="-pickup"][style^="height"]
