@@ -15,8 +15,6 @@ spletnik.ru##+js(set-local-storage-item, adrcid, $remove$)
 southpark.*,southparkstudios.*##+js(set-constant, vtg, {})
 coupang.com##+js(json-prune-xhr-response, tracking, feeds, n-api/recommend/feeds)
 aceee.org##+js(prevent-canvas, 2d)
-delta.com##+js(set-constant, TrackJS, {})
-delta.com##+js(set-constant, TrackJS.install, noopFunc)
 ncbi.nlm.nih.gov##+js(set-constant, ncbi.sg, {})
 ncbi.nlm.nih.gov##+js(set-constant, ncbi.sg.ping, noopFunc)
 moegirl.org.cn##+js(set-cookie, _gid, 1, /, .moegirl.org.cn)
@@ -205,6 +203,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||dsp.groupminteraction.ru^
+||decentriq.com^$3p
+||oneid.live^
 ||aim.loc.kr^
 ||sp.pcid.ca^
 ||tracker.zmaticoo.com^
@@ -69984,7 +69985,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
-||viewer-api.kankokeizai.com/epaper/Baitai.json
+||api.20min.ch/kaia/v*/persist
+20min.ch##+js(set-local-storage-item, clientId, $remove$)
+||temu.com/*/conversion/*beacon$ping
+||t.me/v/?views=
 ||cdn.melhorplano.net/scripts/tracker/
 ||zdnet.co.kr/js/wl6.js
 ||a0.awsstatic.com/eb-csr/*/orchestrate.js
@@ -70239,7 +70243,6 @@ letterboxd.com##+js(href-sanitizer, a[href^="https://click.justwatch.com/"], ?r)
 ||static.comdirect.de/*Logger.js
 ||cognito-identity.*.amazonaws.com^$domain=qr.finedinemenu.com
 ||api.lessentiel.lu/kaia/v*/persist
-||ats.20min.ch/__global/att/prod/latest/ats-tm.js
 lessentiel.lu##+js(set-local-storage-item, clientId, $remove$)
 novakid.*,novakidschool.com##+js(set-local-storage-item, ftr, $remove$)
 ||school.novakidschool.com/api/*/metrics
@@ -75627,6 +75630,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||stat.apfgexfusion.com^
+||event.bigkeyboardeasyphone.com^
 ||events-api.lyrebirdstudio.net^
 ||log.pdfbookeditor.live^
 ||mob2.cactus-bp.com^
@@ -79298,6 +79303,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||comfortablecheese.com^
 ||commonalmanac.com^
 ||comparereaction.com^
+||compilework.com^
 ||complexpixel.com^
 ||concretetom.com^
 ||condemnedcomb.com^
@@ -79426,6 +79432,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||detourgame.com^
 ||devilishdinner.com^
 ||dewdroplagoon.com^
+||dicecandies.com^
 ||dicemoments.com^
 ||difficultfog.com^
 ||digestiondrawer.com^
