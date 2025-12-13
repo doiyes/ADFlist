@@ -227,7 +227,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||lc.recopick.com^
 ||cv.aedi.ai^
 ||toup.net^$3p
-||tags.tiqcdn.com^
 ||prebid.loopmertb.com^
 ||nlog.instajob.ai^
 ||data.pendo.io^
@@ -49911,6 +49910,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||metrics.media-amazon.com^
 ||metis.truecaller.com^
 ||fls-na.amazon.com^
 ||tag.poomang.com^
@@ -69537,7 +69537,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /swell-ct-ad-data$xhr
 /heatmap/js/clickheat.js
 /wp-content/plugins/yyi-rinker/js/event-tracking.js
-/fingerprint.js
+/fingerprint.js^
 /wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
 .live/o.js
 /senddata?site=inpage
@@ -75091,6 +75091,10 @@ link.gmapp*.net$image
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
+/t/*/a^$image
+%2Ft%*%2Fa^$image
+/pix.gif?$image
+%2Fpix.gif%3F$image
 /oo/*/e.gif$image
 %2Foo%2F*%2Fe.gif$image
 %2Famsweb.php%3F
@@ -75163,6 +75167,8 @@ line.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid=*%26esid=$image
 flask.us.nextdoor.com$image
 c.groovehq.com/*.gif$image
 c.groovehq.com%2F*.gif$image
+click.sender.yandex.ru/px/$image
+click.sender.yandex.ru%2Fpx%2F$image
 feedback.send.yandex.ru/px/$image
 feedback.send.yandex.ru%2Fpx%2F$image
 cl.mos.jp/q/$image
@@ -75475,7 +75481,9 @@ mailchimp.com%2Fmctx%2Fopens$image
 list-manage.com*track$image
 %2Ftrack%2Fopen.php%3Fu%3D$image
 /track/open.php?u=$image
+cmail1.com%2Ft$image
 cmail1.com/t$image
+pstmrk.it%2Fopen$image
 pstmrk.it/open$image
 click.icptrack.com/icp/$image
 infusionsoft.com/app/emailOpened$image
@@ -75630,6 +75638,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||live.ravelin.click^
+||perseus-productanalytics.deliveryhero.net^
+||iguazu.doordash.com^
+||otel-mobile.doordash.com^
 ||stat.apfgexfusion.com^
 ||event.bigkeyboardeasyphone.com^
 ||events-api.lyrebirdstudio.net^
@@ -76666,6 +76678,8 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
+@@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||experience.ninetailed.co/v2/organizations/*/environments/main/profiles/$xhr,domain=dkb.de
 ||googletagmanager.com/ns.html$subdocument,redirect=noop.html,domain=dkb.de
 @@||tags.tiqcdn.com/utag/cbsi/pluto-tv/prod/utag.js$domain=pluto.tv
@@ -79485,6 +79499,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||effulgentnook.com^
 ||effulgenttempest.com^
 ||eightgreens.com^
+||eighthlayer.net^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
@@ -79809,6 +79824,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||hypnoticwound.com^
 ||hystericalcloth.com^
 ||hystericalfinger.com^
+||icywinter.com^
 ||idlecollect.com^
 ||idyllicjazz.com^
 ||illinvention.com^
@@ -80920,6 +80936,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||whisperingquasar.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
+||wholepagecache.com^
 ||whoogled.com^
 ||whymaze.com^
 ||wikiwhatwhere.com^
