@@ -69985,6 +69985,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||bookoff.co.jp/assets/js/ac/tag-analyze.js
+||bookoffonline.co.jp/files/tracking/
 ||api.20min.ch/kaia/v*/persist
 20min.ch##+js(set-local-storage-item, clientId, $remove$)
 ||temu.com/*/conversion/*beacon$ping
@@ -75091,8 +75093,9 @@ link.gmapp*.net$image
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
-/t/*/a^$image
 %2Ft%*%2Fa^$image
+!+ NOT_PLATFORM(ios, ext_safari)
+/t/*/a^$image
 /pix.gif?$image
 %2Fpix.gif%3F$image
 /oo/*/e.gif$image
@@ -79791,6 +79794,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||helpflame.com^
 ||helpingbits.com^
 ||hertechlife.com^
+||heycomputers.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
@@ -79975,6 +79979,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||madlysuccessful.com^
+||madoverrice.com^
 ||magicaljoin.com^
 ||magicminibox.com^
 ||majesticwaterscape.com^
