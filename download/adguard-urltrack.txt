@@ -766,6 +766,7 @@ $removeparam=cid,domain=nhk.jp|nhk.or.jp
 ||puma.com^$removeparam=sc_uid
 ||puma.com^$removeparam=sc_llid
 ||puma.com^$removeparam=sc_eh
+||reddit.com^$removeparam=target_user
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep_link
 ||reddit.com^$removeparam=post_index
