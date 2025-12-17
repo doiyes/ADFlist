@@ -46511,6 +46511,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||mp.imgur.com^
+||a.apkeditor.io^
 ||log.goodnovel.com^
 ||d2qxmykuaro8s3.cloudfront.net^
 ||tracking.cds.dmm.
@@ -66112,6 +66114,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
 /web-vitals-tracker.js
 /.rum/@adobe/helix-
 ://sp.*/sp/h|$xhr
@@ -66241,6 +66244,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /js/wherego_tracker.js?
 .jp/log.php?
 .jp/static/js/track.js
+/oo/cl-$~3p
 /oo/cl.js|$~3p
 /oo/cl*.js?rd=$~3p
 /oo/*/lsync.$~3p
@@ -66788,6 +66792,12 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||chatgpt.com/ces/v1/t$xhr,redirect=noop.json
+||chatgpt.com/ces/v1/i^$xhr,redirect=noop.json
+||chatgpt.com/ces/v1/p|$xhr,redirect=noop.json
+||chatgpt.com/ces/statsc/$xhr,redirect=noop.json
+/v1/rgstr?k=client-$xhr,redirect=noop.json,domain=chatgpt.com
+||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
 arte.tv##+js(set-local-storage-item, /^oidc\./, $remove$)
 ||full-count.jp/ssc.min.js
 ||d.line-scdn.net/n/line_tag/$domain=full-count.jp
@@ -70209,7 +70219,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||nature.com/platform/track/
 ||static.hankyung.com/js/ga/googleTagManager.js
 ||hankyung.com/resource/js/w/view.gtmet.js
-||discord.com/api/v*/science
 ||fensi.plus/*/tracking/
 ||tvid.in/log/
 ||intersc.igaming-service.io/hltv.org.js
@@ -75847,6 +75856,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||alikeaddition.com^
 ||aliveachiever.com^
 ||alloutdubstep.com^
+||allsunflowers.com^
 ||alltypo.com^
 ||alluringbucket.com^
 ||almondbuns.com^
@@ -75963,6 +75973,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||blissfullagoon.com^
 ||blitzcampaigns.com^
 ||blockdial.com^
+||bloomsend.com^
 ||blueeyedblow.com^
 ||bluenest.net^
 ||bluevinebooks.com^
@@ -76712,6 +76723,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||jubilantwhisper.com^
 ||juicebard.com^
 ||juiceblocks.com^
+||juicingoasis.com^
 ||justconfig.com^
 ||justicejudo.com^
 ||justpickaname.com^
@@ -77171,6 +77183,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||rememberdiscussion.com^
 ||remixslot.com^
 ||rentinfinity.com^
+||rentpenny.com^
 ||repeatsweater.com^
 ||replaceroute.com^
 ||rescuerhino.com^
