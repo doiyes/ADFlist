@@ -46511,6 +46511,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||d.nordvpn.com^
+||ingress.linktr.ee^
+||browser-fp.production.linktr.ee^
+||app-performance.music.amazon.dev^
 ||mp.imgur.com^
 ||a.apkeditor.io^
 ||log.goodnovel.com^
@@ -66114,6 +66118,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/ajax/whereami$ping
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
 /web-vitals-tracker.js
 /.rum/@adobe/helix-
@@ -66792,6 +66797,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||nordvpn.com/static/TrackersRuntimeScript.
+||letu.ru/api/rrs/v*/analytics
+||api-statist.tinkoff.ru/gateway/v*/events
+||assets.production.linktr.ee/cep/
 ||chatgpt.com/ces/v1/t$xhr,redirect=noop.json
 ||chatgpt.com/ces/v1/i^$xhr,redirect=noop.json
 ||chatgpt.com/ces/v1/p|$xhr,redirect=noop.json
@@ -71986,12 +71995,16 @@ email-link.adtidy.org%2Fopen%2F$image
 line.my.salesforce.com/servlet/servlet.ImageServer?oid=*&esid=$image
 line.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid=*%26esid=$image
 flask.us.nextdoor.com$image
+i.groovehq.com/*@groovehq.com.gif$image
+i.groovehq.com%2F*%40groovehq.com.gif$image
 c.groovehq.com/*.gif$image
 c.groovehq.com%2F*.gif$image
 click.sender.yandex.ru/px/$image
 click.sender.yandex.ru%2Fpx%2F$image
 feedback.send.yandex.ru/px/$image
 feedback.send.yandex.ru%2Fpx%2F$image
+api.peeper.plus.yandex.net/v1/p/$image
+api.peeper.plus.yandex.net%2Fv1%2Fp%2F$image
 cl.mos.jp/q/$image
 cl.mos.jp%2Fq%2F$image
 makeup.com.ua/amazon/opened/$image
@@ -73502,6 +73515,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=heise.de
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
@@ -73533,7 +73547,7 @@ d4?appid*type*
 @@||cdn.cxense.com/cx*.js$domain=onetz.de
 @@||cdn.cxense.com/sp*.html$domain=onetz.de
 @@||api.cxense.com/public/widget/data?json=$domain=onetz.de
-@@||dev.visualwebsiteoptimizer.com^$script,xhr,domain=dominos.jp
+@@||dev.visualwebsiteoptimizer.com^$script,xhr,domain=dominos.jp|dominos.com.my|dominos.com.sg|dominoslk.com
 @@||googletagmanager.com/gtm.js$domain=sferis.pl
 @@||googletagmanager.com/gtm.js$domain=tauron.pl
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
@@ -76037,6 +76051,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||butterburst.com^
 ||buttonladybug.com^
 ||buzzaoutlet.com^
+||buzzfry.com^
 ||cafefrench.com^
 ||cafescampfires.com^
 ||cakeagenda.com^
@@ -76153,6 +76168,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||confesschairs.com^
 ||confidencetalks.com^
 ||configchain.com^
+||configcontrol.com^
 ||confirmglobal.com^
 ||confusedcart.com^
 ||connectashelf.com^
