@@ -203,6 +203,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||collector-*.px-cloud.net^
+||collector-*.pxchk.net^
+||adfenix.com^$3p
+||boldmetrics.io^
 ||cdn.trakkr.ai^
 ||track.trakkr.ai^
 ||cdn.particularaudience.com^$3p
@@ -683,7 +687,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||fndrsp.net^
 ||positional.ai^
 ||positional-bucket.com^
-||collector-pxebumdlwe.px-cloud.net^
 ||collector-pxebumdlwe.px-cdn.net^
 ||s2s.adjust.com^
 ||view.adjust.com^
@@ -46511,6 +46514,12 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||metrics-config.icloud.com^
+||fingerprint.incodesmile.com^
+||fluffy-analytics.vercel.app^
+||stats.renet.io^
+||metrics-ingress-web.svc.vinted.com^
+||metrics.vinted.lt^
 ||d.nordvpn.com^
 ||ingress.linktr.ee^
 ||browser-fp.production.linktr.ee^
@@ -46662,7 +46671,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||analytics.shutterstock.com^
 ||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
 ||collector-pxdojv695v.protechts.net^
-||collector-pxdojv695v.px-cloud.net^
 ||collector1.sooplive.co.kr^
 ||exlogcollector.sooplive.co.kr^
 ||snowflake.qq.com^
@@ -66797,6 +66805,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||techlore.tech/public/ghost-stats.min.js
+||vinted.*/relay/events
 ||nordvpn.com/static/TrackersRuntimeScript.
 ||letu.ru/api/rrs/v*/analytics
 ||api-statist.tinkoff.ru/gateway/v*/events
@@ -72472,6 +72482,12 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||log.smartclearpro.com^
+||analytics.artworkout.net^
+||event.mwm-bs.com^
+||events.backtrace.io^
+||kbox-analytics-prod.s*.amazonaws.com^
+||logs.classdojo.com^
 ||api.arity.com^
 ||mob2.bpt.apprevork.com^
 ||cpatrk.net^
@@ -72757,6 +72773,7 @@ d4?appid*type*
 ||stats.samsungpass.com^
 ||analytics.google.com^$domain=analytics.google.com
 ||log.pdfviewerscannerstore.live^
+||mon-v*-boot.capcutapi.com^
 ||log-sg.capcutapi.com^
 ||mon-sg.capcutapi.com^
 ||tnc-sg.capcutapi.com^
@@ -76182,6 +76199,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||controlswim.com^
 ||convertbatch.com^
 ||cooingcoal.com^
+||cookiestorybook.com^
 ||coolestcatcare.com^
 ||coolguesthouse.com^
 ||coordinatedcoat.com^
@@ -76189,6 +76207,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||copycarpenter.com^
 ||copyfranchise.com^
 ||copyrightaccesscontrols.com^
+||copytweaks.com^
 ||copyvibes.com^
 ||coralcranes.com^
 ||coralreverie.com^
