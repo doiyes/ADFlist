@@ -302,6 +302,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||urban-vpn.com^$removeparam=cid
 ||oricon.co.jp^$removeparam=ref
 ||carviewform.yahoo.co.jp^$removeparam=src
 ||kaigonoshigoto.jp^$removeparam=scid

@@ -46514,6 +46514,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||telemetry.microsoft.us^
+||stats.urban-vpn.com^
+||analytics.urban-vpn.com^
+||analytics.heistotron.uk^
 ||metrics-config.icloud.com^
 ||fingerprint.incodesmile.com^
 ||fluffy-analytics.vercel.app^
@@ -66805,6 +66809,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||api.cmp.inmobi.com/?log=
 ||techlore.tech/public/ghost-stats.min.js
 ||vinted.*/relay/events
 ||nordvpn.com/static/TrackersRuntimeScript.
@@ -72482,6 +72487,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||onegg.site^
 ||log.smartclearpro.com^
 ||analytics.artworkout.net^
 ||event.mwm-bs.com^
@@ -76254,6 +76260,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||cumbersomecake.com^
 ||cumbersomecarpenter.com^
 ||cupcakegem.com^
+||curatedtea.com^
 ||curbminers.com^
 ||curbneon.com^
 ||curiouschalk.com^
@@ -76343,6 +76350,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||dreamycanyon.com^
 ||driftingchef.com^
 ||driftpizza.com^
+||droidwiz.com^
 ||drollwharf.com^
 ||dustydime.com^
 ||dustyhammer.com^
