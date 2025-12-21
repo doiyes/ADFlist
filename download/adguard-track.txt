@@ -203,6 +203,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||elitebidder.com^
+||adstk.io^
 ||collector-*.px-cloud.net^
 ||collector-*.pxchk.net^
 ||adfenix.com^$3p
@@ -46514,6 +46516,11 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||android-tv-beacons.xumo.com^
+||ams-beacons.xumo.com^
+||rtb-trk4.linkedin.com^
+||rtb-us-east.linkedin.com^
+||adservices.brandcdn.com^
 ||telemetry.microsoft.us^
 ||stats.urban-vpn.com^
 ||analytics.urban-vpn.com^
@@ -71935,6 +71942,8 @@ link.gmapp*.net$image
 ||ya.ru/clck/
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
+/a360/public/statistic/*$image
+%2Fa360%2Fpublic%2Fstatistic%2F$image
 %2Ft%*%2Fa^$image
 !+ NOT_PLATFORM(ios, ext_safari)
 /t/*/a^$image
@@ -71976,6 +71985,8 @@ mail.ferret-one.com%2Fbeacon$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+deepl.qualtrics.com/subscription/watermark.gif?
+deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 onelink.soundcloud.com/v1/emailopen$image
 onelink.soundcloud.com%2Fv1%2Femailopen$image
 %3A%2F%2Fline.karte.io%2FCI0%2F$image
@@ -76359,6 +76370,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||eagerflame.com^
 ||eagerknight.com^
 ||earnbaht.com^
+||earthlybuzz.com^
 ||earthups.com^
 ||eatablesquare.com^
 ||echoacloud.com^
@@ -76463,6 +76475,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||fearlesstramp.com^
 ||featherstage.com^
 ||feeblestamp.com^
+||feedandpurr.com^
 ||feedten.com^
 ||feignedfaucet.com^
 ||fewjuice.com^
