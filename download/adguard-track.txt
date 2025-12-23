@@ -203,6 +203,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||matomo.stackvaults.com^
+||moengage.com^$3p
 ||rapid-cdn.yottaa.com^$3p
 ||rum-ingress-coralogix.com^
 ||elitebidder.com^
@@ -46399,6 +46401,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||a.tampermonkey.net^
 ||event.kr.karrotmarket.com^
 ||log-bridge-mobile.kr.karrotmarket.com^
 ||android-tv-beacons.xumo.com^
@@ -66483,6 +66486,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+businessinsider.com##+js(set-local-storage-item, fenrir_anonymous_id, $remove$)
+businessinsider.com##+js(set-local-storage-item, anonymous_id, $remove$)
+businessinsider.com##+js(set-local-storage-item, universal_id, $remove$)
 ||affirm.com/api/*/touch_track
 ||data.joongna.com/log/
 ||api.cmp.inmobi.com/?log=
@@ -71615,7 +71621,7 @@ link.gmapp*.net$image
 %2Fa360%2Fpublic%2Fstatistic%2F$image
 %2Ft%*%2Fa^$image
 !+ NOT_PLATFORM(ios, ext_safari)
-/t/*/a^$image
+/t/*/a^$image,domain=~permies.com
 /pix.gif?$image
 %2Fpix.gif%3F$image
 /oo/*/e.gif$image
@@ -71781,8 +71787,8 @@ t.gutefrage.net/op/$image
 t.gutefrage.net%2Fop%2F$image
 ae.mmstat.com/ae.edm.edm_open?$image
 ae.mmstat.com%2Fae.edm.edm_open%3F$image
-/e3t/Cto/RK$image
-%2Fe3t%2FCto%2FRK$image
+/e3t/Cto/*$image
+%2Fe3t%2FCto%2F$image
 click.official.infomaniak.com%2Fo%2F
 click.official.infomaniak.com/o/$image
 .everestengagement.com/ea/$image
@@ -72167,6 +72173,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||collector-*.perimeterx.net^
+||unisdk.proxima.nie.easebar.com^
+||ingest.m2catalyst.com^
+||tnc-v2-boot.capcutapi.com^
 ||onegg.site^
 ||log.smartclearpro.com^
 ||analytics.artworkout.net^
@@ -73218,6 +73228,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||collector-*.px-cloud.net^$xhr,domain=ifood.com.br
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=heise.de
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
@@ -76200,6 +76211,8 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||forevergears.com^
 ||forgetfulsnail.com^
 ||fortunatemark.com^
+||forwardslashetc.com^
+||fossilzero.com^
 ||fourpawsahead.com^
 ||foxtrotdata.com^
 ||frailfruit.com^
