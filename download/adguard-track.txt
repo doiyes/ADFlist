@@ -203,6 +203,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||fullrestore.net^
 ||ctxcollect.com^
 ||conduit-beacon-usw2.mtvnservices.com^
 ||tvp.tv^
@@ -46407,6 +46408,13 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||apistats.rg.ru^
+||analytics.t-mobile.com^
+||raw.vidyard.com^
+||pushd-android-logs.s3.amazonaws.com^
+||unif-id.ssp.inmobi.com^
+||telemetry.sdk.inmobi.com^
+||external-api.impression-neo.naver.com^
 ||uxlog-api.danawa.com^
 ||matomo-prod.cgorod.pw^
 ||a.tampermonkey.net^
@@ -66470,7 +66478,7 @@ _social_tracking.js^
 _tracking.php?b=
 /aegis-sdk/*$script
 /tnc.js?h=
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au
 ||mc.yandex.ru/metrika/tag.js$script,redirect=metrika-yandex-tag,domain=~id.x5.ru|~aiondb.ru
 ||mc.yandex.ru/metrika/watch.js$script,redirect=metrika-yandex-watch
@@ -66494,6 +66502,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||splunkcloud.com/services/collector/event|
+||splunkcloud.com/services/collector/event|$xhr,redirect=noop.json
+||lemrock.com/v1/publishers/tracking/
+||play.vidyard.com/api/metrics
 ||reports.adguard.com/-/metrics/
 ||tvchosun.com/dhitlog/
 ||skat.com.ua/api/collect
@@ -71673,6 +71685,8 @@ mail.ferret-one.com%2Fbeacon$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+mail01.monex.co.jp/bin/checker?$image
+mail01.monex.co.jp%2Fbin%2Fchecker%3F$image
 deepl.qualtrics.com/subscription/watermark.gif?
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 onelink.soundcloud.com/v1/emailopen$image
@@ -72186,6 +72200,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||vsn-analytics.aparentmedia.com^
+||track-*.hungrypanda.co^
+||trace-*.hungrypanda.co^
+||ihmonitor.luckincoffee.us^
 ||use-trk.monetune.com^
 ||telemetry.sdk.inmobi.com^
 ||collector-*.perimeterx.net^
@@ -72641,7 +72659,6 @@ d4?appid*type*
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||tracking.purchasely.io^
-||uts-front.line-apps.com^
 ||ts.line-apps.com^
 ||log-music-data.line-apps.com^
 ||events-api.soundcloud.com^
@@ -76251,6 +76268,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||frozekitchen.com^
 ||frugalfiestas.com^
 ||fuelinspector.com^
+||fullrestore.net^
 ||fumblingform.com^
 ||functionalcrown.com^
 ||functionalfeather.com^
