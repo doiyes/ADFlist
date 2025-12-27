@@ -1569,7 +1569,14 @@ opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.n
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+abplive.com##.middle-ad-btf-wrapper
+news.jp##.page__ad
+news.jp##.page__mainWrapper:style(padding-bottom: 0 !important;)
+koe-koe.com###ak_ad
+fc1adult.com##.sp_h200.tbm24
+newsyou.info###slidebox
 news.denfaminicogamer.jp##aside[id^="chaoszeronightmare_"]
+||lettuceclub.net/asset/js/job_box_
 lettuceclub.net##.pt-\[58px\].md\:hidden
 lettuceclub.net###jobbox_list
 lettuceclub.net##.section:has(> ul.section-content > li > iframe[id^="google_ads_iframe_/"])
@@ -1591,8 +1598,6 @@ ulifestyle.com.hk##.ad-zone-mobile
 daily.co.jp##.daily-unext-widget
 teluguone.com##.rgtLinks
 wareable.com##.block-mobile-ad
-news.denfaminicogamer.jp##aside[id^="bpsr_"]
-news.denfaminicogamer.jp##aside[id^="heartopia_"]
 trilltrill.jp##.RecruitmentBox
 focus.de##div[id*="AdCarousel"]
 focus.de##.Ad-Carousel
@@ -5227,7 +5232,7 @@ ameblo.jp##aside[class^="_"]:only-child > aside[class^="_"] > div[class^="_"]:on
 ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:only-child > div[class^="_"]:last-child
 tvspielfilm.de##.livetv-ad-bottom
 nordot.app##.main__adWrapper
-nordot.app##.page__ad:not(.page__ad--discoverMore)
+news.jp,nordot.app##.page__ad:not(.page__ad--discoverMore)
 n-tv.de##.topbanner-mobile
 m.bloomberght.com##.zone-area
 3dnews.ru###aio_rollup_container_id
