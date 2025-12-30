@@ -203,6 +203,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||pingpong.us^
+||protected-api.branch.io^
+||pixel.visitiq.io^
 ||b-sing.com^
 ||client-sdk.hackle.io^
 ||t.jibeno.xyz^
@@ -47179,6 +47182,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||crs.pa.br.de^
 ||app-analysislog.sto.cn^
 ||pftk.temu.com^
 ||thtk.temu.com^
@@ -67615,6 +67619,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||creator-spring.com/ngjj/
+||br.reco.ebu.io/v3/collect?s=
+||br24.pa.br.de/event?s=
 ||ua.financialexpress.com/personlization-sdk.min.js
 ||etsy.com/include/tags.js
 ||etsy.com/api/v*/ajax/public/bacon|
@@ -73321,6 +73328,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||perf.bblmw.com^
+||event.bblmw.com^
 ||vsn-analytics.aparentmedia.com^
 ||track-*.hungrypanda.co^
 ||trace-*.hungrypanda.co^
@@ -74381,6 +74390,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 enedis.fr##+js(set-constant, window.tc_vars, {})
 @@||collector-*.px-cloud.net^$xhr,domain=ifood.com.br
@@ -77057,6 +77067,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||cookiestorybook.com^
 ||coolestcatcare.com^
 ||coolguesthouse.com^
+||coolkidsdistrict.com^
 ||coordinatedcoat.com^
 ||copperstills.net^
 ||copycarpenter.com^
@@ -77701,6 +77712,8 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lovelydrum.com^
 ||loveseashore.com^
 ||lowercases.com^
+||lowerthewatts.net^
+||luckyshelf.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
 ||luminousboulevard.com^

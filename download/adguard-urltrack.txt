@@ -293,7 +293,6 @@ $removeparam=fb_ref
 $removeparam=fb_source
 $denyallow=cleviationly.com,removeparam=cmpid
 $denyallow=adj.st|yandex.go.link,removeparam=adj_t
-$denyallow=passport.jlcpcb.com,removeparam=from
 $denyallow=em.dynamicyield.com|mootoon.co.kr,removeparam=cuid
 $denyallow=a8cv.amiami.jp,removeparam=a8
 $denyallow=meishi.meituan.com|portal-portm.meituan.com|rd.bizrate.com|glavnoe.life|mmcref.pl|t.send.vt.edu|app.plex.tv,removeparam=utm_medium
@@ -1479,6 +1478,7 @@ $removeparam=ici,domain=shein.co.uk|shein.com
 ||home.kingsoft.jp^$removeparam=from
 ||bbc.$removeparam=facebook_page
 ||bbc.$removeparam=at_bbc_team
+!+ NOT_PLATFORM(ext_chromium_mv3)
 ||jlcpcb.com^$removeparam=from
 ||event.hoken-mammoth.jp^$removeparam=s_mf
 ||cinematoday.jp^$removeparam=g_clk
