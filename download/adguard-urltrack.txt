@@ -307,6 +307,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||browsec-uninstall.s3-website.eu-central-1.amazonaws.com^$removeparam
 ||bookoffonline.co.jp^$removeparam=xadid
 ||reifen24.de^$removeparam=sv_campaign_id
 ||reifen24.de^$removeparam=sv1
@@ -1478,8 +1479,6 @@ $removeparam=ici,domain=shein.co.uk|shein.com
 ||home.kingsoft.jp^$removeparam=from
 ||bbc.$removeparam=facebook_page
 ||bbc.$removeparam=at_bbc_team
-!+ NOT_PLATFORM(ext_chromium_mv3)
-||jlcpcb.com^$removeparam=from
 ||event.hoken-mammoth.jp^$removeparam=s_mf
 ||cinematoday.jp^$removeparam=g_clk
 $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
@@ -2307,7 +2306,6 @@ $removeparam=s,domain=twitter.com|x.com
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 @@||metabase.com^$removeparam=utm_term
 @@||adj.st^$removeparam=adj_t
-@@||passport.jlcpcb.com^$removeparam=from
 @@||yandex.go.link^$removeparam=adj_t
 @@||em.dynamicyield.com^$removeparam=cuid
 @@||a8cv.amiami.jp/click/$removeparam=a8

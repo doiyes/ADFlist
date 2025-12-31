@@ -47182,6 +47182,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||analytics.inquirernetwork.net^
+||analytics-webhook.doximity.com^
 ||crs.pa.br.de^
 ||app-analysislog.sto.cn^
 ||pftk.temu.com^
@@ -66939,6 +66941,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/apps/ssw/events-collector-lambda/events/*
 /sfp/universal_analytics.min.
 /ajax/whereami$ping
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
@@ -67619,6 +67622,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||omtrdc.net/rest/$ping
+||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
+||uts-front.line-apps.com/event-web
 ||creator-spring.com/ngjj/
 ||br.reco.ebu.io/v3/collect?s=
 ||br24.pa.br.de/event?s=
@@ -67655,7 +67661,6 @@ businessinsider.com##+js(set-local-storage-item, universal_id, $remove$)
 ||chatgpt.com/ces/statsc/$xhr,redirect=noop.json
 /v1/rgstr?k=client-$xhr,redirect=noop.json,domain=chatgpt.com
 ||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
-arte.tv##+js(set-local-storage-item, /^oidc\./, $remove$)
 ||full-count.jp/ssc.min.js
 ||d.line-scdn.net/n/line_tag/$domain=full-count.jp
 /_api/tag-manager/api/*/tags/sites/*$xhr,domain=boraware.kr
@@ -73328,6 +73333,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||log.eufylife.com^
+||dts-log.anker.com^
 ||perf.bblmw.com^
 ||event.bblmw.com^
 ||vsn-analytics.aparentmedia.com^
@@ -74390,6 +74397,8 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
+@@||cdn.cquotient.com/js/*/gretel.min.js$domain=store.smart.com.ph
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 enedis.fr##+js(set-constant, window.tc_vars, {})
@@ -77722,6 +77731,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lumpygnome.com^
 ||lumpylumber.com^
 ||lumpywood.com^
+||lunarcave.com^
 ||lunchroomlock.com^
 ||lustroushaven.com^
 ||luxformula.com^
@@ -77729,6 +77739,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||madlysuccessful.com^
+||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
 ||magicminibox.com^
