@@ -1570,6 +1570,10 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+u-rennai.jp##.consult_ad_image
+u-rennai.jp##.items > a[href^="https"]:not([href*="u-rennai.jp"])
+u-rennai.jp##.items:has(> a[href^="https"]:not([href*="u-rennai.jp"]))
+u-rennai.jp##li[style="list-style: none;"]
 news.denfaminicogamer.jp##aside[id*="_"] > div[style="position: fixed;"]
 kurashiru.com##.SpApp-ArticleAds
 fnc.ebc.net.tw##.two300ad
