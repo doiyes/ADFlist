@@ -243,8 +243,8 @@ surirt.com##+js(set-constant, all520dddaaa2022ccc, true)
 colamanga.com#@#.ADFooter
 colamanga.com#@#.ADInfo
 colamanga.com#@#.ADLeader
-xchina.*##.block-overlay
-xchina.*##+js(addEventListener-defuser, /DOMContentLoaded|load|complete/, /check|detected/)
+8se.me,xchina.*##.block-overlay
+8se.me,xchina.*##+js(addEventListener-defuser, /DOMContentLoaded|load|complete/, /check|detected/)
 2urs.com##+js(abort-on-property-read, ads)
 @@/js/adview_*.adsbygoogle.js$~3p,domain=letv8.cc|zhibo1.cc
 fsbot.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -1068,14 +1068,16 @@ enews.tw##.newsCardForLeftAdGadCode
 ||upload.xchina.biz/ad/
 ||xchina.click/upload/*.webp
 ||xchina.co/scripts/push_*.js
-xchina.*##+js(abort-current-script, $, adModal)
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
-xchina.*##.photos > div.item:has(> div > a[target="_blank"])
-xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
-xchina.*##div[class^="item photo zone"]
-xchina.*##.push-top
-xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
+8se.me,xchina.*##+js(abort-current-script, $, adModal)
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
+8se.me,xchina.*##.photos > div.item:has(> div > a[target="_blank"])
+8se.me,xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
+8se.me,xchina.*##div[class^="item photo zone"]
+8se.me,xchina.*##.push-top
+8se.me,xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
+8se.me,xchina.*##.ex-widget
+8se.me,xchina.*##.content-box:has(> .static-container-4:only-child > .a-media)
 ||goosedaily.com/advertise/
 goosedaily.com##div[class^="ad-area-"]
 goosedaily.com##.lightboxbnr
@@ -1529,6 +1531,8 @@ right.com.cn###hd > div.wp > div.hdc > h2
 helloyishi.com.tw##.article-desktop-ad-wrapper
 dy.xdf.cn,haoweichi.com##.ad2
 newmobilelife.com###ATS_sticky
+tieba.baidu.com##.ylh-ad-wrap
+tieba.baidu.com##.ylh-ad-container
 tieba.baidu.com##.top_toutu_admarks
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 wnflb2023.com##.GzList
@@ -4501,6 +4505,22 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$3p
+||g2wg5308q.com^
+||cgcg01050ht.com^
+||houotgk3m.com^
+||eevfstl1n.com^
+||ainb01050zh.com^
+||overture34.top^
+||oxidation83.com^
+||tizdfz.icu^
+||aleldrodm.com^
+||11vmzjiup.com^
+||ubyf.cn^
+||4jh1le34m.com^
+||cgcg01051ht.com^
+||uvd9re60w.com^
+||ainb01051zh.com^
+||qwnzzp50x.com^
 ||xgsvpsz7f4.com^
 ||pavdiibdvr.com^
 ||x3lps9uuog.com^
