@@ -203,6 +203,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||yazio-analytics.com^
+||hightouch-events.com^
 ||rtbuniverse.com^
 ||imp_track.zmaticoo.com^
 ||gw-usa-tracker.zmaticoo.com^
@@ -2984,7 +2986,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||gvisit.com^$3p
 ||halldata.com^$3p
 ||haveamint.com^$3p
-||heapanalytics.com^$3p
+||heapanalytics.com^
 ||heatmap.it^$3p
 ||hellosherpa.com^$3p
 ||hentaicounter.com^$3p
@@ -47750,6 +47752,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||tracing.yelp.com^
 ||conversions-config.reddit.com^
 ||dns-clientinfo.vtg.paramount.tech^
 ||use.hetzner.com^
@@ -68165,6 +68168,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||api.s.mindbox.ru/scripts/v*/tracker.js
+||searchbooster.net/scripts/tracker/
 ||cdn.tokyo-city.ru/js/metrica.js
 ||cfm.kt.com/js/GA/staticsLogcodeBuilder.js
 ||reebok.jp/resources/js/analysis/tracker.js
@@ -73368,6 +73373,8 @@ mail.ferret-one.com%2Fbeacon$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+it-recht-kanzlei.de/logo/Copyright-Logo.png?i=
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 mail01.monex.co.jp/bin/checker?$image
 mail01.monex.co.jp%2Fbin%2Fchecker%3F$image
 deepl.qualtrics.com/subscription/watermark.gif?
@@ -73882,6 +73889,15 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||bstream.kzhi.tech^
+||lklfwu-inapps.appsflyersdk.com^
+||mob2.welltastic-app.com^
+||amplitude.thepure.app^
+||amplilab.thepure.app^
+||logger.radiatetheworld.com^
+||client-events.gurushots.com^
+||stats-api.skylum.com^
+||aet.spotify.com^
 ||tc.weszxdrf.com^
 ||log.hotweathers.live^
 ||log.eufylife.com^
@@ -78452,8 +78468,10 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
+||okaysurethat.com^
 ||oldandindie.com^
 ||oldfashionedoffer.com^
+||oldportcoffee.com^
 ||omgthink.com^
 ||onedropocean.com^
 ||onlinestarten.net^
