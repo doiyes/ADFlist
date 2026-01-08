@@ -203,6 +203,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||wstats.ageverif.com^
+||api.eventbus.me^
+||rumt-sg.com^
 ||gm.mmstat.com^
 ||yazio-analytics.com^
 ||hightouch-events.com^
@@ -47753,6 +47756,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||prd-collect-llm.xverse.cn^
 ||securemetrics.apple.com^
 ||graffiti-tags.apple.com^
 ||fem.gprod.postmedia.digital^
@@ -68457,7 +68461,6 @@ coloradoan.com##+js(set-local-storage-item, user_insights, $remove$)
 ||drive2.ru/_api/special/*/view|
 ||teknolojituru.com/api/tracking
 ||cloudfront.net/ecmtr-*.js
-||lib.onet.pl/static/pixel/*.js$script,redirect=noop.js
 ||interest.co.nz/core/modules/statistics/statistics.php
 ||media.flaticon.com/dist/js/ads.*.js
 ||kio.ac/analytics/
@@ -71580,7 +71583,6 @@ techmaniachd.pl###sidebar-right-1 > #HTML6
 ||k-crm.jp/web.tracking.js
 ||smg.com/Etrack/
 ||cdn.gamedock.io/gamedock-web-tracker/
-||walmart.com/px/
 ||cyberpedia.su/count.php
 ||msgsndr.com/funnel/event
 ||con.arbeitsagentur.de/prod/matomo/
@@ -73910,6 +73912,12 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||sensorsdata-datasink.stardust-tv.com^
+||event-api-cs.stardust-tv.com^
+||logreport-global-dual.cool*cloud.com^
+||wslog-global-dual.cool*cloud.com^
+||weblogger-wss.cool*cloud.com^
+||mebed.dm-event.net^
 ||bstream.kzhi.tech^
 ||lklfwu-inapps.appsflyersdk.com^
 ||mob2.welltastic-app.com^
@@ -74985,6 +74993,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||log.go.com/log$xhr,domain=disneyvacationclub.disney.go.com
 @@||a.klaviyo.com/client/subscriptions/$xhr,domain=ahead-nutrition.com
 @@||googletagmanager.com/gtm.js$domain=agrieuro.com
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
@@ -75196,7 +75205,6 @@ larocheposay.co.kr##+js(set-constant, wptg_tagscript.exec, noopFunc)
 @@||googletagmanager.com/gtm.js$domain=online.ysroad.co.jp
 @@||karte.io^$domain=online.ysroad.co.jp
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
-@@||walmart.com/px/*/captcha
 @@||biv.gazeta.pl/resources/emailLoginPage__front/$domain=oauth.gazeta.pl
 ||sgtm.ipekyol.com.tr/gtm.js$script,redirect=google-analytics_analytics.js
 @@||segmentify.com^$script,stylesheet,xhr,domain=puma.com
@@ -78526,6 +78534,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||pailcrime.com^
 ||pailpatch.com^
 ||painstakingpickle.com^
+||paintmogul.com^
 ||paintpear.com^
 ||paleleaf.com^
 ||palmytree.com^
@@ -78549,6 +78558,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||perceivequarter.com^
 ||perfectfetch.com^
 ||perkyjade.com^
+||petitechili.com^
 ||phonecup.com^
 ||phoneresult.com^
 ||photohints.com^
