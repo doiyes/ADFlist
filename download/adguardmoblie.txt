@@ -1,4 +1,6 @@
 ! AdGuard-移动规则
+||playwire.com^
+||fingerhi.net^
 ||*.libaishuo.com^$3p
 ||adx-open-service.youku.com^
 ||ad.youku.com^
@@ -86,6 +88,7 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||axon.ai^
 ||up.ousabq.tech^
 ||ogads-pa.clients6.google.com^
 ||ad.mojisead.co.kr^
@@ -698,7 +701,7 @@
 ||appclick.net^
 ||applifier.com^
 ||applift.com^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
-||applovin.com^$3p
+||applovin.com^
 ||appnext-a.akamaihd.net^
 ||appsdt.com^
 ||appserver-ap.com^
@@ -7298,7 +7301,6 @@ fplgameweek.com##mobile-sticky-ads
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ||extmaps-api.yandex.net/promo/api/
-||playwire.com^
 ||userapi.qiekj.com/slot/get
 ||api.plyair.com^
 ||us.*.qwadro.com^

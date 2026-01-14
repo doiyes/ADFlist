@@ -204,6 +204,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||telemetry.tataritv.com^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||cpu-api.infor.pl^
 ||cse.rakanto.com^
@@ -47762,6 +47763,11 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||st.freedom24.com^
+||rum.api.intuit.com^
+||trafficmanager.anyclip.com^
+||r.anime-go.cc^
+||logs.collector.*.cloud.solarwinds.com^
 ||doppler.hulu.com^
 ||events.insiad.com^
 ||agatha-log-service-*.a.run.app^
@@ -68193,6 +68199,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||marketplace.anyclip.com/v*/lre-events
+/log/client/messages$domain=momondo.com|kayak.com
+/s/vestigo/measure$domain=momondo.com|kayak.com
+||ir.ebaystatic.com/*/s_1x2.gif
 gamespot.com##+js(set-local-storage-item, ppid, $remove$)
 ||openway.deepseeksvc.com/v*/write/rum
 ||l.search.naver.com/n/responsive/*&no_qc=*&p=
@@ -73864,6 +73874,7 @@ twitter.com%2Fscribe%2Fibis%3Ft%3D$image
 ||analytics-sprint.qoqa.com^
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
+||skadsdk.appsflyersdk.com^
 ||attr.appsflyersdk.com^
 dynamic-report-api.appsflyersdk.com^
 ||privacy-sandbox.appsflyersdk.com^
@@ -73928,6 +73939,12 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||report.*.gbqofs.io^
+||gbxreport-*.wf.com^
+||mab-mob2.websearchapp.com^
+||news-events.apple.com^
+||news-app-events.apple.com^
+||news-sports-events.apple.com^
 ||track.applicaster.com^
 ||hb-mob2.optiword.com^
 ||tracking.geo.*.amazonaws.com^
