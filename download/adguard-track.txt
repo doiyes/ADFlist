@@ -204,6 +204,12 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||analytics.vinovo.si^
+||cs.media.net^
+||bidder.doceree.com^
+||fpcdn.io^
+||fpjs.io^
+||winsurbox.com^
 ||telemetry.tataritv.com^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||cpu-api.infor.pl^
@@ -47763,6 +47769,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||t.collectiveaudience.co^
 ||st.freedom24.com^
 ||rum.api.intuit.com^
 ||trafficmanager.anyclip.com^
@@ -68199,6 +68206,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||app.birdsend.co/forms/*/display-stats-pixel
 ||marketplace.anyclip.com/v*/lre-events
 /log/client/messages$domain=momondo.com|kayak.com
 /s/vestigo/measure$domain=momondo.com|kayak.com
@@ -73939,6 +73947,9 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||events-stream-svc.cordial.io^
+||events.gonative.io^
+||matomo.podslink.net^
 ||report.*.gbqofs.io^
 ||gbxreport-*.wf.com^
 ||mab-mob2.websearchapp.com^
@@ -78922,10 +78933,12 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||shallowblade.com^
 ||shamerain.com^
 ||shapecomb.com^
+||sharedswap.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
 ||shinypond.com^
+||shirtseasons.com^
 ||shirtsidewalk.com^
 ||shiveringspot.com^
 ||shiverscissors.com^
