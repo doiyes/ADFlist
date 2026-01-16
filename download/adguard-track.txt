@@ -204,6 +204,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||heap-api.com^
 ||analytics.vinovo.si^
 ||cs.media.net^
 ||bidder.doceree.com^
@@ -47769,6 +47770,13 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||tracking.carfax.com^
+||analytics.carvana.io^
+||analytics.ticketmaster.com^
+||track.opentable.com^
+||mixpanel.tigocloud.net^
+||analytics.launcherleaks.net^
+||ingest.webcol.sdp.peacocktv.com^
 ||t.collectiveaudience.co^
 ||st.freedom24.com^
 ||rum.api.intuit.com^
@@ -48349,7 +48357,6 @@ prd.api.bleacherreport.com^
 ||pixels.argusplatform.com^
 ||egg.afisha.ru^
 ||tracking-app.diginetica.net^
-||c.us.heap-api.com^
 ||logging.g.sst.secureserver.net^
 ||metricreceiver.cellrebel.com^
 ||events.app-performance.music.amazon.dev^
@@ -67525,6 +67532,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/js/exponea.min.js
 /js/pixel.js|
 /apps/ssw/events-collector-lambda/events/*
 /sfp/universal_analytics.min.
@@ -68206,6 +68214,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||question.searchiq.co/static/js/analytics.js
 ||app.birdsend.co/forms/*/display-stats-pixel
 ||marketplace.anyclip.com/v*/lre-events
 /log/client/messages$domain=momondo.com|kayak.com
@@ -69274,7 +69283,6 @@ hindustantimes.com##+js(set-local-storage-item, ht_cdp, $remove$)
 ||asadcdn.com/flairfire/
 wowhead.com##+js(set-local-storage-item, zafusr, $remove$)
 wowhead.com##+js(set-session-storage-item, zafusr, $remove$)
-||api.*.exponea.com^$domain=bogsfootwear.com|urbanstems.com
 ||slack.com/clog/track/
 ||vault.gostatera.com/collect/rap
 ||sooplive.co.kr/js/google.analytics.js
@@ -69442,7 +69450,6 @@ themirror.com##reach-topbox
 ||apm.infoldgames.com/v1/log/sendtlog
 ||payments.google.com/gp/w/*/PaymentsPortals/web-reports?
 ||payments.google.com/payments/jslogs?
-||api-bloomreach.comfy.ua/js/exponea.min.js
 ||titanprod.narvar.com/*/track|
 ||adultswim-vodlive.cdn.turner.com/csm/analytics
 ||homemate.co.jp/common/js/beacon/real_estate_detail.js
@@ -73430,6 +73437,10 @@ mail.ferret-one.com%2Fbeacon$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+healio.com/medialibrary/pixel.png?tp=
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
+e.healio.com/*.php?ID=$image
+e.healio.com%2F*.php%3FID%3D$image
 it-recht-kanzlei.de/logo/Copyright-Logo.png?i=
 it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 mail01.monex.co.jp/bin/checker?$image
@@ -73947,6 +73958,13 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||analytics.wachanga.app^
+||usage.digitalconcerthall.com^
+||report.starshort.online^
+||clarity.ms^|
+||engagelab.cc^
+||global-sis.engagelab.com^
+||app.siteperformancetest.net^
 ||events-stream-svc.cordial.io^
 ||events.gonative.io^
 ||matomo.podslink.net^
@@ -75041,6 +75059,9 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||cdn.cxense.com/cx.cce.js$domain=elle.com
+@@||cdn.cxense.com/cx.js$domain=elle.com
+@@||api.cxense.com/public/widget/data?json=$domain=elle.com
 !+ NOT_PLATFORM(windows, mac, android, cli)
 @@||live.mrf.io/statics/marfeel/gardac-sync.js$domain=muylinux.com
 investor-web.hdfcfund.com##+js(set-constant, smartech, noopFunc)
@@ -78980,6 +79001,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||skillsresults.com^
 ||skisofa.com^
 ||skullmagnets.com^
+||skullteeth.com^
 ||skylightdata.com^
 ||slackpod.com^
 ||slaysweater.com^
@@ -79070,6 +79092,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||spurioussquirrel.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
+||squadtee.net^
 ||squalidscrew.com^
 ||squarecamel.com^
 ||squeakzinc.com^
