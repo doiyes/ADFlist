@@ -47770,6 +47770,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||sp.pluto.tv^
+||service-ad-image-ga-weighted.prd.pluto.tv^
 ||tracking.carfax.com^
 ||analytics.carvana.io^
 ||analytics.ticketmaster.com^
@@ -68214,6 +68216,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||cdn1.adoberesources.net/alloy/$domain=pluto.tv
+||autotrader.com/pixall/
+||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||question.searchiq.co/static/js/analytics.js
 ||app.birdsend.co/forms/*/display-stats-pixel
 ||marketplace.anyclip.com/v*/lre-events
@@ -73958,6 +73963,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||ir-sdk.guardease.com^
+||verifysession.uxcam.com^
 ||analytics.wachanga.app^
 ||usage.digitalconcerthall.com^
 ||report.starshort.online^
@@ -75059,6 +75066,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
 @@||cdn.cxense.com/cx.cce.js$domain=elle.com
 @@||cdn.cxense.com/cx.js$domain=elle.com
 @@||api.cxense.com/public/widget/data?json=$domain=elle.com
@@ -79101,6 +79109,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||squishybears.com^
 ||stageschine.com^
 ||stakedances.com^
+||stakeschips.com^
 ||stakingbasket.com^
 ||stakingshock.com^
 ||stakingsmile.com^
