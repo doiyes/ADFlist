@@ -307,6 +307,10 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||netmonet.co^$removeparam=id
+||netmonet.co^$removeparam=wpid
+||netmonet.co^$removeparam=visitId
+||netmonet.co^$removeparam=operation
 ||topics.smt.docomo.ne.jp^$removeparam=fm
 ||topics.smt.docomo.ne.jp^$removeparam=fm_topics_id
 ||topics.smt.docomo.ne.jp^$removeparam=redirect

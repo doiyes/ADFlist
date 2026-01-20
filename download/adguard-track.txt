@@ -204,7 +204,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
-||agencysignals.com^
+||console.data4.net^
 ||heap-api.com^
 ||analytics.vinovo.si^
 ||cs.media.net^
@@ -60065,6 +60065,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||events-sandbox.data.msn.com^
 ||event-storage.netmonet.co^
 ||neviju.netmonet.co^
 ||jaeger.netmonet.co^
@@ -97473,6 +97474,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+fashiontechnews.zozo.com##div[class^="style-module--contentAreaInne"] > div[class^="style-module--bottomContainer--"]:has(> div[class^="style-module--footer"] > div[class^="style-module--reactions"])
+||olympics.com/ddna-event-router/
+||cycling74.com/web/matomo/
+||segment.psg.nexstardigital.net/adobeanalytics.js
 ||aproapi.benchmarkemail.com/api/v1/trackers/
 ||ff.netmonet.co/api/frontend/client/metrics
 ||ee.wovn.io/report_values/
@@ -103112,10 +103117,6 @@ nethunt.com/api/v1/track/email/$image
 twitter.com/scribe/ibis?t=$image
 twitter.com%2Fscribe%2Fibis%3Ft%3D$image
 @@||googletagmanager.com/gtm.js$domain=oto.net
-||netmonet.co^$removeparam=id
-||netmonet.co^$removeparam=wpid
-||netmonet.co^$removeparam=visitId
-||netmonet.co^$removeparam=operation
 ||adeventtracker.spotify.com^
 ||do-not-tracker.org^
 ||eviltracker.net^
@@ -107668,6 +107669,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||logoshutter.com^
 ||lonelyflavor.com^
 ||longingtrees.com^
+||loosecase.com^
 ||looseloaf.com^
 ||lorenzourban.com^
 ||losslace.com^
@@ -107676,6 +107678,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||loveseashore.com^
 ||lowercases.com^
 ||lowerthewatts.net^
+||lowkeypalmtree.com^
 ||luckyshelf.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
