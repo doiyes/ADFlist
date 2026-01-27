@@ -204,6 +204,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||log.grm.gsretail.com^
 ||trackhorizon.nnmtools.com^
 ||d1dxoqu0t5mb7j.cloudfront.net^
 ||js.pulseinsights.com^
@@ -62081,6 +62082,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||logsk.glomancloud.gr^
+||insights-tag.convertkit.com^
+||b.trueanthem.com^
+||matomo.eduwill.net^
 ||telemetry.eyeo.com^
 ||analytics.everythingstream.com^
 ||frontier.capcutw.us^
@@ -115431,6 +115436,8 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||img.eduwill.net/resources/tracking/live/globalMainTracking.js
+||img.eduwill.net/eduwill/live/js/common/forMatomo.js
 ||app.s.id/api/sda/tr
 ||european-alternatives.eu/api/event
 ||cjdropshipping.com/common-public/fingerprintjs
@@ -115699,7 +115706,6 @@ dominos.jp###_vis_opt_path_hides
 ||pinterest.com/_/_/storage_report/
 ||pinterest.com/_/_/csp_report/
 ||a.anoncity.cc/api/track
-||assets.coupangcdn.com/customjs/cou-log/
 ||asset*.coupangcdn.com/customjs/mycoupang/fingerprint2/
 ||pics-view.com/ad-track
 ||api.corr.life/public/metrics/
@@ -118221,7 +118227,7 @@ park.ajinomoto.co.jp##.bottomMenu
 ||web-g-p.com/info/js/cookie.js
 ||web-g-p.com/info/log/
 ||web-g-p.com/info/log_total.cgi
-||adguard.com/-/event/
+||adguard*/-/event/
 ||squid.gazeta.pl/bdtrck/
 ||d1q7pknmpq2wkm.cloudfront.net/js/my.fanplayr.com/
 ||bridge-ashiato.appspot.com/beacon/
@@ -121196,6 +121202,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||log.weathertrip.net^
 ||log.clearcleanerpro.live^
 ||client-telemetry-preauth.hingeprod.net^
 ||event-log-api-data-platform-data-lake-prod.gryphline.com^
