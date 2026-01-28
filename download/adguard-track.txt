@@ -204,6 +204,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||hsadspixel.net^
 ||log.grm.gsretail.com^
 ||trackhorizon.nnmtools.com^
 ||d1dxoqu0t5mb7j.cloudfront.net^
@@ -62082,6 +62083,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||cs.avito.ru^
 ||logsk.glomancloud.gr^
 ||insights-tag.convertkit.com^
 ||b.trueanthem.com^
@@ -62091,7 +62093,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||frontier.capcutw.us^
 ||mssdk16-normal-us-ttp.capcutapi.us^
 ||log-v*-boot.capcutapi.com^
-||pinpoint.espn.com^
 ||analytics.itbox.ua^
 ||stats.insighttimer.com^
 ||trackinglibrary.prodperfect.com^
@@ -115436,6 +115437,13 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||avito.st/s/pixel/script.js
+||avito.st/mstatic/build/legacy/*/fingerprint.*.js
+||adsimg.vevorstatic.com/upload/vevor/custom/vcr/*/vcr.js
+||adsimg.vevor.com/upload/ga/*.js
+octobrowser.net##+js(set-local-storage-item, oc_uuid, $remove$)
+||octobrowser.net/hs/scriptloader/
+||js.zol.com.cn/pvn/z.pv
 ||img.eduwill.net/resources/tracking/live/globalMainTracking.js
 ||img.eduwill.net/eduwill/live/js/common/forMatomo.js
 ||app.s.id/api/sda/tr
@@ -121202,6 +121210,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||track.onef.pro^
 ||log.weathertrip.net^
 ||log.clearcleanerpro.live^
 ||client-telemetry-preauth.hingeprod.net^
@@ -125279,6 +125288,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||fewkittens.com^
 ||fieldconfig.com^
 ||figsprotein.com^
+||figurehunter.net^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
@@ -125602,6 +125612,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||kindhush.com^
 ||kindlereunion.com^
 ||kitetuning.com^
+||kittentacos.com^
 ||kittycatking.com^
 ||knewpenny.com^
 ||knifetreasury.com^
