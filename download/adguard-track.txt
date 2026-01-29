@@ -62083,6 +62083,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||t.y8.com^
 ||cs.avito.ru^
 ||logsk.glomancloud.gr^
 ||insights-tag.convertkit.com^
@@ -115437,6 +115438,7 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||account.y8.com/api/v*/json/tracking/
 ||avito.st/s/pixel/script.js
 ||avito.st/mstatic/build/legacy/*/fingerprint.*.js
 ||adsimg.vevorstatic.com/upload/vevor/custom/vcr/*/vcr.js
@@ -117505,7 +117507,7 @@ device4game.ru##.tg-first-footer-widget
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||uq.force.com/auraAnalytics^
 ||hurriyet.com.tr/banalytics.js
-president.jp##.recommend
+lasisa.net,president.jp##.recommend
 ||zatsubitown.com/mailfriend/kaiseki
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
@@ -120684,6 +120686,7 @@ link.gmapp*.net$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+.awstrack.me$image
 mail.ferret-one.com/beacon$image
 mail.ferret-one.com%2Fbeacon$image
 healio.com/medialibrary/pixel.png?tp=
@@ -121210,6 +121213,10 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||ip.xindong.com^
+||openlog.tapapis.com^
+||logc-sg.tsd.xindong.com^
+||e.tapdb.ap-sg.tapapis.com^
 ||track.onef.pro^
 ||log.weathertrip.net^
 ||log.clearcleanerpro.live^
@@ -123636,7 +123643,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 @@||google-analytics.com/gtm/js?id=$domain=joblo.com
 @@||google-analytics.com/analytics.js$domain=joblo.com
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
-@@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de|ohmirevista.com
+@@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
 @@||googletagmanager.com/gtm.js$domain=easycredit.de
 @@||google-analytics.com/analytics.js$domain=easycredit.de
 @@||google-analytics.com/gtm/js?id=$domain=easycredit.de
@@ -124685,6 +124692,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||actuallysnake.com^
 ||adamantsnail.com^
 ||addictedattention.com^
+||addressfriend.com^
 ||admiral.pub^
 ||admiralproxied.com^
 ||admissionaudit.com^
@@ -124825,6 +124833,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||blockdial.com^
 ||bloomsend.com^
 ||blueeyedblow.com^
+||bluelionlabs.net^
 ||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
