@@ -204,6 +204,11 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||wtb-tag.mikmak.ai^
+||get.civicscience.com^
+||perfalytics.com^
+||analytics.liine.com^
+||netcoresmartech.com^
 ||verint-cdn.com^
 ||1mythtracker.xyz^
 ||analytic.is^$3p
@@ -65466,6 +65471,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||event-tracker.inditex.com^
 ||t.y8.com^
 ||cs.avito.ru^
 ||logsk.glomancloud.gr^
@@ -68560,7 +68566,7 @@ prd.api.bleacherreport.com^
 ||tsj0.madeindesign.com^
 ||ttauri.laptopmag.com^
 ||ttmetrics.jcpenney.com^
-||tw*.netcore.co.in^
+||tw.netcore.co.in^
 ||twin-iq.kickfire.com^
 ||two.tracedock.com^
 ||u.btserve.com^
@@ -122823,6 +122829,7 @@ zmail.mtrl.me$image
 /detroitchicago/reno.js
 /detroitchicago/overlandpark.js
 /script.tagged-events.js
+/_vercel/insights/script.js
 /_vercel/speed-insights/script.js
 /p/tm.js?
 ://analytics.*/hardal
@@ -123480,6 +123487,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||factually.co/api/track-pageview
+factually.co##+js(set-local-storage-item, userBrowserId, $remove$)
+||api.gamsgo2.com/data_explorer/metric
 ||visahq.com/scripts/tracking_script/
 ||ddwl4m2hdecbv.cloudfront.net/b/*.js.gz
 ||att.com/msapi/chatlogicprocessor/v*/user/events
@@ -124860,7 +124870,6 @@ geinoukame.com##.ninja-recommend-block + hr
 ||radar.cloudflare.com/api/analytics
 ||assets.bwbx.io/s3/foundation/event-recorder-client/1.0/event-recorder-client.min.js
 ||api.weglot.com/pageviews?api_key
-||makeship.com/_vercel/insights/script.js
 ||makeship.com/ingest/static/recorder-v2.js
 ||makeship.com/ingest/*?compression=
 ||hellomagazine.com/_vercel/*insights/*.js
@@ -129260,6 +129269,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||events.production.us1.pgw-pci.klarna.net^
 ||event-gateway.data.karrotmarket.com^
 ||h-adashx4id.ut.taobao.com^
 ||gjtrack.ucweb.com^
@@ -130382,6 +130392,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||adobedc.demdex.net^$xhr,domain=sc.com
 @@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||lptag.liveperson.net^$domain=yesstyle.com
 @@||cdn.optimizely.com/datafiles/$domain=metro.at|metro.bg|metro-cc.hr|metro.fr|metro.it|metro-kz.com|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|makro.es|metro-tr.com|metro.ua|makro.pt|metro.de
