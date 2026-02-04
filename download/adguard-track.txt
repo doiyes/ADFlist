@@ -65471,6 +65471,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||a.kupibilet.ru^
+||clientlog.pwsdk.com^
+||dlog.pwsdk.com^
+||cdn-px-v1.metrix.az^
 ||event-tracker.inditex.com^
 ||t.y8.com^
 ||cs.avito.ru^
@@ -123487,6 +123491,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||amazonaws.com/beacon.*/beacon/before-login.gif?
+kupibilet.ru##+js(set-local-storage-item, optimizely-vuid, $remove$)
+||s-nsk.ppstatic.pl/lib/ppa/v*/js/main.hb.js
 ||factually.co/api/track-pageview
 factually.co##+js(set-local-storage-item, userBrowserId, $remove$)
 ||api.gamsgo2.com/data_explorer/metric
@@ -133225,6 +133232,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||domaincolumn.com^
 ||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
@@ -133860,6 +133868,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
 ||mountedbattery.com^
+||movableobject.com^
 ||movemeal.com^
 ||mowgoats.com^
 ||muddledaftermath.com^
@@ -133960,6 +133969,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||overconfidentfood.com^
 ||overkick.com^
 ||overratedchalk.com^
+||owlbees.com^
 ||owlreporter.com^
 ||owlsr.us^
 ||owlstwo.com^
