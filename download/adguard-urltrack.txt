@@ -310,6 +310,8 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||feeder.co^$removeparam=from
+ref=shadcn.com^$removeparam=ref
 ||petbook.de^$removeparam=dicbo
 ||petbook.de^$removeparam=cid
 ||riamo.ru^$removeparam=from
