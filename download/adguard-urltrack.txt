@@ -312,6 +312,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||soundcore.com^$document,removeparam=ref
 ||feeder.co^$removeparam=from
 ref=shadcn.com^$removeparam=ref
 ||petbook.de^$removeparam=dicbo
@@ -562,6 +563,7 @@ $removeparam=s-id,domain=item.rakuten.co.jp|www.rakuten.co.jp
 ||em.dynamicyield.com^$removeparam=tag_ids
 ||ebikes.ca^$removeparam=___store
 ||ebikes.ca^$removeparam=___from_store
+||tapatalk.com^$removeparam=sid
 /viewforum.php?$removeparam=sid
 /viewtopic.php?$removeparam=sid
 ||html5.gamedistribution.com^$removeparam=mp_site_url
