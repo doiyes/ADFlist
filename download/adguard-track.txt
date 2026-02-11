@@ -65485,6 +65485,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||totem.tvmaze.com^
+||mt.9gag.com^
 ||dwh-prod.moz.de^
 ||affiliate.hrkgame.com^
 ||counter.reddigital.ru^
@@ -123529,6 +123531,10 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||tvmaze.com/stats/
+||static.tvmaze.com/js/paq.js
+||adobe.com/marketingtech/
+||cdn.sprig.com/shim.js
 ||proton.me/api/data/
 ||proton.me/api/feature/v2/frontend/client/metrics
 ||techsolutions.com.tw/analytics.js
@@ -128808,6 +128814,7 @@ link.gmapp*.net$image
 %2FCI0%2F0$image
 /ss/o/*/ho.gif$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+google-analytics.com%2Fcollect
 read.sendsay.ru$image
 .awstrack.me$image
 mail.ferret-one.com/beacon$image
@@ -129337,6 +129344,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||stats.norton.com^
 ||log1.cmpassport.com^
 ||bi-report.maxnapps.com^
 ||events.production.us1.pgw-pci.klarna.net^
@@ -134308,6 +134316,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sandypocket.com^
 ||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
@@ -134842,6 +134851,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
+||weatherbytes.net^
 ||websitesdude.com^
 ||weeklybanner.com^
 ||wellgroomedapparel.com^
