@@ -65487,6 +65487,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 |piwik.
+||player-analytics.mp.lura.live^
 ||dls-account.di.atlas.samsung.com^
 ||karrot-pixel.business.daangn.com^
 ||lgecokr.api.useinsider.com^
@@ -123539,6 +123540,9 @@ _tracking.php?b=
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+businessinsider.jp##div[class^="premiumRecommend_articles__"]
+||s.turkiyegazetesi.com.tr/s/js/stats.js
+||js.iplsc.com/inpl.log/
 ||lge.co.kr/lg5-common/js/common/googleHeader.js
 ||tvmaze.com/stats/
 ||static.tvmaze.com/js/paq.js
@@ -123986,7 +123990,6 @@ inet.se##+js(set-local-storage-item, visitorId, $remove$)
 ||spankbang.com/api/*/events
 ||whitepages.com/api/log-
 ||whitepages.com/static/dist/setupGaConfig.js
-||whitepages.com/static/dist/amplitudeSetup.js
 ||whitepages.com/static/dist/web-vitals.attribution.
 ||cartseekite.com/cartxtrack
 ||assets.poxo.com/jet/jet.js
@@ -129353,6 +129356,7 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||trkcliq.com^
 ||stats.norton.com^
 ||log1.cmpassport.com^
 ||bi-report.maxnapps.com^
@@ -132973,6 +132977,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||binarykite.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
+||blackbelted.com^
 ||blackbrake.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -133061,6 +133066,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||calmstudent.com^
 ||calvarycards.com^
 ||calypsocapsule.com^
+||cannonborough.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
 ||capablecup.com^
