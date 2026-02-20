@@ -312,6 +312,8 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||news.jp^$removeparam=c
+||reddit.com^$removeparam=entry_point
 ||bunjang.co.kr^$removeparam=ref_content
 ||bunjang.co.kr^$removeparam=ref_code
 ||bunjang.co.kr^$removeparam=imp_id
