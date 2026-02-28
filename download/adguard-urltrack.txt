@@ -312,6 +312,11 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||time.com^$removeparam=iid
+||builder.aws.com^$removeparam=trk
+||pages.awscloud.com^$removeparam=trk
+||registration.awsevents.com^$removeparam=trk
+||coderpad.io^$removeparam=cg_referrer
 ||ostrovok.ru^$removeparam=partner_slug
 ||ostrovok.ru^$removeparam=partner_extra
 ||ostrovok.ru^$removeparam=utmToken
