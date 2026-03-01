@@ -1381,6 +1381,7 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
 @@||api.bufferapp.com/*/user
+usnews.com##+js(set-constant, Object.prototype.vjsPlayer.ads, noopFunc)
 news.jp##+js(set-constant, nor, {})
 news.jp##+js(set-constant, nor.pageview, noopFunc)
 news.jp##+js(set-constant, nor.eventURL, noopFunc)
@@ -2801,7 +2802,6 @@ blog.with2.net##.adsNative
 kokopyon.net##.entry-content > div[align="center"] > a[href^="https://www.amazon.co.jp"][target="_blank"] > img
 hyperts.net###top-ads-rectanble
 mobafire.com##.view-guide__ad
-supermoto8.com###myModal
 president.jp##.ad-inarticle-info
 fusetter.com##.sp_ad
 redbook.com.au##.csn-refine-ads
