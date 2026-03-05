@@ -89,6 +89,7 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||afs.googlesyndication.com^
 ||pob-mob2.websearchbrowser.com^
 ||ucads.ucweb.com^
 ||ad-api.maxnapps.com^
@@ -1595,6 +1596,11 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+ascii.jp###amaznav
+fullvideosporn.com##.video-header:contains(Advertisement)
+justporn.com##a[href^="https://theporndude.com/"]
+justporn.com##.fade.fp-logo
+watchmygf.me##.tablet-b
 elobservador.com.uy###topZocalo
 eleconomista.es##div[data-ad-unit-id]
 eleconomista.es##aside#main-rail
@@ -7263,6 +7269,7 @@ yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,~afisha.yandex.
 yandex.*##:matches-path(/metro) div[data-chunk="promo-chunk"]
 yandex.ru##body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
 afisha.yandex.*##div[data-test-id="layout.root"] > div[class]:has(> div.adfox)
+dzen.ru##div[class^="dzen-mobile"][class*="bannerWrapper"]
 dzen.ru##div[class^="dzen-mobile__widgetContainer-"] ~ div[class*=" dzen-mobile__"]  div[style^="padding-top:"]
 dzen.ru##div[class*="topContent"][class*="mobile__hasBanner"]
 dzen.ru##.article-render-mobile__embed_embed-type_yandex-direct
