@@ -328,7 +328,7 @@ rjno1.com##+js(addEventListener-defuser, error, event.target.tagName)
 @@||img3.126.net/ntesrich/*/adControl-indexx-$script,domain=rjno1.com
 ||cpro.baidu.com/cpro/ui/rt.js$script,redirect=noop.js,domain=rjno1.com
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noop.html,domain=rjno1.com,important
-!+ NOT_PLATFORM(windows, mac, android)
+!+ NOT_PLATFORM(windows, mac, android, cli)
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
 rjno1.com#@#ins.adsbygoogle[data-ad-client]
 rjno1.com#@#ins.adsbygoogle[data-ad-slot]
@@ -459,7 +459,7 @@ game735.com##div[id^="gklobl"]:style(height: 1px!important;)
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 t66y.com##+js(no-setTimeout-if, html)
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium, ext_edge)
+!+ NOT_PLATFORM(windows, mac, android, cli, ext_chromium, ext_edge)
 t66y.com##.sptable_do_not_remove:style(display: block !important; visibility: hidden !important;)
 ||alicdn.com^$domain=t66y.com
 ||sinaimg.cn^$domain=t66y.com
@@ -684,7 +684,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 wikisport.cc##+js(addEventListener-defuser, click, window.open)
 wikisport.cc##+js(no-window-open-if)
 twmanga.com###baoziAdPopup
-eporner2.top,chuanghongjituan.com##.streamer-container2
+dgav17.com,eporner2.top,chuanghongjituan.com##.streamer-container2
 *$script,3p,domain=huanggua22.com
 .gif|$image,3p,domain=huanggua22.com
 huanggua22.com##[src^="https://tutu.facaiimage.com/"]
@@ -2636,7 +2636,7 @@ netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 huavod.com,huaren.live##+js(set-constant, ConFig.config.ads, {})
-!+ NOT_PLATFORM(windows, mac, android)
+!+ NOT_PLATFORM(windows, mac, android, cli)
 bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.recommended-container_floor-aside .container > div[class$="feed-card"]:has(div[style$="56.25%;"] > div[class]:matches-css(before, content: /AdGuard/))
 bilibili.com##.container > div.feed-card:empty
@@ -2761,7 +2761,7 @@ gamersglobal.de#@#.gg-box
 @@||51zxw.net/shipmingko.asp?$domain=51zxw.net
 @@||520cc.cc/ad/520cc/images/logo3w.png
 @@||520cc.cc/ad/520cc/images/tw_search_s.gif
-!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
+!+ NOT_PLATFORM(windows, mac, android, cli, ext_chromium)
 @@||cnzz.com/z_stat.php?id=$domain=fapiao.bangnimang.net
 fuzhou.baixing.com#@#.ad-title
 @@||mcmod.cn/images/banner/
@@ -3220,7 +3220,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 /html/709/*.js
 /html/taobao_focus_
 /huijiad/huijiad.
-/huya/main/widget/roomGg
+/huya/main3/widget_roomGaTop_
 /huya_promotion_content_
 /ifeng_jdttemplate.js
 /ifengRotatorAd.js
@@ -4571,6 +4571,17 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$3p
+||kvxc7buwv3.com^
+||z9sab7vr0b.com^
+||ynkunarlg.com^
+||verboten84.top^
+||lkhmlx.icu^
+||rypebb.icu^
+||qmeqraen.com^
+||wral.cn^
+||xibvdjz2x2.com^
+||5b0a1c63v9.com^
+||mhukzoikt.com^
 ||b4641y3dw.com^
 ||vigyn4gpx.com^
 ||nhlrzf.icu^
@@ -4580,6 +4591,9 @@ newduba.cn###jq_youxi
 ||trlzqly.com^
 ||hyaplnr.com^
 ||af1tsjdta.com^
+||cbhzxctgm.com^
+||d48paxyhx.com^
+||aiheatta.com^
 ||w97nv5ibv4.com^
 ||1tvg524vih.com^
 ||pepwpv.icu^
@@ -12367,7 +12381,6 @@ meijutt.*/js/pcjs/
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
 ||msstatic.com/huya/main/img/mc-recom_
-||msstatic.com/huya/main3/widget/roomGg
 ||msstatic.net/main3/common/assets/template/head/ad.
 ||mtime.cn/tg/
 ||muyuge.com/fw.html/
