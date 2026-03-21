@@ -1464,7 +1464,6 @@ niji-gazo.com#@#.ad-block
 @@||leanplum.com^$domain=nbc.com|leanplum.com
 @@||pics.porndroids.com^
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
-cancam.jp#@#.overlay-ad
 @@||meta.wikimedia.org/wiki^
 @@||lk-subscr.tricolor.tv^$document
 @@||pwapi.washingtonpost.com/*&__amp_source_origin
@@ -1595,6 +1594,9 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+ole.com.ar##.bannerTopHeader ~ section[class^="sc-"]:has(> div[class^="sc-"] div.right):style(top: 0 !important;)
+ole.com.ar###__next > header:style(padding-top: 50px !important;)
+ole.com.ar##article > div[class^="sc-"]:has(> div[id^="div-gpt-ad"])
 moviecrow.com###top-banner
 twpornstars.com##.block-inline.mobile
 m.slashdot.org###vibe-code
@@ -1700,7 +1702,6 @@ thetoc.gr##.mg_underhero
 m.yelp.com##div[class*="new-serpia-"] > ol > li:has(a[href^="/adredir?"])
 m.yelp.com##div[class*="new-serpia-"] > ol > li:has(> div[class*="sponsored-icon"])
 4j.com###Games_TopAdDiv
-mydealz.de##div[class]:has(> .ad--bg:only-child)
 amazon.*###softlines-btf-substitute-zone-container-3_feature_div
 amazon.*###softlines-mobile-btf-discovery-zone-T3_feature_div
 accuradio.com##div[class^="MobileBottomAd"]
