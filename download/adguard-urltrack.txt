@@ -296,7 +296,7 @@ $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
 $denyallow=cleviationly.com,removeparam=cmpid
-$denyallow=adj.st|yandex.go.link,removeparam=adj_t
+$denyallow=adj.st|yandex.go.link|dermanostic.go.link,removeparam=adj_t
 $denyallow=em.dynamicyield.com|mootoon.co.kr|iforms.americanexpress.com,removeparam=cuid
 $denyallow=a8cv.amiami.jp,removeparam=a8
 $denyallow=meishi.meituan.com|portal-portm.meituan.com|rd.bizrate.com|glavnoe.life|mmcref.pl|t.send.vt.edu|app.plex.tv,removeparam=utm_medium
@@ -311,6 +311,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||duck.ai^$removeparam=origin
 ||t.ly^$removeparam=ref
 ||musescore.com^$removeparam=feature
 ||paypal.com^$removeparam=utm_unptid
@@ -1509,7 +1510,7 @@ $removeparam=ici,domain=shein.co.uk|shein.com
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
 ||skt.sh/common/share/bridge?$removeparam=referer
-||login.sooplive.co.kr^$removeparam=szFrom
+||login.sooplive.com^$removeparam=szFrom
 ||moffme.com^$removeparam=source
 ||moffme.com^$removeparam=medium
 ||moffme.com^$removeparam=campaign
