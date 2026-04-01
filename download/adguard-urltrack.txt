@@ -312,6 +312,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||usaa.com^$removeparam=wa_ref
 ||duck.ai^$removeparam=origin
 ||t.ly^$removeparam=ref
 ||musescore.com^$removeparam=feature
