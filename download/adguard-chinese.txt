@@ -231,6 +231,7 @@
 ||ads.tvb.com^
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,huavod.com#@#.ad_unit
+||static.okokserver.com/js/anti/adblocker.js
 verb.tw##.adsbygoogle.ad-slot.ad-banner.textads.banner-ads:style(display: block !important;)
 tstrs.me##+js(no-setTimeout-if, offsetHeight === 0)
 tt1069.com#@#.adzone
@@ -2765,7 +2766,7 @@ asken.jp#@##top_box > a[onclick^="javascript"]
 genshin.honeyhunterworld.com#@#.a_p
 huaban.com#@#img[width="240"][height="400"]
 huaban.com#@#img[width="240px"][height="400px"]
-mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
+mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
 wallstreetcn.com#@#.banner
 hyperallergic.com#@#.ad-above-footer
 ||unpkg.com^$badfilter
@@ -4591,6 +4592,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$3p
+||5wv0y42ub.com^
+||51ympuu7y.com^
+||property58.top^
+||tlgivardfp.com^
+||9p81m19kr.com^
+||0qxfxqif0.com^
+||6p6vcukqz.com^
+||9112rj8wo.com^
+||zkvqdf.icu^
+||zbyfef74e.com^
+||oz6q1drif.com^
+||lgaekait.com^
 ||59zzkdt8pj.com^
 ||vvqc95xhtx.com^
 ||owvqpfbrrk.com^
@@ -19775,6 +19788,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
+@@||huavod.com^$generichide
 @@||linovelib.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
