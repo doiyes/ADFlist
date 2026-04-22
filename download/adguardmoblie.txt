@@ -89,6 +89,10 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||wcp.taobao.com^
+||yfanads.com^
+||mobads-pre-config.cdn.bcebos.com^
+||mobads-logs.bcebos.com^
 ||prismriotads.com^
 ||bidder.a11.vega.aurion11.io^
 ||adapi*.boomplaymusic.com^
@@ -1613,6 +1617,10 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+||apis.pchome.com.tw/PFB_AD.php
+pchome.megatime.com.tw##div:has(> ins[data-rmax-space-id])
+pchome.megatime.com.tw##center[style="border-bottom:1px #d3d3d3 solid;"]
+hotokami.jp##.spots__main > div.block:has(> div.flex > div[onclick^="gtag"] > a[href*="utm_campaign"])
 techblog.gr##div[class^="single-mobile-billboard"]
 smartapps.baidu.com##.mount-fc-promo-wrapper
 ||staff.livedoor.blog/slot-fallback.js
@@ -1941,7 +1949,6 @@ pornoxo.com##.video-listing > div.no-popup
 pornoxo.com##.container:has(> h3 > a[href="/live-cam-models/"])
 pornoxo.com##a[href^="https://xo.show/"]
 pornoxo.com##a[href^="https://tsyndicate.com/"]
-motogonki.ru##section:has(> div[style] > a[onclick*="/go/click.php?"])
 motogonki.ru###article > div[style^="position:"]:has(> a[onclick*="/go/click.php?"])
 motogonki.ru##section[id^="adv"]
 motogonki.ru###widget
