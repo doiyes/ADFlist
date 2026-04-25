@@ -1407,8 +1407,8 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
 @@||api.bufferapp.com/*/user
-ai.ettoday.net#@#amp-ad
-ai.ettoday.net#@#.amp-unresolved
+ettoday.net#@#amp-ad
+ettoday.net#@#.amp-unresolved
 usnews.com##+js(set-constant, Object.prototype.vjsPlayer.ads, noopFunc)
 news.jp##+js(set-constant, nor, {})
 news.jp##+js(set-constant, nor.pageview, noopFunc)
@@ -1620,6 +1620,8 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+navitime.co.jp##.js-inview-myplace
+navitime.co.jp##.js-inview-realestate
 fxstreet.*##.fxs_bgHeader:style(top: 0 !important;)
 fxstreet.*##.fxs_stickyAd-mobile
 weathernews.jp##.main > section.dmenu-non:has(> div[id^="div-gpt-ad"])
@@ -2667,8 +2669,8 @@ op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 cna.com.tw##.advertiseMobile
 sushi.ski##.xuKt2
 mobalytics.gg##main > div[class]:has(> div[class] > div#poe-2-video-all-pages-mobile)
-ai.ettoday.net##div[id^="adsense_matched_content"]
-ai.ettoday.net,star-ettoday-net.cdn.ampproject.org##.adHint
+ettoday.net##div[id^="adsense_matched_content"]
+ettoday.net,star-ettoday-net.cdn.ampproject.org##.adHint
 star-ettoday-net.cdn.ampproject.org##a[href^="https://ad.ettoday.net/adclick.php"]
 stars.glavred.info##.article-column > div[style^="height"]:has(> amp-ad)
 glavred.info##.infinite-item > div[style^="height"]:has(> div.bnr-block__ad)
