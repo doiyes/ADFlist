@@ -316,6 +316,15 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||ridibooks.com^$removeparam=_rdt_sid
+||ridibooks.com^$removeparam=_rdt_idx
+||ridibooks.com^$removeparam=_rdt_arg
+||777casino.top^$removeparam
+||uatracer.link^$removeparam
+||blogostoks.com$removeparam
+||change.org^$removeparam=recruited_by_id
+||change.org^$removeparam=recruiter
+||change.org^$removeparam=share_id
 ||kuper.ru^$removeparam=ads_identity_ads_promo_identity_site_uid
 ||kuper.ru^$removeparam=ads_identity_ads_promo_identity_placement_uid
 ||fboom.me^$removeparam=site
