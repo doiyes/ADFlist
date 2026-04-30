@@ -1,4 +1,5 @@
 ! AdGuard-移动规则
+||yodo1.com^
 ||banner.bet365partners.com^
 ||playwire.com^
 ||fingerhi.net^
@@ -1625,6 +1626,7 @@ qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girl
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+m.soundcloud.com##div[class^="BannerAd"]
 redgifs.com##+js(json-prune, boosted_gifs)
 redgifs.com##+js(json-prune, camera)
 redgifs.com##div[data-feed-module-type="live-cam"]:style(display: none !important;)
