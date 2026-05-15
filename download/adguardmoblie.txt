@@ -1640,9 +1640,6 @@ greatandhra.com##.mob-Ad
 meteo60.fr##.encart750x300
 meteo60.fr##.encart336SmartVertical
 m.soundcloud.com##div[class^="BannerAd"]
-redgifs.com##+js(json-prune, boosted_gifs)
-redgifs.com##+js(json-prune, camera)
-redgifs.com##div[data-feed-module-type="live-cam"]:style(display: none !important;)
 pcgamesn.com##.entry-content > div[data-format="isvideo"]
 pcgamesn.com##div[class]:has(> div[id][class]:matches-css(before, content: /^Advertisement$/))
 telepolis.de##div[class^="ad-mobile-"]
