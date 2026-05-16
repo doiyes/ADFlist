@@ -978,6 +978,7 @@
 ||zedo.com^
 ||n152adserv.com^
 ||smilered.com^
+sht-link.com##+js(prevent-fetch, adsbygoogle)
 planetf1.com##+js(abort-on-property-read, freeProConfig.btnRefresh)
 vodafone.de##.mc-content > #adbl
 mangalivre.tv##+js(addEventListener-defuser, DOMContentLoaded, bait)
