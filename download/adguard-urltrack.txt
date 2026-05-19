@@ -600,6 +600,7 @@ $removeparam=s-id,domain=item.rakuten.co.jp|www.rakuten.co.jp
 ||akakce.com/r/?c=$removeparam=u
 ||domclick.ru^$removeparam=from
 ||buydomains.com/lander/*?domain=$removeparam
+||duckduckgo.com^$removeparam=origin
 ||duckduckgo.com/y.js$removeparam=ad_provider
 ||duckduckgo.com/y.js$removeparam=ad_domain
 ||duckduckgo.com/y.js$removeparam=click_metadata
