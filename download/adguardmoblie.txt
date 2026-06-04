@@ -23,6 +23,7 @@
 ||apis.appnxt.net^
 ||banners-slb.mobile.yandex.net^
 ||banners.mobile.yandex.net^
+||a.line.me^
 ||app.ssp.yahoo.com^
 ||m.yap.yahoo.com^$domain=~not.dns
 ||adv0*.msa.cdn.mediaset.net^
@@ -1629,6 +1630,17 @@ healthyplace.com,qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-med
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+onedio.co##.playvid-container
+onedio.co##.bg-white.u-center
+techtimes.com##.page-top-mobile-video
+motortrend.com##header[data-ids="GlobalHeader"] ~ div.align-center:has(> div.items-center > div[data-testid="article_top_ad-mobile"])
+motortrend.com##section[data-testid="chapter"] > div[class*="TextElement"] > div:has(> div.items-center > div[data-ad])
+just-auto.com##.mpu-ad-container
+just-auto.com###Sgpollsputhere
+autoevolution.com##.ad300x50
+u.gg##.champion-recommended-build > .media-query
+bo3.gg##.c-banner-limited-offer
+bo3.gg##.c-baaanners-custom
 planetrugby.com##div[style="height: 300px;"]
 speedcafe.com###anchor-container
 youjizz.com###englishMobPr
