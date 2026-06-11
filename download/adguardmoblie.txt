@@ -1029,6 +1029,7 @@ blogdoiphone.com#@#.header-ad
 blogdoiphone.com#@#.custom-ad
 westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
+ya.ru##div[class*="search"][class*="__wrapper"] + div[class*="-"]:has(> div > div[class*="content"] > div[class*="_state_"] > button[aria-label="Действия с рекламой"])
 ya.ru##services-feed div.banner
 yandex.*##div[class^="Direct "]
 ya.ru,yandex.*###search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)):remove()
