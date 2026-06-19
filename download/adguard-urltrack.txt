@@ -329,6 +329,10 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||owlclick.com^$removeparam=source
+||owlclick.com^$removeparam=campaign_id
+||github.com^$removeparam=email_source
+||github.com^$removeparam=email_token
 ||pages.tmall.com^$removeparam=tkSid
 ||pages.tmall.com^$removeparam=xMktId
 ||theepochtimes.com^$removeparam=ea_med
@@ -1903,7 +1907,6 @@ $removeparam=union_lens,domain=tmall.com|taobao.com
 ||aliexpress.$removeparam=pdp_npi
 ||aliexpress.$removeparam=aff_trace_key
 ||aliexpress.$removeparam=aff_platform
-||aliexpress.$removeparam=aff_short_key
 ||aliexpress.$removeparam=spm
 ||aliexpress.$removeparam=scm
 ||aliexpress.$removeparam=scm_id
@@ -1916,6 +1919,8 @@ $removeparam=union_lens,domain=tmall.com|taobao.com
 ||aliexpress.$removeparam=pvid
 ||aliexpress.$removeparam=dp
 ||aliexpress.$removeparam=sk
+!+ NOT_PLATFORM(ext_chromium_mv3)
+||aliexpress.$removeparam=aff_short_key
 ||agoda.com^$removeparam=tag
 ||editor.flixier.com^$removeparam=/fx_(source|medium|campaign)/
 ||github.com/signup$removeparam=source
