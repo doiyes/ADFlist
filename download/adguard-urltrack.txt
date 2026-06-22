@@ -329,6 +329,11 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||cdn.modrinth.com/data/$removeparam=mr_download_reason
+||cdn.modrinth.com/data/$removeparam=mr_game_version
+||cdn.modrinth.com/data/$removeparam=mr_loader
+||tally.so^$removeparam=version
+||tally.so^$removeparam=device
 ||owlclick.com^$removeparam=source
 ||owlclick.com^$removeparam=campaign_id
 ||github.com^$removeparam=email_source
