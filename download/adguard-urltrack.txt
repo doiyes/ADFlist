@@ -330,6 +330,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||claude.ai^$removeparam=from
 ||livesex.com^$removeparam=psid
 ||livesex.com^$removeparam=dpid
 ||livesex.com^$removeparam=ms_rnd
