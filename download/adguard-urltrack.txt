@@ -2181,8 +2181,6 @@ $removeparam=search_domain,domain=ya.ru|yandex.*
 ://yandex.$removeparam=clid
 ://yandex.$removeparam=source
 ||alice.yandex.ru^$removeparam=utm_to
-||alice.yandex.ru^$removeparam=device_id
-||alice.yandex.ru^$removeparam=uuid
 ||browser.yandex.ru^$removeparam=from
 ||docs.yandex.$removeparam=uid
 ||amc.yandex.ru^$removeparam=cmn_id
