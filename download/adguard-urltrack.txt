@@ -330,6 +330,11 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||steuer.check24.de^$removeparam=wpset
+||steuer.check24.de^$removeparam=tc
+||movieboxonline.net^$removeparam=page_from
+||movieboxonline.net^$removeparam=type
+||movieboxonline.net^$removeparam=id
 ||number.bunshun.jp^$removeparam=rf
 ||ladysavings.com^$removeparam=lsadname2
 ||ladysavings.com^$removeparam=lsed
@@ -1132,7 +1137,6 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com|dojin-na
 ||kyujin.navitime.co.jp^$removeparam=from
 ||avira.com^$removeparam=track
 ||foodpanda.$removeparam=src
-||plusgaming.yandex.ru^$removeparam=clckid
 ||iotransfer.itopvpn.com^$removeparam=ref
 ||tradingview.com^$removeparam=exchange
 ||tradingview.com^$removeparam=aff_id
