@@ -1033,6 +1033,9 @@ westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
 ya.ru##div[class*="search"][class*="__wrapper"] + div[class*="-"]:has(> div > div[class*="content"] > div[class*="_state_"] > button[aria-label="Действия с рекламой"])
 ya.ru##services-feed div.banner
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"] ul.UniSearchList > li.UniSearchList-Item:has(div.UniSearchAppsRating-Rmp > span)
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"]:has(.Organic-AppHeader_extralinks)
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"]:has(div.Organic-Subtitle > div.Organic-Path ~ div[class*=" Organic"] > span[class$="-Text"])
 yandex.*##div[class^="Direct "]
 ya.ru,yandex.*###search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)):remove()
 ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
@@ -1892,7 +1895,7 @@ onlytik.com##+js(set-constant, ads_every_x_videos, undefined)
 onlytik.com##+js(addEventListener-defuser, click, clkUnder)
 adultgamesworld.com###showinmob
 minuteinbox.com##.addBlock
-marieclaire.com.tr##div[style^="width:320px;"][style*="height:100px"]
+trendus.com,marieclaire.com.tr##div[style^="width:320px;"][style*="height:100px"]
 player4me.vip##+js(abort-on-property-write, cache_loader)
 dalealbo.cl##.top-sticky-wrapper:style(display: none !important;)
 dalealbo.cl##header:style(top: 0 !important;)
