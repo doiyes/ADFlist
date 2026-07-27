@@ -203,6 +203,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||acv.mira-dsp.com^
 ||snippet.affilimate.io^
 ||mtag.markopolo.ai^
 ||external-tag.mysquadbeyond.com^
@@ -78707,6 +78708,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||d3lw7s0briwuoi.cloudfront.net^
+||analytics.sutochno.ru^
 ||athena.archive.org^
 ||s1.bss.2gis.com^
 ||t.mmganalytics.com^
@@ -180843,6 +180846,7 @@ zonedirector.avadacom.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+&tag_exp=*&e=gtm.
 /0.gif?
 /internal-stats-lite/p.php?
 /internal-stats/pixel/*
@@ -181559,6 +181563,12 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 /prod/dfm/t8y9347t.min.js$redirect=noop.txt,important,domain=dailycamera.com,image,media,subdocument,stylesheet,script,xhr,other
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
+||wpastra.com/wp-content/plugins/cross-domain-tracker-for-affiliatewp/
+||autoline.link/weblog
+||karte.io/event
+||api.housefeel.com.tw/api/collect
+||cdp.nrs.ai/api/ingest
+||mercari.com/gtm/
 ||vsonic.click/api/views/track
 ||xcafe.com/track/impression?
 ||archive.org/includes/athena.js
@@ -183514,7 +183524,6 @@ geinoukame.com##.ninja-recommend-block + hr
 ||anilibria.top/api/v1/ads/
 ||baitoru.com/*/adobe_send_tracking.js
 ||charmmy-api.line.me/api/*/bars/tracking
-||receptions.smart-bdash.com/receptions/action/click
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
 ||shopch.jp/com/js/analytics.js
@@ -188674,6 +188683,7 @@ d4?appid*type*
 ||directg.jp/js/fingerprint2.js$script,redirect=fingerprint2.js
 @@||googletagmanager.com/gtm.js$domain=gocomics.com
 @@||cdn.clerk.io/clerk.js$domain=jaktdepotet.no
+@@||api.clerk.io/v*/log/$domain=jaktdepotet.no
 @@||tesco.com/akam/13/$domain=tesco.com
 @@||tag.search.sensefuel.live/tag$domain=bricoman.pl
 @@||cdn.optimizely.com/datafiles/*.json$domain=bbc.com
@@ -189009,6 +189019,7 @@ larocheposay.co.kr##+js(set-constant, wptg_tagscript.exec, noopFunc)
 @@||googletagmanager.com/gtm.js?id=GTM-WMQ82P6$domain=excite.co.jp
 @@||api.sprig.com/sdk/$domain=paypal.com
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
+@@||api.clerk.io/v*/log/$domain=industrivarer.no
 @@||cdn.clerk.io/clerk.js$domain=garmont.com
 @@||cdn.cxense.com/cx.cce.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.js$domain=i-voce.jp
@@ -189316,6 +189327,7 @@ tieba.baidu.com##+js(set-constant, passFingerPrint, noopFunc)
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js,domain=coolermaster.com
 ||cdn.permutive.app/*-web.js$script,redirect=noop.js,domain=theglobeandmail.com
+@@||xzeepb2clookuppsta001.blob.core.windows.net/comed/src/js/google-analytics.js$domain=secure1.comed.com
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.js$domain=euractiv.com
@@ -189327,6 +189339,7 @@ tieba.baidu.com##+js(set-constant, passFingerPrint, noopFunc)
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
 ||ab.blogs.es/abtest.png?editorialRecommendations$image,redirect=2x2.png,domain=applesfera.com
 @@||cdn.clerk.io/clerk.js$domain=apotera.no
+@@||api.clerk.io/v*/log/$domain=apotera.no
 @@||miclaro.com.gt/assets/analytics$domain=miclaro.com.gt
 @@||tags.bkrtx.com/js/bk-coretag.js^$domain=miclaro.com.gt
 @@||nebula-cdn.kampyle.com^$domain=miclaro.com.gt
@@ -190026,8 +190039,8 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
-@@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com
-@@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com|amcplus.com
+@@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com|ifc.com
+@@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com|amcplus.com|ifc.com
 @@||googletagmanager.com/gtm.js$domain=square-enix-games.com
 @@||google-analytics.com/analytics.js$domain=square-enix-games.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=square-enix-games.com
@@ -191235,6 +191248,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||bentengine.com^
 ||berserkhydrant.com^
 ||bestboundary.com^
+||bestclimbers.net^
 ||bestshoesboot.com^
 ||betazebra.com^
 ||bewilderedbattle.com^
@@ -191775,6 +191789,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||finalizeforce.com^
 ||finaloptics.com^
 ||financefear.com^
+||findcalculator.com^
 ||findyourdelight.com^
 ||firecatfilms.com^
 ||fireworkcamp.com^
