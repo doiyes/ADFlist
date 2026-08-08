@@ -2475,6 +2475,11 @@ $removeparam=s,domain=twitter.com|x.com
 ||v.youku.com^$removeparam=scm
 ||v.youku.com^$removeparam=spm
 ||theregister.com^$removeparam=td
+||xiaohongshu.com^$removeparam=app_platform
+||xiaohongshu.com^$removeparam=app_version
+||xiaohongshu.com^$removeparam=share_channel
+||xiaohongshu.com^$removeparam=share_id
+||xiaohongshu.com^$removeparam=xhsshare
 ||deezer.com^$removeparam=origin
 ||deezer.com^$removeparam=deferredFl
 ||gamesplanet.com^$removeparam=ref
