@@ -331,6 +331,11 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||peepshow.com^$removeparam=linkId
+||peepshow.com^$removeparam=sourceId
+||peepshow.com^$removeparam=tenantId
+||peepshow.com^$removeparam=affS1
+||peepshow.com^$removeparam=affS4
 ||raycast.com^$removeparam=via
 ||erkekadam.org^$removeparam=kaynak
 ||supply.amazon.com^$removeparam=ref_
