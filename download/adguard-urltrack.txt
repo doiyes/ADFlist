@@ -331,6 +331,13 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||bandsintown.com^$removeparam=actor_id
+||bandsintown.com^$removeparam=affil_code
+||bandsintown.com^$removeparam=app_id
+||bandsintown.com^$removeparam=came_from
+||bandsintown.com^$removeparam=signature
+||bandsintown.com^$removeparam=spn
+||bandsintown.com^$removeparam=start_date_time
 ||peepshow.com^$removeparam=linkId
 ||peepshow.com^$removeparam=sourceId
 ||peepshow.com^$removeparam=tenantId
