@@ -331,6 +331,10 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||adesampa.com.br^$removeparam=cp_smn_source
+||adesampa.com.br^$removeparam=cp_smn_content
+||adesampa.com.br^$removeparam=cp_smn_term
+||adesampa.com.br^$removeparam=suid
 ||bandsintown.com^$removeparam=actor_id
 ||bandsintown.com^$removeparam=affil_code
 ||bandsintown.com^$removeparam=app_id
