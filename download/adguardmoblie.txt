@@ -1643,6 +1643,8 @@ healthyplace.com,qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-med
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+aspor.com.tr##html[data-smartbanner] body:style(padding-top: 0 !important;)
+aspor.com.tr##html[data-smartbanner] header:style(top: 0 !important;)
 carsales.com.au##div[style="min-height:500px"]
 vercomicporno.com,hentaicomics.biz##div[style^="text-align:center;"]:has(> script[src][referrerpolicy="no-referrer-when-downgrade"])
 apkaward.com##.mmsssbox
@@ -7589,7 +7591,8 @@ google.*##.commercial-unit-mobile-top .jackpot-main-content-container > div[data
 google.*###gws-product_ads__plalightbox
 google.*##.gws-product_ads__close-button
 yandex.*##.infinity-zen__content div.feed-item:has(div[data-statlog="directfeed.title"])
-eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div[class] div[class] > img[src*="get-market-adv"])
+eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div[class] div[class] > img[src*="get-market-adv"]):remove()
+eda.yandex.ru##div[class]:has(> div[class] > div[class] > ul.scroll-snap-slider > li.scroll-snap-slide > div[style] > button[aria-label] > img[src^="https://avatars.mds.yandex.net/get-market-adv/"])
 ya.ru,yandex.*##div[id^="search-"] > div:has(> div.Root_inited > div[class*="Organic"] > div[class$="-Header"] > h2 + div > span)
 ya.ru,yandex.*##.DirectInline-Wrapper
 yandex.*##body > div.serp_js_inited.main .serp-list > .serp-item:has(span.organic__advLabel)

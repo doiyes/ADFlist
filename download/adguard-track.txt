@@ -201,6 +201,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||xstats.st^$3p
+||sumetrika.com^
 ||fairanalytics.de^$3p
 ||fml-x.com^$3p
 ||analytics.talentegy.com^
@@ -99925,6 +99927,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||analytics.sen.go.kr^
 ||scollect.17173.com^
 ||beacon.errorception.com^
 ||analytics.byub.org^
@@ -100949,7 +100952,6 @@ prd.api.bleacherreport.com^
 ||analytics.raenonx.cc^
 ||analytics.vixcloud.co^
 ||plausible.pronouns.cc^
-||lptag.liveperson.net^
 ||sks.mrkhub.com^
 ||measuring-pixel-service.alza.cz^
 ||analytics.valotool.com^
@@ -313925,6 +313927,9 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||yandex.ru/appcry/event|
+||meetingpoint-jl.de/api/*-track|
+||reader.hqread.cc/online/heartbeat
 ||thehealthy.com/wp-content/plugins/tmbi-amazon-affiliate/
 ||thehealthy.com/wp-content/plugins/tmbi-permutive/
 ||thehealthy.com/wp-content/plugins/tmbi-data-analytics/
@@ -314873,7 +314878,7 @@ dominos.jp###_vis_opt_path_hides
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
 ||americantourister.co.kr/on/demandware.static/Sites-AmericanTouristerKR-Site/*/internal/jscript/dwac-*.js
 ||leboncoin.fr/piano-analytics/
-/web-stats$domain=softonic.com|softonic-ar.com|softonic-id.com|softonic-id.com|softonic.jp|softonic.kr|softonic.nl|softonic.pl|softonic.com.br|softonic.ru|softonic.se|softonic-th.com|softonic.com.tr|softonic.cn
+||softonic*/web-stats
 ||chatgpt.com/ces/v1/i^
 ||holistic.news/3unw/
 ||sp-cdn.linux-magazin.de/wrapper/metrics/
@@ -315344,7 +315349,6 @@ allrecipes.com##+js(set-local-storage-item, /_fpi|_duid/, $remove$)
 ||banking.dkb.de/api/metrics/$xhr
 ||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
-||ing.de/*/*ebtrekk*
 ||ingwb.com/*/ingwb-webtrekk
 ||derstandard.*/qpkdl/
 ||duckduckgo.com/t.js?q=
@@ -319712,6 +319716,9 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ztat.net/*/webtrekk.min.js^
 ||google.com/log?$redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||yandex.ru/clck/click|
+||ing.de/*/*ebtrekk*
+ing.de##+js(set-constant, wt, {})
+ing.de##+js(set-constant, wt.sendinfo, noopFunc)
 spletnik.ru##+js(set-local-storage-item, adrcid, $remove$)
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||static.cloud.sbs.co.kr/common/js/*/sbs_log_module.min.js
@@ -321214,7 +321221,6 @@ felixmobile.com.au###__next [style*="filter:blur"]:style(filter: none !important
 @@||optimizely.com^$image,domain=marinco.navico.com
 @@||adobedc.demdex.net^$xhr,domain=sc.com
 @@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
-@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||cdn.optimizely.com/datafiles/$domain=metro.at|metro.bg|metro-cc.hr|metro.fr|metro.it|metro-kz.com|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|makro.es|metro-tr.com|metro.ua|makro.pt|metro.de
 @@||static.airbridge.io/sdk/latest/$domain=airbridge.io
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
@@ -323581,6 +323587,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||adorableattention.com^
 ||adventurousamount.com^
 ||aerialapps.com^
+||afeteforfood.com^
 ||affectionknit.com^
 ||afraidlanguage.com^
 ||agencysignals.com^
@@ -323684,6 +323691,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||bananabarrel.com^
 ||bandborder.com^
 ||bandboxprints.com^
+||bannerave.com^
 ||barbarousbase.com^
 ||barbershirts.com^
 ||barcodetool.com^
@@ -323816,6 +323824,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||bungeesleeves.com^
 ||burgersalt.com^
 ||burnbubble.com^
+||burningclock.com^
 ||businessupdater.com^
 ||bustlingbook.com^
 ||busybabybee.com^
@@ -323853,6 +323862,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||captivatingperformance.com^
 ||carbongarden.net^
 ||cardmethod.com^
+||cardproducer.com^
 ||carefuldolls.com^
 ||caringcast.com^
 ||carloforward.com^
@@ -324946,6 +324956,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||onesimpleweek.com^
 ||onespecify.com^
 ||onioncomic.com^
+||onlinemediahelper.com^
 ||onlinestarten.net^
 ||onlystreets.com^
 ||onlywoofs.com^
