@@ -128,6 +128,7 @@ $removeparam=ymid
 $removeparam=gci
 $removeparam=pk_vid
 $removeparam=mindbox-click-id
+!+ NOT_PLATFORM(ext_chromium_mv3)
 click_id=*_branch_referrer=$removeparam
 $removeparam=famad_xuid
 $removeparam=twclid
@@ -331,6 +332,7 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||mantan-web.jp^$removeparam=ext_m
 ||datafa.st^$removeparam=ref
 ||datafa.st^$removeparam=via
 ||j-cast.com^$removeparam=in
