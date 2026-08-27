@@ -1644,6 +1644,9 @@ healthyplace.com,qlife.jp,wiki.yjsnpi.nu,opinion.cw.com.tw,aidoly.net,celeby-med
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+deview.co.jp##.sp-break-ad-text
+deview.co.jp##.overlay_container
+automaton-media.com###main ~ div[data-block] .gspb_button_wrapper > a[href="#popup"]
 weathernews.jp###yahoo_ad
 worldfn.net##.blogroll_ads
 kursiv.media##.section-header.widgets-title-mobile
@@ -2571,7 +2574,7 @@ nuipogoda.ru##div[id][style^="left:"][style*="height:"]:style(height: auto !impo
 porndroids.com##.links-out__disclaimer
 porndroids.com##.wrapper > aside[class]:has(> header.aan__header)
 ap7am.com##.first-ad-adp
-hentailib.net##center > div[style^="width:300px;height:"]
+yaoilib.net,hentailib.*,ranobelib.me,mangalib.*,anilib.me##header + div[style] > div > div:has(script[data-ts-spot])
 vnexpress.net##section[class*="section_ads"]
 5wip-file.ru##a[target="_blank"][class="blue_btn"]
 babesource.tv##.block-player:style(padding-top: 0 !important;)
