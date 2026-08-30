@@ -313945,6 +313945,7 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||ondigitalocean.app/tracker.js
 ||appli.mixh.jp/appli.mixh.jp/app/*-track.php
 ||a.pixiv.org/yufulight-cdn/track.js
 bg-mania.jp##.section-pr-osusume
@@ -323766,6 +323767,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||berserkhydrant.com^
 ||bestboundary.com^
 ||bestclimbers.net^
+||bestcoffeemachine.net^
 ||bestshoesboot.com^
 ||bestsportsbra.com^
 ||betazebra.com^
@@ -324708,6 +324710,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||juicingoasis.com^
 ||jumbochalk.com^
 ||justconfig.com^
+||justfordocs.com^
 ||justicejudo.com^
 ||justlagoon.com^
 ||justpickaname.com^
@@ -326140,3 +326143,5 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||google-analytics.com/analytics.js$redirect-rule,script,domain=mond.how
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ||metrics.streaks.jp^$redirect=noop.txt,xhr
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
