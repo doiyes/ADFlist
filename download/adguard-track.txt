@@ -201,6 +201,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||trackhaven.com^$3p
+||rtbscale.com^
+||gaconnector.com^$3p
 ||northstar.cr^
 ||thinkingdata.cn^
 ||bidscube.com^
@@ -2477,7 +2480,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||74.55.82.102^$3p
 ||77tracking.com^$3p
 ||79.125.117.123^$3p
-||7bpeople.com^$3p
 ||7eer.net^$3p
 ||99stats.com^$3p
 ||9nl.eu^$3p
@@ -99934,6 +99936,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||pixel-frontend.avito.ru^
+||pausible.flaq.ai^
+||stats.reanime.to^
+||stats.flixcloud.cc^
 ||posthog.worldshopping.global^
 ||aka.asiae.co.kr^
 ||analytics.watchott.org^
@@ -101601,8 +101607,6 @@ prd.api.bleacherreport.com^
 ||analytics.aklamio.com^
 ||collect.hollisterco.com^
 ||d17tqr44y57o31.cloudfront.net^
-||analytics-mkt.wemakeprice.com^
-||ad-log.wemakeprice.com^
 ||analytics.ubports.com^
 ||tracker.dcdn.baidu.com^
 ||apetite.index.hr^
@@ -103328,7 +103332,6 @@ prd.api.bleacherreport.com^
 ||webvitals.luxnet.ua^
 ||widget.perfectmarket.com^
 ||wl.yna.co.kr^
-||wlog.tmon.co.kr^
 ||wstat.ozon.ru^
 ||wt.soundestlink.com^
 ||wtbevents.pricespider.com^
@@ -313945,6 +313948,11 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||guazimanhua.com/assets/metrics/
+||athensvoice.gr/content/dist/app/Plugins/pageTrack.js
+||cdn.informz.net/web_trk/sp.js
+||reanime.to/pv.js
+||flixcloud.cc/swetrix.js
 ||ondigitalocean.app/tracker.js
 ||appli.mixh.jp/appli.mixh.jp/app/*-track.php
 ||a.pixiv.org/yufulight-cdn/track.js
@@ -315343,7 +315351,6 @@ baseballpost.jp###highschool-pickup
 ||feedbackws.icloud.com/reportStats
 ||idmsa.apple.com/appleauth/jslog
 ppomppu.co.kr##+js(href-sanitizer, a[href^="https://s.ppomppu.co.kr?"][href*="&target="], ?target, base64decode)
-baseballpost.jp###highschool-pickup
 berrykun.com##img[src*="a8.net/svt/"]
 ||xvp.imgix.net/assets/customer_tools/ip_checker-
 ||pub.pixels.ai/metrics-lib.js
@@ -316684,7 +316691,6 @@ news.ntv.co.jp,lmaga.jp,lasisa.net,president.jp##.recommend
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
 ||hatarako.net/api/recommend/analyze_logger
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
-||sunknudsen.com/static/media/js/fathom
 ||assets.getpocket.com/web-utilities/public/static/te.js
 ||assets.askdoctors.jp/*/event-tracking
 ||travel.co.jp/js/analysis.js
@@ -316769,7 +316775,6 @@ cbssports.com##.taboola-recommends
 ||ezneering.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js
 ||unagi*.amazon.*/events/
 ||systemed.fr/itya.js
-||weather.go.kr/w/resources/js/logger
 ||hellosmpl.com^$script,3p
 ||qualzz.com/assets/trackingScript/webtracking.js
 ||id.rambler.ru/api/v3/session/getRsidx
@@ -317520,7 +317525,6 @@ chinatimes.com##.popin-recommend
 ||petco.com/track-production/analytics.js
 ||publisher-assets.spot.im/ad/event-tracking/$xhr,redirect=noop.js,script
 ||ace-sync.toast.com/sendid?sid=*&uid=
-||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||cdn.adrise.tv/*/appboy.min.js
 ||cdn.adrise.tv/*/sentry/
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
@@ -318210,7 +318214,6 @@ the-ans.jp##.side-reccomend
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
 ||dtory.ebs.co.kr/wlo^
-||home.ebs.co.kr/ebsnews/logProce/logAjax
 ||newzit.com/setABframe.html
 ||seoul.co.kr/weblog/
 ||ewaline.su/stats.js
@@ -319713,7 +319716,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||visualstudio.com/v*/track$3p
 ||wdr.de/*/tracker/
 ||web-t.9gag.com^
-||webmetrics.nintendo-europe.com^
 ||webstat.freaks4u.com^
 ||weg.de/etc/designs/comvel/clientlibs/tracking
 ||widgeo.net/compteur.php?
@@ -325152,6 +325154,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||popliquids.com^
 ||popmixradio.com^
 ||popplantation.com^
+||porksoda.com^
 ||possibleboats.com^
 ||possiblepencil.com^
 ||potatoinvention.com^
@@ -326143,5 +326146,5 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||google-analytics.com/analytics.js$redirect-rule,script,domain=mond.how
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ||metrics.streaks.jp^$redirect=noop.txt,xhr
-aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
