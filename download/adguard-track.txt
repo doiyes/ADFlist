@@ -201,6 +201,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||cloudx.io^
+||lndrsapi.com^
 ||ac.conel.jp^
 ||migstat.com^
 ||kameleoon.io^
@@ -99927,6 +99929,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||pla.uqload.vc^
 ||rta2.newscientist.com^
 ||ureca.samsungapps.com^
 ||orsdls.di.runestone.samsung.com^
@@ -313952,6 +313955,8 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+newsnow.com##+js(set-session-storage-item, nfPageCount, $remove$)
+newsnow.com##+js(set-session-storage-item, pageCount, $remove$)
 ||bwapi.irunfar.com/log/
 ||bwapi.irunfar.com/event/
 harpersbazaar.com##div[aria-labelledby="recirc-heading"]
@@ -314042,7 +314047,6 @@ opstream.fun##+js(set-local-storage-item, opstream:device-id, $remove$)
 ||ucuztap.az/api/ads/track
 ||emrldtp.com/collect
 ||fortune.com/api/recommendations/feedback/view/
-||gdebenz.ru/api/rum
 ||data.storyeditor.eu/se_analytics.js
 ||dragon.pdf2go.com/api/z|
 ||dragon.pdf2go.com/api/bat|
@@ -321186,6 +321190,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||featureassets.org/v1/initialize?k=$domain=bloomberg.com
 @@||assetsconfigcdn.org/v1/initialize?k=$domain=bloomberg.com
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.$domain=archive.is|archive.today|archive.ph
 @@||cdn.cxense.com/cx.cce.js$domain=j-cast.com
@@ -325825,8 +325830,10 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||tealjewel.com^
 ||teamstatus.net^
 ||tearfulglass.com^
+||techcatcher.com^
 ||techconverter.com^
 ||techdrivethru.com^
+||techmix.net^
 ||tediousbear.com^
 ||tedioustooth.com^
 ||teejubilee.com^

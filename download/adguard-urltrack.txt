@@ -1398,10 +1398,10 @@ $removeparam=tag3,domain=ibood.com|decathlon.pl
 $removeparam=wgu,domain=ibood.com|decathlon.pl
 $removeparam=wgexpiry,domain=ibood.com|decathlon.pl
 ||rapidgator.net^$removeparam=referer
-||donation.yahoo.co.jp^$removeparam=cpt_n
-||donation.yahoo.co.jp^$removeparam=cpt_s
-||donation.yahoo.co.jp^$removeparam=cpt_m
-||donation.yahoo.co.jp^$removeparam=cpt_c
+.yahoo.co.jp^$removeparam=cpt_n
+.yahoo.co.jp^$removeparam=cpt_s
+.yahoo.co.jp^$removeparam=cpt_m
+.yahoo.co.jp^$removeparam=cpt_c
 ||tinkoff.ru^$removeparam=dsp_click_id
 ||yahoo.co.jp^$removeparam=ikCo
 ||yahoo.co.jp^$removeparam=sc_e
@@ -2167,6 +2167,7 @@ $removeparam=a_aid,domain=expressvpn.com|vpnarea.com|wook.pt|affiliate.privatevp
 ||wired.com^$removeparam=mbid
 ||wikihow.com^$removeparam=?utm_source
 ||kohls.com^$removeparam=CID
+||instagram.com^$removeparam=stkn
 ||instagram.com^$removeparam=ig_rid
 ||instagram.com^$removeparam=igsh
 $removeparam=igshid,domain=instagram.com|threads.com|threads.net
