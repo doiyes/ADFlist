@@ -332,6 +332,9 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||asahi.com^$removeparam=oai
+||yomiuri.co.jp^$removeparam=from
+||yomiuri.co.jp^$removeparam=ref
 ||sponichi.co.jp^$removeparam=nid
 ||sponichi.co.jp^$removeparam=ref
 ||medal.tv^$removeparam=invite
