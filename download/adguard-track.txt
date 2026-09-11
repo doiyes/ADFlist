@@ -201,6 +201,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||mydatascript.bubbleup.com^
+||getads.ru^
+||idsequoia.ai^
 ||disutgh7q0ncc.cloudfront.net^
 ||zodalt.com^
 ||rer4.com^
@@ -4024,7 +4027,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||tl813.com^$3p
 ||tm.zedo.com^$3p
 ||tmvtp.com^$3p
-||tns-counter.ru^$3p
+||tns-counter.ru^
 ||tns-cs.net^$3p
 ||tns-gallup.dk^$3p
 ||top-bloggers.com^$3p
@@ -99932,6 +99935,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||7lzwgj.donaukurier.de^
 ||events.plutus.ninja^
 ||metrics.earlygame.com^
 ||pla.uqload.vc^
@@ -313233,6 +313237,7 @@ zonedirector.avadacom.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/get/live/web/_/*$script,~3p
 /wp-content/plugins/plausible-analytics/*
 /api-integration/ad-rotator/track/*
 /api-integration/ad-rotator/stats^
@@ -313960,11 +313965,18 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||pornhub.com/utils/reportTimeWatched
+||supportecom.ru/server.php?rqst=track
+||independent.co.uk/Agent/GA/
+||independent.co.uk/_build/prebid_
+friday.kodansha.co.jp##div[class^="common_mobileInner"] > section:has(> div[style="margin-top:20px"] > #taboola-below-article-thumbnails-sp)
+donaukurier.de##.landing-page__block:has(> .container > div[id^="piano_"] > .tp-cxense-placeholder-inline)
+donaukurier.de##+js(set-local-storage-item, glomexUser, $remove$)
 ||leolist.cc/static/min/js/modules/bam-impressions-
 ||adverts.ie/5g8u/
 ||api.mindbox.ru/*/customer/track-visit?
 ||api.mindbox.ru/*/js/operations/async?*&trackerName
-roomie.jp##.r-article ~ .r-section:has(> div[id^="logly-lift-"])
+roomie.jp##.r-section:has(> div[id^="logly-lift-"])
 roomie.jp##.r-sidesection[data-google-interstitial]
 ||runtimewire.com/api/analytics/*/events|
 newsnow.com##+js(set-session-storage-item, nfPageCount, $remove$)
@@ -319994,6 +320006,8 @@ dlsdk.appsflyer.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||bid.ctv.house^
+||log.calomeal.com^
 ||visit-server.inmobi-choice.io^
 ||adashx.m.taobao.com^
 ||logs.profi.ru^
@@ -323844,6 +323858,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||bigpicframing.com^
 ||bigwetbrush.com^
 ||bigworldfashion.com^
+||bijouxbee.com^
 ||bikeexerciser.com^
 ||bikepaws.com^
 ||bikesboard.com^
@@ -323855,6 +323870,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||binarykite.com^
 ||binspiredtees.com^
 ||biologylog.com^
+||biotechnologysciences.com^
 ||birthdaybelief.com^
 ||biscuitbox.net^
 ||biztoolsbrief.com^
@@ -323869,6 +323885,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||blitzcampaigns.com^
 ||blockdial.com^
 ||bloomsend.com^
+||bluebellbooks.com^
 ||bluecollarmuse.com^
 ||blueeyedblow.com^
 ||bluelionlabs.net^
