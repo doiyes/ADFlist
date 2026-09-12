@@ -332,6 +332,9 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||canadapost-postescanada.ca^$removeparam=abid
+||canadapost-postescanada.ca^$removeparam=bid
+||canadapost-postescanada.ca^$removeparam=rid
 ||minkara.carview.co.jp^$removeparam=cid
 ||note.com^$removeparam=external_type
 ||note.com^$removeparam=external_position
