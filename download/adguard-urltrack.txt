@@ -332,6 +332,11 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||mainichikirei.jp^$removeparam=ext_m
+||president.jp^$removeparam=cx_referrertype
+||president.jp^$removeparam=yhref
+||jp.reuters.com^$removeparam=rpc
+||huffingtonpost.jp^$removeparam=utm_hp_ref
 ||jisin.jp^$removeparam=rf
 ||newsdig.tbs.co.jp^$removeparam=ex_position
 ||newsdig.tbs.co.jp^$removeparam=ex_id

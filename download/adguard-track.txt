@@ -201,6 +201,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||justice.maybeoneday.ch^
 ||a.ussp.io^
 ||bidderstack.com^
 ||cs.ifedata.ru^
@@ -99949,6 +99950,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||gadata.motorpresse.de^
 ||p.food.ru^
 ||7lzwgj.donaukurier.de^
 ||events.plutus.ninja^
@@ -313252,6 +313254,8 @@ zonedirector.avadacom.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/api/videos/*/embed/view|$xhr
+/api/videos/*/embed/heartbeat|$xhr
 .io/yndx^
 /jc/gtm.js
 /static/modules/js/AssertiveYield/*
@@ -313983,6 +313987,10 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||index.hr/api/stats/
+||omr.com/reviews/gtm-
+||api.winstall.app/analytics/
+||berrybase.de/widgets/cbax/analytics/
 ||app.easy.tools/api/stats
 ||chatgpt.com/ces/v1/telemetry/
 ||yandex.*/an/count/$ping
@@ -314165,7 +314173,6 @@ gazetadopovo.com.br##section[class^="pianoRecommender"]
 ||run.app/events?cee=
 ||ecs.*.on.aws/events?cee=
 ||cdn.dsmcdn.com/web/prod/ring-manager.js
-||socialxup.com/api/track
 qwant.com##+js(prevent-fetch, apm.qwant.com/intake/v2/rum/events)
 x.com##+js(prevent-fetch, /i/api/1.1/flow/viewer.json)
 ||abs.twimg.com/responsive-web/client-web/loader.HomeTimelineAdblockNotice
@@ -319969,6 +319976,7 @@ mcp.directory##+js(remove-cookie, dotcom_user)
 dynamic-report-api.appsflyersdk.com^
 ||privacy-sandbox.appsflyersdk.com^
 -pia.appsflyersdk.com^
+.skadsdkless.appsflyersdk.com^
 -skadsdkless.appsflyersdk.com^
 -adrevenue.appsflyersdk.com^
 -attr.appsflyersdk.com^
@@ -324423,6 +324431,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||extramonies.com^
 ||exuberantedge.com^
 ||fabcharting.com^
+||fabledglory.com^
 ||fabledsoul.com^
 ||fabulousbooking.com^
 ||facilitatebreakfast.com^
@@ -324486,7 +324495,9 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||findyourdelight.com^
 ||firecatfilms.com^
 ||fireworkcamp.com^
+||firmasset.com^
 ||firstendpoint.com^
+||firsthoughtstudios.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
 ||fishingtoolsbox.com^
@@ -324767,6 +324778,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||infinityhedge.com^
 ||informalbook.com^
 ||infrafood.com^
+||inkcarts.net^
 ||inkcoupon.com^
 ||innocentlamp.com^
 ||inputicicle.com^
@@ -324860,6 +324872,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lasttaco.com^
 ||laughcloth.com^
 ||launchjack.com^
+||launchkite.com^
 ||lavaorganic.com^
 ||lazychord.com^
 ||lazyexplore.com^
@@ -325337,6 +325350,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||queenskart.com^
 ||questionate.com^
 ||quicklyedit.com^
+||quicktattoo.com^
 ||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
@@ -325921,6 +325935,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||thebestpaints.com^
 ||thebigvan.com^
 ||thebrainybulb.com^
+||thecodingpad.com^
 ||thecounter.net^
 ||thecrazychili.com^
 ||thefishstops.com^
