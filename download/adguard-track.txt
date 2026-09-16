@@ -99950,6 +99950,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||counter.wargamings.net^
+||analyticssec.overwolf.com^
 ||gadata.motorpresse.de^
 ||p.food.ru^
 ||7lzwgj.donaukurier.de^
@@ -313254,6 +313256,8 @@ zonedirector.avadacom.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/static/js/tracker.js^
+/api/eventTracking/batchReport.json
 /api/videos/*/embed/view|$xhr
 /api/videos/*/embed/heartbeat|$xhr
 .io/yndx^
@@ -313663,7 +313667,8 @@ zonedirector.avadacom.com$image
 /astrack.js
 /gv-analytics/*
 /gapro.js
-/duracelltomi-google-tag-manager/*$script
+/analytics-talk-content-tracking.
+/gtm4wp-$script
 /img.gif?
 /mtracking.
 /sr.gif?
@@ -313987,6 +313992,10 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||gorbilet.ru/blog/js/metrics.js
+||mediaexpert.pl/_internal/metrics/
+||wargamings.net/png.php?id=
+||iplayer.is/lib/tk.js
 ||index.hr/api/stats/
 ||omr.com/reviews/gtm-
 ||api.winstall.app/analytics/
@@ -314173,6 +314182,7 @@ gazetadopovo.com.br##section[class^="pianoRecommender"]
 ||run.app/events?cee=
 ||ecs.*.on.aws/events?cee=
 ||cdn.dsmcdn.com/web/prod/ring-manager.js
+||socialxup.com/api/track
 qwant.com##+js(prevent-fetch, apm.qwant.com/intake/v2/rum/events)
 x.com##+js(prevent-fetch, /i/api/1.1/flow/viewer.json)
 ||abs.twimg.com/responsive-web/client-web/loader.HomeTimelineAdblockNotice
@@ -320169,7 +320179,6 @@ dlsdk.appsflyer.com^
 ||news-sports-events.apple.com^
 ||track.applicaster.com^
 ||hb-mob2.optiword.com^
-||tracking.geo.*.amazonaws.com^
 ||telemetry.doxo.com^
 ||sensorsdata-datasink.stardust-tv.com^
 ||event-api-cs.stardust-tv.com^
@@ -321248,6 +321257,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||data.tm-awx.com$domain=gloucestershirelive.co.uk
 @@||rj.com/layouts/system/VisitorIdentification.js$domain=rj.com
 @@||sgtm.viking.de/gtm.js$domain=viking.de
 @@||pub-static.fotor.com/static/web/lib/sensors/sensorsdata.min.js
@@ -321278,6 +321288,8 @@ d4?appid*type*
 @@||techlab-cdn.com/e/$domain=sephora.com
 @@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@||static.cloudflareinsights.com^$domain=quasarzone.com,script
+@@||feliz.data.tm-awx.com^$domain=cheshire-live.co.uk
+@@||feliz-web.data.tm-awx.com^$domain=cheshire-live.co.uk
 @@||feliz.data.tm-awx.com^$domain=football.london
 @@||feliz-web.data.tm-awx.com^$domain=football.london
 @@||cdn.clerk.io/clerk.js$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk|brukas.no
@@ -323852,6 +323864,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||barkfactor.com^
 ||barqueue.com^
 ||barrelcider.com^
+||bartcons.com^
 ||baseboosters.com^
 ||basketballbelieve.com^
 ||baskettexture.com^
@@ -324820,6 +324833,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||joyfulharbor.com^
 ||joyouspool.com^
 ||joyoussurprise.com^
+||jqioregvpxgte.website^
 ||jubilantaura.com^
 ||jubilantcanyon.com^
 ||jubilantglimmer.com^
@@ -324878,6 +324892,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lazyexplore.com^
 ||lazylivingroom.com^
 ||lazypecan.com^
+||ldrws.com^
 ||leafpilot.com^
 ||leaplunchroom.com^
 ||leapquick.com^
@@ -324896,6 +324911,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||limepeal.com^
 ||linksoutside.com^
 ||linkstable.com^
+||littlegeese.com^
 ||littlesun.net^
 ||livelumber.com^
 ||livelylaugh.com^
@@ -324920,6 +324936,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lostwaxlab.com^
 ||loudlunch.com^
 ||lovelydrum.com^
+||lovesbooks.com^
 ||loveseashore.com^
 ||lowercases.com^
 ||lowerthewatts.net^
@@ -325258,6 +325275,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||pluckypocket.com^
 ||pluckyzone.com^
 ||pluggedlabs.com^
+||pluxpdzouwubj.space^
 ||pocketfaucet.com^
 ||podname.com^
 ||poemprompt.com^
@@ -325439,6 +325457,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||retrocrypt.com^
 ||retrorays.com^
 ||reversetickets.com^
+||reviewacousticguitar.com^
 ||revivalvoice.com^
 ||rhetoricalactivity.com^
 ||rhetoricalloss.com^
@@ -326108,6 +326127,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||viewresource.com^
 ||vilenexus.com^
 ||violetdemise.com^
+||viowrel.com^
 ||viralfoodie.net^
 ||virtualvincent.com^
 ||vividcache.com^
