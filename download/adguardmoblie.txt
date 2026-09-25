@@ -1,9 +1,4 @@
 ! AdGuard-移动规则
-||yodo1.com^
-||banner.bet365partners.com^
-||playwire.com^
-||fingerhi.net^
-||*.libaishuo.com^$3p
 ||adx-open-service.youku.com^
 ||ad.youku.com^
 ||ykad-data.youku.com^
@@ -91,6 +86,13 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||app.bxapi.de^
+||yodo1.com^
+||banner.bet365partners.com^
+||playwire.com^
+||fingerhi.net^
+||*.libaishuo.com^$3p
+||palateonce.com^
 ||ad2.fivecdm.com^
 ||ads-m.rustore.ru^
 ||appgw.inmobi.com^
@@ -1647,6 +1649,10 @@ hotosena.com,kurukura.jp,nobico.php.co.jp,healthyplace.com,qlife.jp,wiki.yjsnpi.
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+relazo.net##.wider:has(> div[style]:only-child > .adPost)
+joshi-spa.jp##.banner_widget:has(> a:not([href*="joshi-spa.jp"]))
+powerwatch.jp##div[data-smarttag-spot]
+news.yahoo.co.jp###inf_mid a[data-cl-params]
 ladepeche.fr###pub_dfp_footer_sticky-mobile
 hotosena.com##div[class^="ats-"]
 pinterest.*##div[role="listitem"]:has(div[data-test-id="related-pins-name"] > div[role="button"] > div + div > div[style="-webkit-line-clamp: 1;"]):not(:has(a[href*="/pin/"]))
@@ -4012,7 +4018,6 @@ moviepilot.de##div[id^="dfp-mtf-"]
 deccanherald.com##.container > .hide-desktop
 bi-girl.net##.osusume_av_wrap_mobile
 olive-hitomawashi.com##div[style*="min-width: 300px"]
-weloma.art##.mCustomScrollbar center > iframe[src^="https://cresivetanach.com/"]
 tvi.iol.pt##.mrecWrapperMobile
 english.tupaki.com##body #inside_post_content_ad_1_before
 atelevisao.com##.custom-html.BelowTags
@@ -4026,7 +4031,6 @@ amazon.*##div[cel_widget_id="mobile-dp-sims_SPThematicBrand_Same"]
 amazon.*##section[class*="csm-placement-id"]:not([data-cel-widget^="sobe_d_"])
 m.efuxs.com##.inglestore
 financialexpress.com##.ad-bg-container
-nationalworld.com##body div[class^="Dailymotion__Wrapper-"]
 numan.tokyo##.sw-Overlay
 bigissue.com##body .-ad
 bolavip.com##.primis-placeholder-mobile
@@ -4507,7 +4511,6 @@ codecs.forumotion.net##main > div > div[style="min-height:105px"][class]
 kakakumag.com##.ad-bnr-box
 kakakumag.com##.special-cts-wrap
 ||dfu7.com/JiaYou/sogou
-miltonkeynes.co.uk##div[class^="BottomBanner__"]
 atelevisao.com,mundokodi.com,gamesisart.ru,laleggepertutti.it##.clAdPlacementAnchorWrapper
 laleggepertutti.it##.BelowTitle
 laleggepertutti.it##.BelowPost
@@ -6649,7 +6652,6 @@ anlink.top##iframe[src^="//ad.a-ads.com"]
 octoba.net##.sp-middle2-ads
 octoba.net##.contentbody > .post > div[style="height:100px;overflow:hidden;text-align:center;padding:1em 0 0 0;"]
 jiji.com##[amp] #recommend_list
-scotsman.com,sunderlandecho.com##.slab--bottommobilebanner
 afpbb.com##aside[style="text-align: center; min-height: 180px;"]
 afpbb.com##amp-iframe[src^="https://cdn.cxpublic.com/amp-recs-template.html"]
 ck101.com###mobileFloat
