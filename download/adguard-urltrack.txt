@@ -332,6 +332,8 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||askul.co.jp^$removeparam=sc_i
+||askul.co.jp^$removeparam=int_id
 ||dailymail.com^$removeparam=ns_mchannel
 ||dailymail.com^$removeparam=ns_campaign
 ||dailymail.com^$removeparam=ito
@@ -1160,7 +1162,9 @@ $removeparam=sub_rt,domain=comemo.nikkei.com|diehardtales.com|greenplanet.kaneka
 ||cyber.sports.ru^$removeparam=p_n
 ||cyber.sports.ru^$removeparam=p_c
 ||walmart.com^$removeparam=from
-||audible.$removeparam=ref
+||audible.com/?$removeparam=ref
+||audible.*/series/$removeparam=ref
+||audible.*/library/$removeparam=ref
 ||camcam.cc^$removeparam=ref
 ref=producthunt^$removeparam=ref
 ||igromania.ru^$removeparam=from_button_waterfall_knb
