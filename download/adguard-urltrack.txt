@@ -1,4 +1,5 @@
 ! AdGuard-url跟踪保护规则
+$removeparam=pjclid
 $removeparam=/^weekend-reading-link-\d{6}$/
 $removeparam=x-clickref
 $removeparam=x-source
@@ -332,10 +333,9 @@ $denyallow=lifehacker.ru|forbes.ru|kommersant.ru,removeparam=erid
 $denyallow=greenbuildingadvisor.com,removeparam=oly_enc_id
 $denyallow=login.aliexpress.us|login.aliexpress.com,removeparam=_ga
 $denyallow=tradedoubler.com,removeparam=tduid
+||sp.mbga.jp^$removeparam=_from
+||sp.mbga.jp^$removeparam=_fr
 ||search.yahoo.co.jp^$removeparam=frtype
-||paypaygourmet.yahoo.co.jp^$removeparam=CosNo
-||restaurant.ikyu.com^$removeparam=CosNo
-||restaurant.ikyu.com^$removeparam=CosUrl
 ||bangumi.org^$removeparam=and_yjweb
 ||yahoo-mbga.jp^$removeparam=_ref
 ||retty.me^$removeparam=utm_y_smt_top
