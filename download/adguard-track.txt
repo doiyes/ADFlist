@@ -324523,6 +324523,9 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+search.rakuten.co.jp##+js(addEventListener-defuser, mouseup, sendClickEvent)
+||a.wing.st/js/pa-
+||a.wing.st/api/event
 ||kilo.ai/monitoring?
 ||ekitan.com/*-analytics.js
 ||ekitan.com/common/ek-tracker/
@@ -334717,6 +334720,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||chipcardice.com^
 ||chipperisle.com^
 ||chivalrouscord.com^
+||choicebump.com^
 ||chubbycreature.com^
 ||chunkycactus.com^
 ||cicdserver.com^
@@ -334757,6 +334761,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||coldbalance.com^
 ||coldcallpro.com^
 ||coloradoserves.com^
+||colorandnoise.com^
 ||colorfulneon.com^
 ||colorfulpet.com^
 ||coloroptimizer.com^
@@ -334875,6 +334880,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||cutsmarter.net^
 ||cyclinghere.com^
 ||cyclopsdial.com^
+||dailydesigned.com^
 ||dailydivision.com^
 ||dailydomino.com^
 ||damagedadvice.com^
@@ -337005,3 +337011,4 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
 ||ipcheck.blogsys.jp^$redirect=noop.js,script
+search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
