@@ -312,6 +312,9 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||bfmtv.com^$removeparam=at_brand
+||bfmtv.com^$removeparam=at_compte
+||bfmtv.com^$removeparam=at_plateforme
 ||elcomercio.es^$removeparam=mrfcid
 ||sp.mbga.jp^$removeparam=_from
 ||sp.mbga.jp^$removeparam=_fr
@@ -2612,6 +2615,8 @@ $removeparam=s,domain=twitter.com|x.com
 ||gamesplanet.com^$removeparam=ref
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
+@@||archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^$removeparam
+@@||archivecaslytosk.onion^$removeparam
 @@||archive.*^$removeparam
 @@||wayback.archive-it.org^$removeparam
 @@||warp.ndl.go.jp^$removeparam
