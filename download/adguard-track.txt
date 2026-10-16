@@ -202,6 +202,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||adtasukaru.com^$3p
 ||manus-analytics.com^
 ||rt.buzzni.com^
 ||did.kr^$3p
@@ -103425,6 +103426,10 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||config.trackingplan.com^
+||eu-tracks.trackingplan.com^
+||tracks.trackingplan.com^
+||log.mopo.de^
 ||tracking.broadpeak.io^
 ||a.wing.st^
 ||metrics.elcomercio.es^
@@ -336461,7 +336466,11 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||bookbear.kr/js/site_log.js
+||yimg.com/*/ymanalytics-core.js
+||faz.net/api/fpid/
 ||plapi.cdnvideohub.com/*/events
+||edge.fedy.io^$domain=ensonhaber.com
 ||7movies.ac/api/analytics/event|
 ||catch.dmm.co.jp/newrelic.js
 ||video.dmm.co.jp/js/tracking.min.js
@@ -343811,7 +343820,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtag/$domain=nove.tv
 @@||show.revico.jp/providejs/tagmanager.js$domain=workman.jp
 @@||static.vocstatic.com/voonto2/*/voonto.js$domain=elcomercio.es
-||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/*/collect-rangers-$script,redirect=noop.js,domain=kimi.com|kimi.ai
+@@||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/*/collect-rangers-$script,domain=kimi.com|kimi.ai
 @@||rtoaster.jp^$script,domain=nitori-net.jp
 @@||rtl.nl/_astro/snowplow.*.js$domain=rtl.nl
 @@||st-*.dynamicyield.com/st?$script,domain=easytoys.pl|easytoys.nl|easytoys.be|easytoys.es|easytoys.it
@@ -347055,6 +347064,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||exportdialog.com^
 ||extracover.net^
 ||extractobservation.com^
+||extraliner.com^
 ||extralocker.com^
 ||extramonies.com^
 ||exuberantedge.com^
@@ -347201,6 +347211,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||fronttoad.com^
 ||frozekitchen.com^
 ||frugalfiestas.com^
+||ftpmagic.com^
 ||fudgegenie.com^
 ||fuelfever.net^
 ||fuelinspector.com^
