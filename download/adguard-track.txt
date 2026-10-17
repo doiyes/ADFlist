@@ -202,6 +202,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||myweb3id.io^$3p
+||g.rtbrain.app^
 ||adtasukaru.com^$3p
 ||manus-analytics.com^
 ||rt.buzzni.com^
@@ -335729,6 +335731,7 @@ zonedirector.avadacom.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/e/*^ip=*^beacon=
 /wp-content/plugins/advanced-ads-tracking/*
 /static/js/tracker.js^
 /api/eventTracking/batchReport.json
@@ -343815,6 +343818,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||googletagmanager.com/gtm.js$script,domain=aeon.co.jp
 @@||load.g.essanelle-friseur.de/*.js?$domain=essanelle-friseur.de
 @@||googletagmanager.com/gtm.js$domain=nove.tv
 @@||googletagmanager.com/gtag/$domain=nove.tv
@@ -347143,6 +347147,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||fishspies.com^
 ||fitgreatest.com^
 ||fitnessmapper.com^
+||fitnesssponsor.com^
 ||fitwithalpine.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
@@ -347230,6 +347235,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||fuzzybasketball.com^
 ||fuzzyerror.com^
 ||gadgetboy.net^
+||gamerhunk.com^
 ||gamerone.net^
 ||gammamaximum.com^
 ||gardenovens.com^
