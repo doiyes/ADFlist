@@ -86,6 +86,8 @@
 ||startup.mobile.yandex.net^
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
+||da.flvcdn.net^
+||rtb.nefta.app^
 ||ads-proxy-aka.prod.bo.canal.canalplustech.pro^
 ||acdn.newshuntads.com^
 ||app.bxapi.de^
@@ -93,7 +95,7 @@
 ||banner.bet365partners.com^
 ||playwire.com^
 ||fingerhi.net^
-||*.libaishuo.com^$3p
+.libaishuo.com^$3p
 ||palateonce.com^
 ||ad2.fivecdm.com^
 ||ads-m.rustore.ru^
@@ -1650,7 +1652,10 @@ hotosena.com,kurukura.jp,nobico.php.co.jp,healthyplace.com,qlife.jp,wiki.yjsnpi.
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
-polandball.jp##div[class^="myadd"]
+respublika.lt###onnetwork_container
+otakuma.net###otkm-anchor
+yahoo.com###mid-center-ad-1
+ksta.de##.fixed.bottom-0
 kako-mon.com###ad-under-header
 psicoactiva.com##aside[style="position:sticky; position:-webkit-sticky; top:0px; min-height:250px;"]
 .ixbt.com/banner/
@@ -2113,7 +2118,6 @@ foodnetwork.com##.leaderboard-top
 entabe.jp##div[style="text-align:center;margin-top:20px;margin-bottom:20px;"] > a[href^="https://entabe.jp/click/"]
 usmagazine.com##.bbTag
 usmagazine.com##.sellwild-wrapper
-motherless.com###mobile_in_content_view
 prajavani.net###sticky-banner-id
 prajavani.net###mobile-story-card-1 + div[class]:has(.ad-text)
 prajavani.net##.secondSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
@@ -5724,7 +5728,6 @@ gumtree.com.au##.header-lite__leaderboard-ad
 news.1242.com###pickup_list
 news.1242.com##.box_infeed.gmossp
 news.1242.com##div[class^="area_ads"]
-motherless.com###advertisement-above-footer
 jprime.jp##.ad-relate
 jprime.jp##.ad-top-header
 jprime.jp##.ad-undertitle
@@ -6758,9 +6761,7 @@ m.plo.vn###Mobile_AdsArticleBodyMiddle
 amp-meduza-io.cdn.ampproject.org##.Adv--bordered
 dongtw.com##.adfixWp
 dongtw.com##.jeg_ad
-motherless.com###advertisement-below-menu
-||motherless.com/floater_iframe.php
-imgbox.com,collectionofbestporn.com,imagebam.com,motherless.com##._ln-floater
+imgbox.com,collectionofbestporn.com,imagebam.com##._ln-floater
 tubedupe.com,anyporn.com###mh-ad
 ||anyporn.com/xml^$media,redirect=noop-1s.mp4
 blog.livedoor.com##.MdAdBox01
