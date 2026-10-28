@@ -109021,6 +109021,8 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||stats.spidersense.xyz^
+||umami.vidcore.net^
 ||analytics.dulo.
 ||umami.vidfast.vc^
 ||umami.vidup.to^
@@ -373423,6 +373425,12 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||live-xo.lovable.app/~api/analytics
+||live-xo.lovable.app/*/trackevents
+||bigjoy.com.tr/metrics/
+||bigjoy.com.tr/api/analytics/
+||zenox.lol/api/analytics/ping|
+||data.dailyhunt.in/topics/analytics-events
 ||iceporn.net/ajax/log/
 ||bloxd.io/social/analytics/
 ||antigravity.google/_astro/AnalyticsBootstrap.*.js
@@ -373436,7 +373444,7 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||search.11st.co.kr/js/searchWebFront/search/public/rakeLog-mobile-search.js
 ||gleams.dev/api/customers/usage-beacon
 ||offer-link.com/collect-click.php
-||tokenpost.kr/tracking/ajax/$xhr
+||tokenpost.kr/tracking/ajax/
 ||nijiurachan.net/analytics/
 ||electroverse.com/view/insights/script.js
 ||miniwebtool.com/js/mwt-analytics.
@@ -374041,7 +374049,6 @@ abc.net.au##+js(set-local-storage-item, snowplowOutQueue_Presentation Layer, $re
 ||rudderstack.com/v1/batch?writeKey=
 ||simplywall.st/backend/flags/proxy/client/metrics
 ||doofinder.com/api/v*/stats/
-||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/sentinel/ping
 ||lg-chatbot.com/chatbot/v*/api/client_logger
 ||cv-library.co.uk/assets/js/ext/amplitude-
@@ -380805,6 +380812,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+@@||googletagmanager.com/gtag/js$domain=5ch.io
 @@||googletagmanager.com/gtm.js$domain=support.brother.com
 @@||googletagmanager.com/gtm.js$script,domain=aeon.co.jp
 @@||load.g.essanelle-friseur.de/*.js?$domain=essanelle-friseur.de
@@ -384309,6 +384317,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||gripcorn.com^
 ||grocerycrew.com^
 ||grocerydog.com^
+||groglog.com^
 ||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
@@ -384355,6 +384364,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||healthyclad.com^
 ||heartbreakingmind.com^
 ||hearthow.com^
+||heatrave.com^
 ||heavydetail.com^
 ||heavyplayground.com^
 ||hellospur.com^
@@ -384363,6 +384373,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||helpflame.com^
 ||helpingbits.com^
 ||heycomputers.com^
+||heyhotshots.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
@@ -385045,6 +385056,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||rabbitboots.com^
 ||rabbitbreath.com^
 ||rabbitrifle.com^
+||racerpets.com^
 ||rackforstorage.com^
 ||radexports.com^
 ||radiantcanopy.com^
@@ -385068,6 +385080,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||reactjspdf.com^
 ||reactwizard.com^
 ||readingguilt.com^
+||readourminds.com^
 ||readymoon.com^
 ||readysetcard.com^
 ||readysnails.com^
@@ -385099,6 +385112,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||regularplants.com^
 ||regulatesleet.com^
 ||rehabilitatereason.com^
+||reignfans.com^
 ||relationrest.com^
 ||releasepath.com^
 ||rememberdiscussion.com^
@@ -385980,7 +385994,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 iphoneincanada.ca##+js(acs, document.createElement, __apNoHold)
 247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pcwelt.de,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,theprovince.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,bellinghamherald.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,komonews.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,myfoxzone.com,nationalpost.com,nbcsports.com,news.com.au,newscentermaine.com,newswest9.com,nj.com,nydailynews.com,oregonlive.com,ottawacitizen.com,ottawasun.com,pennlive.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,sportico.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,bellinghamherald.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,komonews.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,motor1.com,myfoxzone.com,nationalpost.com,nbcsports.com,news.com.au,newscentermaine.com,newswest9.com,nj.com,nydailynews.com,oregonlive.com,ottawacitizen.com,ottawasun.com,pcworld.com,pennlive.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,sportico.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
 cleveland.com,fox11online.com,oregonlive.com,reuters.com,weartv.com##+js(aost, admiral, .js?)
 al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
