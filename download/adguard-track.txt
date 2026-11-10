@@ -419,7 +419,6 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||api.datahub-srgssr.ch^
 ||statisticslinks.com^
 ||metricslinks.com^
-||gjirafa.net^$3p
 ||siteperformancetest.net^
 ||convertiser.com^
 ||bidr.io^
@@ -111009,6 +111008,7 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||analytics.datacite.org^
 ||tracklet.prod.tech.as-nmt.de^
 ||stats.vidbolt.pro^
 ||analytics.redflix.ac^
@@ -424560,6 +424560,7 @@ zy4jviawqldmteoh.view.s11.sfmc-osl.com$image
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,3p,match-case
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
+/api/viewcontent.php?
 /.well-known/shopify/fec/produce
 /e/*^ip=*^beacon=
 /wp-content/plugins/advanced-ads-tracking/*
@@ -425299,6 +425300,10 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+||pisano.com.tr^
+||baqend.com/v*/speedkit/signals?
+||cdn.jsdelivr.net/npm/@datacite/datacite-tracker
+||migros.com.tr/analytics/
 ||check24.de/files/give_img.php
 ||chat.bot.check24.de/faro/collect
 ||search.check24.de/tag.gif
@@ -425482,7 +425487,7 @@ nfl.com,app.socios.com##+js(set-local-storage-item, deviceId, $remove$)
 ||eurozpravy.cz/js/matomo-events.js
 ||footmercato.net/lib/prebid$script
 ||api.claydar.com/tracker/
-/wp-content/uploads/*/*.js?id=G-$domain=fcportables.com
+/wp-content/uploads/*/*.js?id=G-$domain=fcportables.com|zenoplay.to
 ||finanzen.*/api/page-visits/track
 ||cdn.shopify.com/extensions/*/affliate-by-secomapp-125/
 ||wlct-one.de/api/*/mtrcs/
@@ -436408,6 +436413,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||intentlens.com^
 ||internalcondition.com^
 ||internalsink.com^
+||intobuddy.com^
 ||intricateberry.com^
 ||introjava.com^
 ||inventtango.com^
@@ -436518,6 +436524,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||lilydreamer.com^
 ||limecodesign.com^
 ||limepeal.com^
+||limitowl.com^
 ||linksoutside.com^
 ||linkstable.com^
 ||littlegeese.com^
@@ -437083,6 +437090,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||redbricksoap.com^
 ||redexecs.com^
 ||redmillgroup.com^
+||reelcombat.com^
 ||reflectpaint.com^
 ||refundradar.com^
 ||regenergize.com^
@@ -437093,6 +437101,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||reignfans.com^
 ||relationrest.com^
 ||releasepath.com^
+||relexpert.com^
 ||rememberdiscussion.com^
 ||remixbistro.com^
 ||remixslot.com^
@@ -437228,6 +437237,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||screenphotos.com^
 ||scribblestring.com^
 ||scrollservice.com^
+||scrubchi.com^
 ||scrubswim.com^
 ||sealtravels.com^
 ||seamlesssalon.com^

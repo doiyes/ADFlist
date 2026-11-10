@@ -996,6 +996,7 @@
 ||zedo.com^
 ||n152adserv.com^
 ||smilered.com^
+filmymeet.cc###mobileAdblockModal
 pornhex.com##+js(no-setTimeout-if, /AdBlock/i)
 sht-link.com##+js(prevent-fetch, adsbygoogle)
 planetf1.com##+js(abort-on-property-read, freeProConfig.btnRefresh)
@@ -1656,6 +1657,12 @@ hotosena.com,kurukura.jp,nobico.php.co.jp,healthyplace.com,qlife.jp,wiki.yjsnpi.
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+biz.nv.ua##.main-wrapper > .container:has(> div.row > a[target="_blank"] picture)
+biz.nv.ua##section[data-type="advertising"]
+linkvertise.com##lv-ad-sense
+jprime.jp##body > .l-main:style(margin-top: -160px !important;)
+jprime.jp##body > .l-header:style(margin-top: -160px !important;)
+jprime.jp##body:style(padding-bottom: 0px !important;)
 remontka.pro##article > div[id^="rem_"]
 allsoft.ru##.main-mobile-banner
 winfuture.de###ab_google_336x280_35_35
@@ -7881,6 +7888,8 @@ vfokuse.mail.ru##div[data-logger="PortalMenuPromo"]
 vfokuse.mail.ru##header > div[class]:has(> div[class*="rb-slot_plug"])
 livejournal.com##data-banner-place-id
 livejournal.com##div[id^="billboard_mobile_"]
+!+ NOT_OPTIMIZED
+dot.asahi.com##.article-inarticle-guide
 !+ NOT_OPTIMIZED
 heise.de##.ad-mobile-group-3
 !+ NOT_OPTIMIZED
