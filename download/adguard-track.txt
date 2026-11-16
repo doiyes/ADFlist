@@ -111033,6 +111033,9 @@ biteki.com##.slick-slide > div[id] + script:upward(1):remove()
 ||countly.
 ||countly-
 |piwik.
+||stats.proxypurity.com^
+||cast-imp.jtbc.co.kr^
+||beacon.viafoura.io^
 ||events.plus.yandex.net^
 ||20251117mix.zgstongji.vip^
 ||2702.anglicanledger.org^
@@ -426710,6 +426713,13 @@ mexc.com##+js(set-local-storage-item, _yjsu_yjad, $remove$)
 ||google-analytics.com^$object,redirect=noop.js,script
 ||googletagmanager.com/gtag/$3p,object,redirect=noop.js,script
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
+thairath.co.th##body > div[class^="css-"]:not([aria-label]):has(> div[class^="css-"] > div[id^="taboola-"])
+||electricbikes.com/api/ad-stats
+||electricbikes.com/api/ad-impressions
+||welect.de/api/*/mtrcs
+||91cg1.com/view-stat.php^
+||ubt-sgp.travix.com/bee/collect
+||das-cdn.idealo.com/pixel/
 ||api.plus.kinopoisk.ru/graphql?operationName=registerSimpleActionWithPixel
 ||yandex.ru/static-mon/event
 ||zkrainynba.com/wp-content/themes/zkrainynba/assets/js/events-ga*.min.js
@@ -427704,7 +427714,6 @@ olympics.com##section[data-cy="story-parts-wrapper"] > div:not([data-cy]):has(re
 ||rawpixel.com/external/gtag.js
 moebelix.*##+js(set-local-storage-item, coveo_cid, $remove$)
 ||appmifile.com/i18n/ga*/
-||cast-imp.jtbc.co.kr/trac?event=
 ||bsp-proxy.wetransfer.net/pico/v*/web-events
 ||wetransfer.com/api/web-metrics
 ||tokbox.com/prod/logging/
@@ -428370,6 +428379,17 @@ wired.com,self.com,allure.com,pitchfork.com,gq.com##+js(set-local-storage-item, 
 ||check24.*/misc/tracking_gif.php
 ||check24.*/gif/*/info.gif
 ||check24.*/files/give_png.php
+||check24.*/api/client-logs
+||check24.*/api/web-vitals-metrics
+||check24.*/*/traffic-event
+||check24.*/files/give_gif.php
+||check24.*/syncLocalStorage.html
+||check24.*/jsonp/statsd/
+||check24.*/*/json/dynamic/set-sem-tracking
+||check24.*/rpc/desktop/log/
+||urlaub.check24.*/*/json/hotel/featuredHotelReport
+||cella.*.check24.*/tracking/
+||pub-api.*.check24.*/*/shared-identifier
 ||kma.go.kr/kma/resources/js/UserScriptConf.js
 ||kabu-sokuhou.com/js/cpv/
 4pda.to##+js(remove-attr, data-dotrack, a[data-dotrack])
@@ -438845,6 +438865,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||soresidewalk.com^
 ||soretrain.com^
 ||soulclicking.com^
+||soulfreedom.net^
 ||soundmachine.net^
 ||soundmuseums.com^
 ||soundstocking.com^
@@ -438883,6 +438904,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||spoonsilk.com^
 ||sportsclubstat.com^
 ||sportsnearby.com^
+||sportswidows.com^
 ||sportybrains.com^
 ||sportyforum.com^
 ||spotlessstamp.com^
@@ -439136,6 +439158,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||topcrazypress.com^
 ||topicalcartel.com^
 ||topicjungle.com^
+||topicspin.com^
 ||toplaunch.net^
 ||topratedwaterfilter.com^
 ||topsecretapp.net^
@@ -439163,6 +439186,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||treatoceans.com^
 ||tremendousplastic.com^
 ||tremendoustime.com^
+||trendcone.com^
 ||trialowl.com^
 ||trickfile.com^
 ||triplelarge.com^
@@ -439183,6 +439207,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||tuplebar.com^
 ||turtleface.net^
 ||tutorshelf.com^
+||tuxedocard.com^
 ||twelvedawn.com^
 ||twentyerr.com^
 ||twistloss.com^
@@ -439291,6 +439316,7 @@ demae-can.com##+js(remove-attr, data-trm-action|data-trm-category|data-trm-label
 ||warnwing.com^
 ||warpedwaffle.com^
 ||washbanana.com^
+||waterloco.com^
 ||waterywave.com^
 ||waveinverter.com^
 ||wavesimple.com^
