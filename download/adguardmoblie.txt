@@ -1658,6 +1658,7 @@ hotosena.com,kurukura.jp,nobico.php.co.jp,healthyplace.com,qlife.jp,wiki.yjsnpi.
 chip.de,gamesworld.de,fnn.jp##.Ad
 medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+startitup.sk##.siu-taboola-anchor
 dengekionline.com##main[class$="_maincolumn"] div[class*="_wrapper"]:has(> div[class$="_banner"])
 zeebiz.com##div[class^="ads_adsBlock_"]
 ncaa.com##.mobile-persistent-bottom
@@ -2610,7 +2611,7 @@ pornhits.com##.sites__item--hl
 modernliving.jp##div[class^="css-"]:has(> div.ad-disclaimer)
 moovitapp.com##.header-sticky-ad-test:style(top: 0 !important;)
 missavtv.com##iframe[src^="https://creative.rmhfrtnd.com/"]
-cielotv.it##main > div[type="skin"][class^="sc-"]
+cielotv.it##div[class^="AdvBanner_"]
 tu93.org##+js(abort-current-script, document.createElement, )
 ||tu93.org/mobile/w/*.min.js|$script
 ||tj.com.day/js/*.js|$script,3p
@@ -3265,7 +3266,7 @@ przegladsportowy.onet.pl###fixtures-slot:has(> .relative:only-child > .onet-ad:o
 news.m.pchome.com.tw##div[class^="showad_"]
 newsphere.jp##div[style="height: 210px;"]
 shogis.com##.adv300_250
-yourweather.co.uk,theweather.net,tempo.pt,tempo.com,tiempo.com,meteored.*##.pie-pagina:style(margin-bottom: 0 !important;)
+yourweather.co.uk,theweather.net,tempo.pt,tiempo.com,meteored.*##.pie-pagina:style(margin-bottom: 0 !important;)
 s.kakaku.com##.u-bt_ad
 s.kakaku.com##.p-box-foot_item
 dengekionline.com##.gAdBanner
@@ -3468,7 +3469,6 @@ filmvandaag.nl##body #preload-ad-billboard.is-preload-ad
 s.minkabu.jp##.relative.justify-center.overflow-hidden
 figsoku.net###comment-form > a[target="_blank"] > img
 fontech.startitup.sk##div[id^="MOB_fon_art_"]
-fontech.startitup.sk##div[class^="code-block code-block-"][style]
 sp.macour.jp##.ad_macour
 jomo-news.co.jp##.top-genre-articles-item:has(> div[id^="div-gpt-"])
 toyokeizai.net###latest > div.articles-lists__item:has(> div[id^="div-gpt-ad-"])
@@ -7914,6 +7914,8 @@ vfokuse.mail.ru##div[data-logger="PortalMenuPromo"]
 vfokuse.mail.ru##header > div[class]:has(> div[class*="rb-slot_plug"])
 livejournal.com##data-banner-place-id
 livejournal.com##div[id^="billboard_mobile_"]
+!+ NOT_OPTIMIZED
+deltiasgaming.com,soapcentral.com,sportskeeda.com##.vidazoo-player-container
 !+ NOT_OPTIMIZED
 iamgujarat.com,vijaykarnataka.com,maharashtratimes.com,indiatimes.com,samayam.com##.fbnad
 !+ NOT_OPTIMIZED
